@@ -1,0 +1,35 @@
+<tt>bmap</tt> invocation
+<p>
+<tt>bmap [&lt;OPTIONS&gt;] [&lt;target-filename&gt;]</tt>
+
+Where <bf>OPTIONS</bf> may include any of:
+<descrip>
+<tag>--doc VALUE</tag>
+  where VALUE is one of:
+<descrip>
+<tag>version</tag>  display version and exit
+<tag>help</tag>  display options and exit
+<tag>man</tag>  generate man page and exit
+<tag>sgml</tag>  generate SGML invocation info
+</descrip>
+<tag>--mode VALUE</tag>
+  where VALUE is one of:
+<descrip>
+<tag>map</tag>  list sector numbers
+<tag>carve</tag>  extract a copy from the raw device
+<tag>slack</tag>  display data in slack space
+<tag>putslack</tag>  place data into slack
+<tag>wipeslack</tag>  wipe slack
+<tag>checkslack</tag>  test for slack (returns 0 if file has slack)
+<tag>slackbytes</tag>  print number of slack bytes available
+<tag>wipe</tag>  wipe the file from the raw device
+<tag>frag</tag>  display fragmentation information for the file
+<tag>checkfrag</tag>  test for fragmentation (returns 0 if file is fragmented)
+</descrip>
+<tag>--outfile &lt;filename&gt;</tag> write output to ...
+<tag>--label</tag>	useless bogus option
+<tag>--name</tag>	useless bogus option
+<tag>--verbose</tag>	be verbose
+<tag>--log-thresh &lt;none | fatal | error | info | branch | progress | entryexit&gt;</tag> logging threshold ...
+<tag>--target &lt;filename&gt;</tag> operate on ...
+</descrip>

@@ -1,0 +1,4071 @@
+/usr/lib32/libc.a
+unable to determine raw device of /usr/lib32/libc.a
+unable to raw open /usr/lib32/libc.a
+/usr/lib32/libdl.a
+unable to determine raw device of /usr/lib32/libdl.a
+unable to raw open /usr/lib32/libdl.a
+/usr/lib32/libnsl.so.1
+unable to determine raw device of /usr/lib32/libnsl.so.1
+unable to raw open /usr/lib32/libnsl.so.1
+/usr/lib32/libdl.so.2
+unable to determine raw device of /usr/lib32/libdl.so.2
+unable to raw open /usr/lib32/libdl.so.2
+/usr/lib32/libmcheck.a
+unable to determine raw device of /usr/lib32/libmcheck.a
+unable to raw open /usr/lib32/libmcheck.a
+/usr/lib32/libgomp.so.1
+/usr/lib32/libgomp.so.1 is not a regular file.
+/usr/lib32/libm.a
+unable to determine raw device of /usr/lib32/libm.a
+unable to raw open /usr/lib32/libm.a
+/usr/lib32/libutil.a
+unable to determine raw device of /usr/lib32/libutil.a
+unable to raw open /usr/lib32/libutil.a
+/usr/lib32/libthread_db.so.1
+unable to determine raw device of /usr/lib32/libthread_db.so.1
+unable to raw open /usr/lib32/libthread_db.so.1
+/usr/lib32/libnss_hesiod.so
+/usr/lib32/libnss_hesiod.so is not a regular file.
+/usr/lib32/libstdc++.so.6.0.30
+unable to determine raw device of /usr/lib32/libstdc++.so.6.0.30
+unable to raw open /usr/lib32/libstdc++.so.6.0.30
+/usr/lib32/libmemusage.so
+unable to determine raw device of /usr/lib32/libmemusage.so
+unable to raw open /usr/lib32/libmemusage.so
+/usr/lib32/libatomic.so.1.2.0
+unable to determine raw device of /usr/lib32/libatomic.so.1.2.0
+unable to raw open /usr/lib32/libatomic.so.1.2.0
+/usr/lib32/librt.a
+unable to determine raw device of /usr/lib32/librt.a
+unable to raw open /usr/lib32/librt.a
+/usr/lib32/libquadmath.so.0.0.0
+unable to determine raw device of /usr/lib32/libquadmath.so.0.0.0
+unable to raw open /usr/lib32/libquadmath.so.0.0.0
+/usr/lib32/libpthread.so.0
+unable to determine raw device of /usr/lib32/libpthread.so.0
+unable to raw open /usr/lib32/libpthread.so.0
+/usr/lib32/libnss_files.so.2
+unable to determine raw device of /usr/lib32/libnss_files.so.2
+unable to raw open /usr/lib32/libnss_files.so.2
+/usr/lib32/libresolv.so.2
+unable to determine raw device of /usr/lib32/libresolv.so.2
+unable to raw open /usr/lib32/libresolv.so.2
+/usr/lib32/libc.so
+unable to determine raw device of /usr/lib32/libc.so
+unable to raw open /usr/lib32/libc.so
+/usr/lib32/libanl.a
+unable to determine raw device of /usr/lib32/libanl.a
+unable to raw open /usr/lib32/libanl.a
+/usr/lib32/Scrt1.o
+unable to determine raw device of /usr/lib32/Scrt1.o
+unable to raw open /usr/lib32/Scrt1.o
+/usr/lib32/libutil.so.1
+unable to determine raw device of /usr/lib32/libutil.so.1
+unable to raw open /usr/lib32/libutil.so.1
+/usr/lib32/gconv/MAC-CENTRALEUROPE.so
+unable to determine raw device of /usr/lib32/gconv/MAC-CENTRALEUROPE.so
+unable to raw open /usr/lib32/gconv/MAC-CENTRALEUROPE.so
+/usr/lib32/gconv/IBM866.so
+unable to determine raw device of /usr/lib32/gconv/IBM866.so
+unable to raw open /usr/lib32/gconv/IBM866.so
+/usr/lib32/gconv/IBM16804.so
+unable to determine raw device of /usr/lib32/gconv/IBM16804.so
+unable to raw open /usr/lib32/gconv/IBM16804.so
+/usr/lib32/gconv/IBM932.so
+unable to determine raw device of /usr/lib32/gconv/IBM932.so
+unable to raw open /usr/lib32/gconv/IBM932.so
+/usr/lib32/gconv/IBM1144.so
+unable to determine raw device of /usr/lib32/gconv/IBM1144.so
+unable to raw open /usr/lib32/gconv/IBM1144.so
+/usr/lib32/gconv/IBM284.so
+unable to determine raw device of /usr/lib32/gconv/IBM284.so
+unable to raw open /usr/lib32/gconv/IBM284.so
+/usr/lib32/gconv/EBCDIC-FI-SE.so
+unable to determine raw device of /usr/lib32/gconv/EBCDIC-FI-SE.so
+unable to raw open /usr/lib32/gconv/EBCDIC-FI-SE.so
+/usr/lib32/gconv/LATIN-GREEK-1.so
+unable to determine raw device of /usr/lib32/gconv/LATIN-GREEK-1.so
+unable to raw open /usr/lib32/gconv/LATIN-GREEK-1.so
+/usr/lib32/gconv/IBM935.so
+unable to determine raw device of /usr/lib32/gconv/IBM935.so
+unable to raw open /usr/lib32/gconv/IBM935.so
+/usr/lib32/gconv/ISO-2022-CN-EXT.so
+unable to determine raw device of /usr/lib32/gconv/ISO-2022-CN-EXT.so
+unable to raw open /usr/lib32/gconv/ISO-2022-CN-EXT.so
+/usr/lib32/gconv/IBM278.so
+unable to determine raw device of /usr/lib32/gconv/IBM278.so
+unable to raw open /usr/lib32/gconv/IBM278.so
+/usr/lib32/gconv/EUC-TW.so
+unable to determine raw device of /usr/lib32/gconv/EUC-TW.so
+unable to raw open /usr/lib32/gconv/EUC-TW.so
+/usr/lib32/gconv/IBM856.so
+unable to determine raw device of /usr/lib32/gconv/IBM856.so
+unable to raw open /usr/lib32/gconv/IBM856.so
+/usr/lib32/gconv/IBM865.so
+unable to determine raw device of /usr/lib32/gconv/IBM865.so
+unable to raw open /usr/lib32/gconv/IBM865.so
+/usr/lib32/gconv/IBM1142.so
+unable to determine raw device of /usr/lib32/gconv/IBM1142.so
+unable to raw open /usr/lib32/gconv/IBM1142.so
+/usr/lib32/gconv/IBM1156.so
+unable to determine raw device of /usr/lib32/gconv/IBM1156.so
+unable to raw open /usr/lib32/gconv/IBM1156.so
+/usr/lib32/gconv/EUC-JP-MS.so
+unable to determine raw device of /usr/lib32/gconv/EUC-JP-MS.so
+unable to raw open /usr/lib32/gconv/EUC-JP-MS.so
+/usr/lib32/gconv/UHC.so
+unable to determine raw device of /usr/lib32/gconv/UHC.so
+unable to raw open /usr/lib32/gconv/UHC.so
+/usr/lib32/gconv/IBM860.so
+unable to determine raw device of /usr/lib32/gconv/IBM860.so
+unable to raw open /usr/lib32/gconv/IBM860.so
+/usr/lib32/gconv/GBBIG5.so
+unable to determine raw device of /usr/lib32/gconv/GBBIG5.so
+unable to raw open /usr/lib32/gconv/GBBIG5.so
+/usr/lib32/gconv/IBM803.so
+unable to determine raw device of /usr/lib32/gconv/IBM803.so
+unable to raw open /usr/lib32/gconv/IBM803.so
+/usr/lib32/gconv/gconv-modules.d/gconv-modules-extra.conf
+unable to determine raw device of /usr/lib32/gconv/gconv-modules.d/gconv-modules-extra.conf
+unable to raw open /usr/lib32/gconv/gconv-modules.d/gconv-modules-extra.conf
+/usr/lib32/gconv/ISO8859-15.so
+unable to determine raw device of /usr/lib32/gconv/ISO8859-15.so
+unable to raw open /usr/lib32/gconv/ISO8859-15.so
+/usr/lib32/gconv/KOI8-R.so
+unable to determine raw device of /usr/lib32/gconv/KOI8-R.so
+unable to raw open /usr/lib32/gconv/KOI8-R.so
+/usr/lib32/gconv/LATIN-GREEK.so
+unable to determine raw device of /usr/lib32/gconv/LATIN-GREEK.so
+unable to raw open /usr/lib32/gconv/LATIN-GREEK.so
+/usr/lib32/gconv/GEORGIAN-PS.so
+unable to determine raw device of /usr/lib32/gconv/GEORGIAN-PS.so
+unable to raw open /usr/lib32/gconv/GEORGIAN-PS.so
+/usr/lib32/gconv/CP1253.so
+unable to determine raw device of /usr/lib32/gconv/CP1253.so
+unable to raw open /usr/lib32/gconv/CP1253.so
+/usr/lib32/gconv/EBCDIC-IT.so
+unable to determine raw device of /usr/lib32/gconv/EBCDIC-IT.so
+unable to raw open /usr/lib32/gconv/EBCDIC-IT.so
+/usr/lib32/gconv/GEORGIAN-ACADEMY.so
+unable to determine raw device of /usr/lib32/gconv/GEORGIAN-ACADEMY.so
+unable to raw open /usr/lib32/gconv/GEORGIAN-ACADEMY.so
+/usr/lib32/gconv/UTF-32.so
+unable to determine raw device of /usr/lib32/gconv/UTF-32.so
+unable to raw open /usr/lib32/gconv/UTF-32.so
+/usr/lib32/gconv/INIS.so
+unable to determine raw device of /usr/lib32/gconv/INIS.so
+unable to raw open /usr/lib32/gconv/INIS.so
+/usr/lib32/gconv/IBM852.so
+unable to determine raw device of /usr/lib32/gconv/IBM852.so
+unable to raw open /usr/lib32/gconv/IBM852.so
+/usr/lib32/gconv/IBM1146.so
+unable to determine raw device of /usr/lib32/gconv/IBM1146.so
+unable to raw open /usr/lib32/gconv/IBM1146.so
+/usr/lib32/gconv/ISO8859-16.so
+unable to determine raw device of /usr/lib32/gconv/ISO8859-16.so
+unable to raw open /usr/lib32/gconv/ISO8859-16.so
+/usr/lib32/gconv/EUC-CN.so
+unable to determine raw device of /usr/lib32/gconv/EUC-CN.so
+unable to raw open /usr/lib32/gconv/EUC-CN.so
+/usr/lib32/gconv/ISO8859-11.so
+unable to determine raw device of /usr/lib32/gconv/ISO8859-11.so
+unable to raw open /usr/lib32/gconv/ISO8859-11.so
+/usr/lib32/gconv/IBM861.so
+unable to determine raw device of /usr/lib32/gconv/IBM861.so
+unable to raw open /usr/lib32/gconv/IBM861.so
+/usr/lib32/gconv/ISO8859-8.so
+unable to determine raw device of /usr/lib32/gconv/ISO8859-8.so
+unable to raw open /usr/lib32/gconv/ISO8859-8.so
+/usr/lib32/gconv/GREEK7.so
+unable to determine raw device of /usr/lib32/gconv/GREEK7.so
+unable to raw open /usr/lib32/gconv/GREEK7.so
+/usr/lib32/gconv/ISO8859-13.so
+unable to determine raw device of /usr/lib32/gconv/ISO8859-13.so
+unable to raw open /usr/lib32/gconv/ISO8859-13.so
+/usr/lib32/gconv/IBM855.so
+unable to determine raw device of /usr/lib32/gconv/IBM855.so
+unable to raw open /usr/lib32/gconv/IBM855.so
+/usr/lib32/gconv/libCNS.so
+unable to determine raw device of /usr/lib32/gconv/libCNS.so
+unable to raw open /usr/lib32/gconv/libCNS.so
+/usr/lib32/gconv/ISO8859-7.so
+unable to determine raw device of /usr/lib32/gconv/ISO8859-7.so
+unable to raw open /usr/lib32/gconv/ISO8859-7.so
+/usr/lib32/gconv/ISO-2022-JP.so
+unable to determine raw device of /usr/lib32/gconv/ISO-2022-JP.so
+unable to raw open /usr/lib32/gconv/ISO-2022-JP.so
+/usr/lib32/gconv/IBM943.so
+unable to determine raw device of /usr/lib32/gconv/IBM943.so
+unable to raw open /usr/lib32/gconv/IBM943.so
+/usr/lib32/gconv/IBM1153.so
+unable to determine raw device of /usr/lib32/gconv/IBM1153.so
+unable to raw open /usr/lib32/gconv/IBM1153.so
+/usr/lib32/gconv/IBM9030.so
+unable to determine raw device of /usr/lib32/gconv/IBM9030.so
+unable to raw open /usr/lib32/gconv/IBM9030.so
+/usr/lib32/gconv/ARMSCII-8.so
+unable to determine raw device of /usr/lib32/gconv/ARMSCII-8.so
+unable to raw open /usr/lib32/gconv/ARMSCII-8.so
+/usr/lib32/gconv/IBM903.so
+unable to determine raw device of /usr/lib32/gconv/IBM903.so
+unable to raw open /usr/lib32/gconv/IBM903.so
+/usr/lib32/gconv/CP1250.so
+unable to determine raw device of /usr/lib32/gconv/CP1250.so
+unable to raw open /usr/lib32/gconv/CP1250.so
+/usr/lib32/gconv/CP1257.so
+unable to determine raw device of /usr/lib32/gconv/CP1257.so
+unable to raw open /usr/lib32/gconv/CP1257.so
+/usr/lib32/gconv/IBM285.so
+unable to determine raw device of /usr/lib32/gconv/IBM285.so
+unable to raw open /usr/lib32/gconv/IBM285.so
+/usr/lib32/gconv/IBM869.so
+unable to determine raw device of /usr/lib32/gconv/IBM869.so
+unable to raw open /usr/lib32/gconv/IBM869.so
+/usr/lib32/gconv/IBM12712.so
+unable to determine raw device of /usr/lib32/gconv/IBM12712.so
+unable to raw open /usr/lib32/gconv/IBM12712.so
+/usr/lib32/gconv/GBK.so
+unable to determine raw device of /usr/lib32/gconv/GBK.so
+unable to raw open /usr/lib32/gconv/GBK.so
+/usr/lib32/gconv/EBCDIC-FR.so
+unable to determine raw device of /usr/lib32/gconv/EBCDIC-FR.so
+unable to raw open /usr/lib32/gconv/EBCDIC-FR.so
+/usr/lib32/gconv/EBCDIC-ES-S.so
+unable to determine raw device of /usr/lib32/gconv/EBCDIC-ES-S.so
+unable to raw open /usr/lib32/gconv/EBCDIC-ES-S.so
+/usr/lib32/gconv/IBM930.so
+unable to determine raw device of /usr/lib32/gconv/IBM930.so
+unable to raw open /usr/lib32/gconv/IBM930.so
+/usr/lib32/gconv/CP1255.so
+unable to determine raw device of /usr/lib32/gconv/CP1255.so
+unable to raw open /usr/lib32/gconv/CP1255.so
+/usr/lib32/gconv/EBCDIC-ES.so
+unable to determine raw device of /usr/lib32/gconv/EBCDIC-ES.so
+unable to raw open /usr/lib32/gconv/EBCDIC-ES.so
+/usr/lib32/gconv/HP-TURKISH8.so
+unable to determine raw device of /usr/lib32/gconv/HP-TURKISH8.so
+unable to raw open /usr/lib32/gconv/HP-TURKISH8.so
+/usr/lib32/gconv/IBM275.so
+unable to determine raw device of /usr/lib32/gconv/IBM275.so
+unable to raw open /usr/lib32/gconv/IBM275.so
+/usr/lib32/gconv/GBGBK.so
+unable to determine raw device of /usr/lib32/gconv/GBGBK.so
+unable to raw open /usr/lib32/gconv/GBGBK.so
+/usr/lib32/gconv/IBM1399.so
+unable to determine raw device of /usr/lib32/gconv/IBM1399.so
+unable to raw open /usr/lib32/gconv/IBM1399.so
+/usr/lib32/gconv/T.61.so
+unable to determine raw device of /usr/lib32/gconv/T.61.so
+unable to raw open /usr/lib32/gconv/T.61.so
+/usr/lib32/gconv/IBM870.so
+unable to determine raw device of /usr/lib32/gconv/IBM870.so
+unable to raw open /usr/lib32/gconv/IBM870.so
+/usr/lib32/gconv/CP932.so
+unable to determine raw device of /usr/lib32/gconv/CP932.so
+unable to raw open /usr/lib32/gconv/CP932.so
+/usr/lib32/gconv/IBM1162.so
+unable to determine raw device of /usr/lib32/gconv/IBM1162.so
+unable to raw open /usr/lib32/gconv/IBM1162.so
+/usr/lib32/gconv/GREEK-CCITT.so
+unable to determine raw device of /usr/lib32/gconv/GREEK-CCITT.so
+unable to raw open /usr/lib32/gconv/GREEK-CCITT.so
+/usr/lib32/gconv/KOI-8.so
+unable to determine raw device of /usr/lib32/gconv/KOI-8.so
+unable to raw open /usr/lib32/gconv/KOI-8.so
+/usr/lib32/gconv/UTF-16.so
+unable to determine raw device of /usr/lib32/gconv/UTF-16.so
+unable to raw open /usr/lib32/gconv/UTF-16.so
+/usr/lib32/gconv/EBCDIC-FI-SE-A.so
+unable to determine raw device of /usr/lib32/gconv/EBCDIC-FI-SE-A.so
+unable to raw open /usr/lib32/gconv/EBCDIC-FI-SE-A.so
+/usr/lib32/gconv/IBM1129.so
+unable to determine raw device of /usr/lib32/gconv/IBM1129.so
+unable to raw open /usr/lib32/gconv/IBM1129.so
+/usr/lib32/gconv/libKSC.so
+unable to determine raw device of /usr/lib32/gconv/libKSC.so
+unable to raw open /usr/lib32/gconv/libKSC.so
+/usr/lib32/gconv/IBM297.so
+unable to determine raw device of /usr/lib32/gconv/IBM297.so
+unable to raw open /usr/lib32/gconv/IBM297.so
+/usr/lib32/gconv/IBM1008.so
+unable to determine raw device of /usr/lib32/gconv/IBM1008.so
+unable to raw open /usr/lib32/gconv/IBM1008.so
+/usr/lib32/gconv/IBM273.so
+unable to determine raw device of /usr/lib32/gconv/IBM273.so
+unable to raw open /usr/lib32/gconv/IBM273.so
+/usr/lib32/gconv/IBM1026.so
+unable to determine raw device of /usr/lib32/gconv/IBM1026.so
+unable to raw open /usr/lib32/gconv/IBM1026.so
+/usr/lib32/gconv/IBM1154.so
+unable to determine raw device of /usr/lib32/gconv/IBM1154.so
+unable to raw open /usr/lib32/gconv/IBM1154.so
+/usr/lib32/gconv/MIK.so
+unable to determine raw device of /usr/lib32/gconv/MIK.so
+unable to raw open /usr/lib32/gconv/MIK.so
+/usr/lib32/gconv/GOST_19768-74.so
+unable to determine raw device of /usr/lib32/gconv/GOST_19768-74.so
+unable to raw open /usr/lib32/gconv/GOST_19768-74.so
+/usr/lib32/gconv/IBM902.so
+unable to determine raw device of /usr/lib32/gconv/IBM902.so
+unable to raw open /usr/lib32/gconv/IBM902.so
+/usr/lib32/gconv/IBM850.so
+unable to determine raw device of /usr/lib32/gconv/IBM850.so
+unable to raw open /usr/lib32/gconv/IBM850.so
+/usr/lib32/gconv/IEC_P27-1.so
+unable to determine raw device of /usr/lib32/gconv/IEC_P27-1.so
+unable to raw open /usr/lib32/gconv/IEC_P27-1.so
+/usr/lib32/gconv/CP1125.so
+unable to determine raw device of /usr/lib32/gconv/CP1125.so
+unable to raw open /usr/lib32/gconv/CP1125.so
+/usr/lib32/gconv/IBM858.so
+unable to determine raw device of /usr/lib32/gconv/IBM858.so
+unable to raw open /usr/lib32/gconv/IBM858.so
+/usr/lib32/gconv/IBM1130.so
+unable to determine raw device of /usr/lib32/gconv/IBM1130.so
+unable to raw open /usr/lib32/gconv/IBM1130.so
+/usr/lib32/gconv/IBM939.so
+unable to determine raw device of /usr/lib32/gconv/IBM939.so
+unable to raw open /usr/lib32/gconv/IBM939.so
+/usr/lib32/gconv/ISO-2022-CN.so
+unable to determine raw device of /usr/lib32/gconv/ISO-2022-CN.so
+unable to raw open /usr/lib32/gconv/ISO-2022-CN.so
+/usr/lib32/gconv/IBM1025.so
+unable to determine raw device of /usr/lib32/gconv/IBM1025.so
+unable to raw open /usr/lib32/gconv/IBM1025.so
+/usr/lib32/gconv/SAMI-WS2.so
+unable to determine raw device of /usr/lib32/gconv/SAMI-WS2.so
+unable to raw open /usr/lib32/gconv/SAMI-WS2.so
+/usr/lib32/gconv/IBM1133.so
+unable to determine raw device of /usr/lib32/gconv/IBM1133.so
+unable to raw open /usr/lib32/gconv/IBM1133.so
+/usr/lib32/gconv/PT154.so
+unable to determine raw device of /usr/lib32/gconv/PT154.so
+unable to raw open /usr/lib32/gconv/PT154.so
+/usr/lib32/gconv/IBM1390.so
+unable to determine raw device of /usr/lib32/gconv/IBM1390.so
+unable to raw open /usr/lib32/gconv/IBM1390.so
+/usr/lib32/gconv/KOI8-U.so
+unable to determine raw device of /usr/lib32/gconv/KOI8-U.so
+unable to raw open /usr/lib32/gconv/KOI8-U.so
+/usr/lib32/gconv/IBM1364.so
+unable to determine raw device of /usr/lib32/gconv/IBM1364.so
+unable to raw open /usr/lib32/gconv/IBM1364.so
+/usr/lib32/gconv/EBCDIC-UK.so
+unable to determine raw device of /usr/lib32/gconv/EBCDIC-UK.so
+unable to raw open /usr/lib32/gconv/EBCDIC-UK.so
+/usr/lib32/gconv/IBM1163.so
+unable to determine raw device of /usr/lib32/gconv/IBM1163.so
+unable to raw open /usr/lib32/gconv/IBM1163.so
+/usr/lib32/gconv/ISO646.so
+unable to determine raw device of /usr/lib32/gconv/ISO646.so
+unable to raw open /usr/lib32/gconv/ISO646.so
+/usr/lib32/gconv/ISO-2022-JP-3.so
+unable to determine raw device of /usr/lib32/gconv/ISO-2022-JP-3.so
+unable to raw open /usr/lib32/gconv/ISO-2022-JP-3.so
+/usr/lib32/gconv/IBM1122.so
+unable to determine raw device of /usr/lib32/gconv/IBM1122.so
+unable to raw open /usr/lib32/gconv/IBM1122.so
+/usr/lib32/gconv/TSCII.so
+unable to determine raw device of /usr/lib32/gconv/TSCII.so
+unable to raw open /usr/lib32/gconv/TSCII.so
+/usr/lib32/gconv/IBM423.so
+unable to determine raw device of /usr/lib32/gconv/IBM423.so
+unable to raw open /usr/lib32/gconv/IBM423.so
+/usr/lib32/gconv/IBM9066.so
+unable to determine raw device of /usr/lib32/gconv/IBM9066.so
+unable to raw open /usr/lib32/gconv/IBM9066.so
+/usr/lib32/gconv/IBM874.so
+unable to determine raw device of /usr/lib32/gconv/IBM874.so
+unable to raw open /usr/lib32/gconv/IBM874.so
+/usr/lib32/gconv/libJIS.so
+unable to determine raw device of /usr/lib32/gconv/libJIS.so
+unable to raw open /usr/lib32/gconv/libJIS.so
+/usr/lib32/gconv/EBCDIC-US.so
+unable to determine raw device of /usr/lib32/gconv/EBCDIC-US.so
+unable to raw open /usr/lib32/gconv/EBCDIC-US.so
+/usr/lib32/gconv/IBM1124.so
+unable to determine raw device of /usr/lib32/gconv/IBM1124.so
+unable to raw open /usr/lib32/gconv/IBM1124.so
+/usr/lib32/gconv/ISO_5427.so
+unable to determine raw device of /usr/lib32/gconv/ISO_5427.so
+unable to raw open /usr/lib32/gconv/ISO_5427.so
+/usr/lib32/gconv/ISO_2033.so
+unable to determine raw device of /usr/lib32/gconv/ISO_2033.so
+unable to raw open /usr/lib32/gconv/ISO_2033.so
+/usr/lib32/gconv/EBCDIC-IS-FRISS.so
+unable to determine raw device of /usr/lib32/gconv/EBCDIC-IS-FRISS.so
+unable to raw open /usr/lib32/gconv/EBCDIC-IS-FRISS.so
+/usr/lib32/gconv/IBM1158.so
+unable to determine raw device of /usr/lib32/gconv/IBM1158.so
+unable to raw open /usr/lib32/gconv/IBM1158.so
+/usr/lib32/gconv/TCVN5712-1.so
+unable to determine raw device of /usr/lib32/gconv/TCVN5712-1.so
+unable to raw open /usr/lib32/gconv/TCVN5712-1.so
+/usr/lib32/gconv/IBM905.so
+unable to determine raw device of /usr/lib32/gconv/IBM905.so
+unable to raw open /usr/lib32/gconv/IBM905.so
+/usr/lib32/gconv/IBM274.so
+unable to determine raw device of /usr/lib32/gconv/IBM274.so
+unable to raw open /usr/lib32/gconv/IBM274.so
+/usr/lib32/gconv/NATS-DANO.so
+unable to determine raw device of /usr/lib32/gconv/NATS-DANO.so
+unable to raw open /usr/lib32/gconv/NATS-DANO.so
+/usr/lib32/gconv/IBM4899.so
+unable to determine raw device of /usr/lib32/gconv/IBM4899.so
+unable to raw open /usr/lib32/gconv/IBM4899.so
+/usr/lib32/gconv/ISO8859-1.so
+unable to determine raw device of /usr/lib32/gconv/ISO8859-1.so
+unable to raw open /usr/lib32/gconv/ISO8859-1.so
+/usr/lib32/gconv/EUC-JP.so
+unable to determine raw device of /usr/lib32/gconv/EUC-JP.so
+unable to raw open /usr/lib32/gconv/EUC-JP.so
+/usr/lib32/gconv/ISO-2022-KR.so
+unable to determine raw device of /usr/lib32/gconv/ISO-2022-KR.so
+unable to raw open /usr/lib32/gconv/ISO-2022-KR.so
+/usr/lib32/gconv/libGB.so
+unable to determine raw device of /usr/lib32/gconv/libGB.so
+unable to raw open /usr/lib32/gconv/libGB.so
+/usr/lib32/gconv/IBM1161.so
+unable to determine raw device of /usr/lib32/gconv/IBM1161.so
+unable to raw open /usr/lib32/gconv/IBM1161.so
+/usr/lib32/gconv/HP-THAI8.so
+unable to determine raw device of /usr/lib32/gconv/HP-THAI8.so
+unable to raw open /usr/lib32/gconv/HP-THAI8.so
+/usr/lib32/gconv/ISO8859-9.so
+unable to determine raw device of /usr/lib32/gconv/ISO8859-9.so
+unable to raw open /usr/lib32/gconv/ISO8859-9.so
+/usr/lib32/gconv/CP1251.so
+unable to determine raw device of /usr/lib32/gconv/CP1251.so
+unable to raw open /usr/lib32/gconv/CP1251.so
+/usr/lib32/gconv/EBCDIC-AT-DE.so
+unable to determine raw device of /usr/lib32/gconv/EBCDIC-AT-DE.so
+unable to raw open /usr/lib32/gconv/EBCDIC-AT-DE.so
+/usr/lib32/gconv/IBM5347.so
+unable to determine raw device of /usr/lib32/gconv/IBM5347.so
+unable to raw open /usr/lib32/gconv/IBM5347.so
+/usr/lib32/gconv/CP737.so
+unable to determine raw device of /usr/lib32/gconv/CP737.so
+unable to raw open /usr/lib32/gconv/CP737.so
+/usr/lib32/gconv/IBM863.so
+unable to determine raw device of /usr/lib32/gconv/IBM863.so
+unable to raw open /usr/lib32/gconv/IBM863.so
+/usr/lib32/gconv/JOHAB.so
+unable to determine raw device of /usr/lib32/gconv/JOHAB.so
+unable to raw open /usr/lib32/gconv/JOHAB.so
+/usr/lib32/gconv/CP1254.so
+unable to determine raw device of /usr/lib32/gconv/CP1254.so
+unable to raw open /usr/lib32/gconv/CP1254.so
+/usr/lib32/gconv/IBM868.so
+unable to determine raw device of /usr/lib32/gconv/IBM868.so
+unable to raw open /usr/lib32/gconv/IBM868.so
+/usr/lib32/gconv/HP-ROMAN8.so
+unable to determine raw device of /usr/lib32/gconv/HP-ROMAN8.so
+unable to raw open /usr/lib32/gconv/HP-ROMAN8.so
+/usr/lib32/gconv/ISO-IR-209.so
+unable to determine raw device of /usr/lib32/gconv/ISO-IR-209.so
+unable to raw open /usr/lib32/gconv/ISO-IR-209.so
+/usr/lib32/gconv/KOI8-RU.so
+unable to determine raw device of /usr/lib32/gconv/KOI8-RU.so
+unable to raw open /usr/lib32/gconv/KOI8-RU.so
+/usr/lib32/gconv/IBM1164.so
+unable to determine raw device of /usr/lib32/gconv/IBM1164.so
+unable to raw open /usr/lib32/gconv/IBM1164.so
+/usr/lib32/gconv/DEC-MCS.so
+unable to determine raw device of /usr/lib32/gconv/DEC-MCS.so
+unable to raw open /usr/lib32/gconv/DEC-MCS.so
+/usr/lib32/gconv/IBM424.so
+unable to determine raw device of /usr/lib32/gconv/IBM424.so
+unable to raw open /usr/lib32/gconv/IBM424.so
+/usr/lib32/gconv/IBM290.so
+unable to determine raw device of /usr/lib32/gconv/IBM290.so
+unable to raw open /usr/lib32/gconv/IBM290.so
+/usr/lib32/gconv/INIS-CYRILLIC.so
+unable to determine raw device of /usr/lib32/gconv/INIS-CYRILLIC.so
+unable to raw open /usr/lib32/gconv/INIS-CYRILLIC.so
+/usr/lib32/gconv/HP-GREEK8.so
+unable to determine raw device of /usr/lib32/gconv/HP-GREEK8.so
+unable to raw open /usr/lib32/gconv/HP-GREEK8.so
+/usr/lib32/gconv/IBM875.so
+unable to determine raw device of /usr/lib32/gconv/IBM875.so
+unable to raw open /usr/lib32/gconv/IBM875.so
+/usr/lib32/gconv/IBM9448.so
+unable to determine raw device of /usr/lib32/gconv/IBM9448.so
+unable to raw open /usr/lib32/gconv/IBM9448.so
+/usr/lib32/gconv/EBCDIC-AT-DE-A.so
+unable to determine raw device of /usr/lib32/gconv/EBCDIC-AT-DE-A.so
+unable to raw open /usr/lib32/gconv/EBCDIC-AT-DE-A.so
+/usr/lib32/gconv/IBM1145.so
+unable to determine raw device of /usr/lib32/gconv/IBM1145.so
+unable to raw open /usr/lib32/gconv/IBM1145.so
+/usr/lib32/gconv/IBM1148.so
+unable to determine raw device of /usr/lib32/gconv/IBM1148.so
+unable to raw open /usr/lib32/gconv/IBM1148.so
+/usr/lib32/gconv/gconv-modules
+unable to determine raw device of /usr/lib32/gconv/gconv-modules
+unable to raw open /usr/lib32/gconv/gconv-modules
+/usr/lib32/gconv/ISO8859-5.so
+unable to determine raw device of /usr/lib32/gconv/ISO8859-5.so
+unable to raw open /usr/lib32/gconv/ISO8859-5.so
+/usr/lib32/gconv/CP775.so
+unable to determine raw device of /usr/lib32/gconv/CP775.so
+unable to raw open /usr/lib32/gconv/CP775.so
+/usr/lib32/gconv/SJIS.so
+unable to determine raw device of /usr/lib32/gconv/SJIS.so
+unable to raw open /usr/lib32/gconv/SJIS.so
+/usr/lib32/gconv/UNICODE.so
+unable to determine raw device of /usr/lib32/gconv/UNICODE.so
+unable to raw open /usr/lib32/gconv/UNICODE.so
+/usr/lib32/gconv/CWI.so
+unable to determine raw device of /usr/lib32/gconv/CWI.so
+unable to raw open /usr/lib32/gconv/CWI.so
+/usr/lib32/gconv/IBM1123.so
+unable to determine raw device of /usr/lib32/gconv/IBM1123.so
+unable to raw open /usr/lib32/gconv/IBM1123.so
+/usr/lib32/gconv/IBM857.so
+unable to determine raw device of /usr/lib32/gconv/IBM857.so
+unable to raw open /usr/lib32/gconv/IBM857.so
+/usr/lib32/gconv/ISO_6937-2.so
+unable to determine raw device of /usr/lib32/gconv/ISO_6937-2.so
+unable to raw open /usr/lib32/gconv/ISO_6937-2.so
+/usr/lib32/gconv/BRF.so
+unable to determine raw device of /usr/lib32/gconv/BRF.so
+unable to raw open /usr/lib32/gconv/BRF.so
+/usr/lib32/gconv/ISO_10367-BOX.so
+unable to determine raw device of /usr/lib32/gconv/ISO_10367-BOX.so
+unable to raw open /usr/lib32/gconv/ISO_10367-BOX.so
+/usr/lib32/gconv/ANSI_X3.110.so
+unable to determine raw device of /usr/lib32/gconv/ANSI_X3.110.so
+unable to raw open /usr/lib32/gconv/ANSI_X3.110.so
+/usr/lib32/gconv/IBM864.so
+unable to determine raw device of /usr/lib32/gconv/IBM864.so
+unable to raw open /usr/lib32/gconv/IBM864.so
+/usr/lib32/gconv/IBM866NAV.so
+unable to determine raw device of /usr/lib32/gconv/IBM866NAV.so
+unable to raw open /usr/lib32/gconv/IBM866NAV.so
+/usr/lib32/gconv/ISIRI-3342.so
+unable to determine raw device of /usr/lib32/gconv/ISIRI-3342.so
+unable to raw open /usr/lib32/gconv/ISIRI-3342.so
+/usr/lib32/gconv/IBM1143.so
+unable to determine raw device of /usr/lib32/gconv/IBM1143.so
+unable to raw open /usr/lib32/gconv/IBM1143.so
+/usr/lib32/gconv/IBM880.so
+unable to determine raw device of /usr/lib32/gconv/IBM880.so
+unable to raw open /usr/lib32/gconv/IBM880.so
+/usr/lib32/gconv/IBM891.so
+unable to determine raw device of /usr/lib32/gconv/IBM891.so
+unable to raw open /usr/lib32/gconv/IBM891.so
+/usr/lib32/gconv/IBM922.so
+unable to determine raw device of /usr/lib32/gconv/IBM922.so
+unable to raw open /usr/lib32/gconv/IBM922.so
+/usr/lib32/gconv/IBM1371.so
+unable to determine raw device of /usr/lib32/gconv/IBM1371.so
+unable to raw open /usr/lib32/gconv/IBM1371.so
+/usr/lib32/gconv/IBM437.so
+unable to determine raw device of /usr/lib32/gconv/IBM437.so
+unable to raw open /usr/lib32/gconv/IBM437.so
+/usr/lib32/gconv/IBM038.so
+unable to determine raw device of /usr/lib32/gconv/IBM038.so
+unable to raw open /usr/lib32/gconv/IBM038.so
+/usr/lib32/gconv/KOI8-T.so
+unable to determine raw device of /usr/lib32/gconv/KOI8-T.so
+unable to raw open /usr/lib32/gconv/KOI8-T.so
+/usr/lib32/gconv/MACINTOSH.so
+unable to determine raw device of /usr/lib32/gconv/MACINTOSH.so
+unable to raw open /usr/lib32/gconv/MACINTOSH.so
+/usr/lib32/gconv/IBM1167.so
+unable to determine raw device of /usr/lib32/gconv/IBM1167.so
+unable to raw open /usr/lib32/gconv/IBM1167.so
+/usr/lib32/gconv/IBM1047.so
+unable to determine raw device of /usr/lib32/gconv/IBM1047.so
+unable to raw open /usr/lib32/gconv/IBM1047.so
+/usr/lib32/gconv/ASMO_449.so
+unable to determine raw device of /usr/lib32/gconv/ASMO_449.so
+unable to raw open /usr/lib32/gconv/ASMO_449.so
+/usr/lib32/gconv/IBM1147.so
+unable to determine raw device of /usr/lib32/gconv/IBM1147.so
+unable to raw open /usr/lib32/gconv/IBM1147.so
+/usr/lib32/gconv/IBM862.so
+unable to determine raw device of /usr/lib32/gconv/IBM862.so
+unable to raw open /usr/lib32/gconv/IBM862.so
+/usr/lib32/gconv/IBM1112.so
+unable to determine raw device of /usr/lib32/gconv/IBM1112.so
+unable to raw open /usr/lib32/gconv/IBM1112.so
+/usr/lib32/gconv/IBM1388.so
+unable to determine raw device of /usr/lib32/gconv/IBM1388.so
+unable to raw open /usr/lib32/gconv/IBM1388.so
+/usr/lib32/gconv/INIS-8.so
+unable to determine raw device of /usr/lib32/gconv/INIS-8.so
+unable to raw open /usr/lib32/gconv/INIS-8.so
+/usr/lib32/gconv/IBM281.so
+unable to determine raw device of /usr/lib32/gconv/IBM281.so
+unable to raw open /usr/lib32/gconv/IBM281.so
+/usr/lib32/gconv/IBM277.so
+unable to determine raw device of /usr/lib32/gconv/IBM277.so
+unable to raw open /usr/lib32/gconv/IBM277.so
+/usr/lib32/gconv/IBM1097.so
+unable to determine raw device of /usr/lib32/gconv/IBM1097.so
+unable to raw open /usr/lib32/gconv/IBM1097.so
+/usr/lib32/gconv/SHIFT_JISX0213.so
+unable to determine raw device of /usr/lib32/gconv/SHIFT_JISX0213.so
+unable to raw open /usr/lib32/gconv/SHIFT_JISX0213.so
+/usr/lib32/gconv/ISO_5427-EXT.so
+unable to determine raw device of /usr/lib32/gconv/ISO_5427-EXT.so
+unable to raw open /usr/lib32/gconv/ISO_5427-EXT.so
+/usr/lib32/gconv/GB18030.so
+unable to determine raw device of /usr/lib32/gconv/GB18030.so
+unable to raw open /usr/lib32/gconv/GB18030.so
+/usr/lib32/gconv/CP774.so
+unable to determine raw device of /usr/lib32/gconv/CP774.so
+unable to raw open /usr/lib32/gconv/CP774.so
+/usr/lib32/gconv/ISO8859-3.so
+unable to determine raw device of /usr/lib32/gconv/ISO8859-3.so
+unable to raw open /usr/lib32/gconv/ISO8859-3.so
+/usr/lib32/gconv/IBM1046.so
+unable to determine raw device of /usr/lib32/gconv/IBM1046.so
+unable to raw open /usr/lib32/gconv/IBM1046.so
+/usr/lib32/gconv/IBM1137.so
+unable to determine raw device of /usr/lib32/gconv/IBM1137.so
+unable to raw open /usr/lib32/gconv/IBM1137.so
+/usr/lib32/gconv/IBM1004.so
+unable to determine raw device of /usr/lib32/gconv/IBM1004.so
+unable to raw open /usr/lib32/gconv/IBM1004.so
+/usr/lib32/gconv/IBM937.so
+unable to determine raw device of /usr/lib32/gconv/IBM937.so
+unable to raw open /usr/lib32/gconv/IBM937.so
+/usr/lib32/gconv/MAC-IS.so
+unable to determine raw device of /usr/lib32/gconv/MAC-IS.so
+unable to raw open /usr/lib32/gconv/MAC-IS.so
+/usr/lib32/gconv/CP773.so
+unable to determine raw device of /usr/lib32/gconv/CP773.so
+unable to raw open /usr/lib32/gconv/CP773.so
+/usr/lib32/gconv/IBM500.so
+unable to determine raw device of /usr/lib32/gconv/IBM500.so
+unable to raw open /usr/lib32/gconv/IBM500.so
+/usr/lib32/gconv/MAC-UK.so
+unable to determine raw device of /usr/lib32/gconv/MAC-UK.so
+unable to raw open /usr/lib32/gconv/MAC-UK.so
+/usr/lib32/gconv/IBM280.so
+unable to determine raw device of /usr/lib32/gconv/IBM280.so
+unable to raw open /usr/lib32/gconv/IBM280.so
+/usr/lib32/gconv/IBM037.so
+unable to determine raw device of /usr/lib32/gconv/IBM037.so
+unable to raw open /usr/lib32/gconv/IBM037.so
+/usr/lib32/gconv/ISO_6937.so
+unable to determine raw device of /usr/lib32/gconv/ISO_6937.so
+unable to raw open /usr/lib32/gconv/ISO_6937.so
+/usr/lib32/gconv/GREEK7-OLD.so
+unable to determine raw device of /usr/lib32/gconv/GREEK7-OLD.so
+unable to raw open /usr/lib32/gconv/GREEK7-OLD.so
+/usr/lib32/gconv/IBM904.so
+unable to determine raw device of /usr/lib32/gconv/IBM904.so
+unable to raw open /usr/lib32/gconv/IBM904.so
+/usr/lib32/gconv/EBCDIC-DK-NO.so
+unable to determine raw device of /usr/lib32/gconv/EBCDIC-DK-NO.so
+unable to raw open /usr/lib32/gconv/EBCDIC-DK-NO.so
+/usr/lib32/gconv/IBM921.so
+unable to determine raw device of /usr/lib32/gconv/IBM921.so
+unable to raw open /usr/lib32/gconv/IBM921.so
+/usr/lib32/gconv/EBCDIC-CA-FR.so
+unable to determine raw device of /usr/lib32/gconv/EBCDIC-CA-FR.so
+unable to raw open /usr/lib32/gconv/EBCDIC-CA-FR.so
+/usr/lib32/gconv/EBCDIC-PT.so
+unable to determine raw device of /usr/lib32/gconv/EBCDIC-PT.so
+unable to raw open /usr/lib32/gconv/EBCDIC-PT.so
+/usr/lib32/gconv/gconv-modules.cache
+unable to determine raw device of /usr/lib32/gconv/gconv-modules.cache
+unable to raw open /usr/lib32/gconv/gconv-modules.cache
+/usr/lib32/gconv/CP1256.so
+unable to determine raw device of /usr/lib32/gconv/CP1256.so
+unable to raw open /usr/lib32/gconv/CP1256.so
+/usr/lib32/gconv/IBM1155.so
+unable to determine raw device of /usr/lib32/gconv/IBM1155.so
+unable to raw open /usr/lib32/gconv/IBM1155.so
+/usr/lib32/gconv/IBM1132.so
+unable to determine raw device of /usr/lib32/gconv/IBM1132.so
+unable to raw open /usr/lib32/gconv/IBM1132.so
+/usr/lib32/gconv/BIG5HKSCS.so
+unable to determine raw device of /usr/lib32/gconv/BIG5HKSCS.so
+unable to raw open /usr/lib32/gconv/BIG5HKSCS.so
+/usr/lib32/gconv/VISCII.so
+unable to determine raw device of /usr/lib32/gconv/VISCII.so
+unable to raw open /usr/lib32/gconv/VISCII.so
+/usr/lib32/gconv/BIG5.so
+unable to determine raw device of /usr/lib32/gconv/BIG5.so
+unable to raw open /usr/lib32/gconv/BIG5.so
+/usr/lib32/gconv/CSN_369103.so
+unable to determine raw device of /usr/lib32/gconv/CSN_369103.so
+unable to raw open /usr/lib32/gconv/CSN_369103.so
+/usr/lib32/gconv/ISO8859-10.so
+unable to determine raw device of /usr/lib32/gconv/ISO8859-10.so
+unable to raw open /usr/lib32/gconv/ISO8859-10.so
+/usr/lib32/gconv/IBM851.so
+unable to determine raw device of /usr/lib32/gconv/IBM851.so
+unable to raw open /usr/lib32/gconv/IBM851.so
+/usr/lib32/gconv/libJISX0213.so
+unable to determine raw device of /usr/lib32/gconv/libJISX0213.so
+unable to raw open /usr/lib32/gconv/libJISX0213.so
+/usr/lib32/gconv/IBM1166.so
+unable to determine raw device of /usr/lib32/gconv/IBM1166.so
+unable to raw open /usr/lib32/gconv/IBM1166.so
+/usr/lib32/gconv/ISO8859-14.so
+unable to determine raw device of /usr/lib32/gconv/ISO8859-14.so
+unable to raw open /usr/lib32/gconv/ISO8859-14.so
+/usr/lib32/gconv/CP770.so
+unable to determine raw device of /usr/lib32/gconv/CP770.so
+unable to raw open /usr/lib32/gconv/CP770.so
+/usr/lib32/gconv/CP771.so
+unable to determine raw device of /usr/lib32/gconv/CP771.so
+unable to raw open /usr/lib32/gconv/CP771.so
+/usr/lib32/gconv/TIS-620.so
+unable to determine raw device of /usr/lib32/gconv/TIS-620.so
+unable to raw open /usr/lib32/gconv/TIS-620.so
+/usr/lib32/gconv/IBM1008_420.so
+unable to determine raw device of /usr/lib32/gconv/IBM1008_420.so
+unable to raw open /usr/lib32/gconv/IBM1008_420.so
+/usr/lib32/gconv/ISO-IR-197.so
+unable to determine raw device of /usr/lib32/gconv/ISO-IR-197.so
+unable to raw open /usr/lib32/gconv/ISO-IR-197.so
+/usr/lib32/gconv/IBM4517.so
+unable to determine raw device of /usr/lib32/gconv/IBM4517.so
+unable to raw open /usr/lib32/gconv/IBM4517.so
+/usr/lib32/gconv/IBM1160.so
+unable to determine raw device of /usr/lib32/gconv/IBM1160.so
+unable to raw open /usr/lib32/gconv/IBM1160.so
+/usr/lib32/gconv/CP10007.so
+unable to determine raw device of /usr/lib32/gconv/CP10007.so
+unable to raw open /usr/lib32/gconv/CP10007.so
+/usr/lib32/gconv/IBM420.so
+unable to determine raw device of /usr/lib32/gconv/IBM420.so
+unable to raw open /usr/lib32/gconv/IBM420.so
+/usr/lib32/gconv/ISO8859-9E.so
+unable to determine raw device of /usr/lib32/gconv/ISO8859-9E.so
+unable to raw open /usr/lib32/gconv/ISO8859-9E.so
+/usr/lib32/gconv/IBM871.so
+unable to determine raw device of /usr/lib32/gconv/IBM871.so
+unable to raw open /usr/lib32/gconv/IBM871.so
+/usr/lib32/gconv/IBM1141.so
+unable to determine raw device of /usr/lib32/gconv/IBM1141.so
+unable to raw open /usr/lib32/gconv/IBM1141.so
+/usr/lib32/gconv/ISO8859-4.so
+unable to determine raw device of /usr/lib32/gconv/ISO8859-4.so
+unable to raw open /usr/lib32/gconv/ISO8859-4.so
+/usr/lib32/gconv/EUC-KR.so
+unable to determine raw device of /usr/lib32/gconv/EUC-KR.so
+unable to raw open /usr/lib32/gconv/EUC-KR.so
+/usr/lib32/gconv/IBM1140.so
+unable to determine raw device of /usr/lib32/gconv/IBM1140.so
+unable to raw open /usr/lib32/gconv/IBM1140.so
+/usr/lib32/gconv/IBM1149.so
+unable to determine raw device of /usr/lib32/gconv/IBM1149.so
+unable to raw open /usr/lib32/gconv/IBM1149.so
+/usr/lib32/gconv/IBM256.so
+unable to determine raw device of /usr/lib32/gconv/IBM256.so
+unable to raw open /usr/lib32/gconv/IBM256.so
+/usr/lib32/gconv/IBM933.so
+unable to determine raw device of /usr/lib32/gconv/IBM933.so
+unable to raw open /usr/lib32/gconv/IBM933.so
+/usr/lib32/gconv/MAC-SAMI.so
+unable to determine raw device of /usr/lib32/gconv/MAC-SAMI.so
+unable to raw open /usr/lib32/gconv/MAC-SAMI.so
+/usr/lib32/gconv/EUC-JISX0213.so
+unable to determine raw device of /usr/lib32/gconv/EUC-JISX0213.so
+unable to raw open /usr/lib32/gconv/EUC-JISX0213.so
+/usr/lib32/gconv/IBM4971.so
+unable to determine raw device of /usr/lib32/gconv/IBM4971.so
+unable to raw open /usr/lib32/gconv/IBM4971.so
+/usr/lib32/gconv/CP772.so
+unable to determine raw device of /usr/lib32/gconv/CP772.so
+unable to raw open /usr/lib32/gconv/CP772.so
+/usr/lib32/gconv/ISO_11548-1.so
+unable to determine raw device of /usr/lib32/gconv/ISO_11548-1.so
+unable to raw open /usr/lib32/gconv/ISO_11548-1.so
+/usr/lib32/gconv/EBCDIC-ES-A.so
+unable to determine raw device of /usr/lib32/gconv/EBCDIC-ES-A.so
+unable to raw open /usr/lib32/gconv/EBCDIC-ES-A.so
+/usr/lib32/gconv/ISO8859-6.so
+unable to determine raw device of /usr/lib32/gconv/ISO8859-6.so
+unable to raw open /usr/lib32/gconv/ISO8859-6.so
+/usr/lib32/gconv/EBCDIC-DK-NO-A.so
+unable to determine raw device of /usr/lib32/gconv/EBCDIC-DK-NO-A.so
+unable to raw open /usr/lib32/gconv/EBCDIC-DK-NO-A.so
+/usr/lib32/gconv/IBM1157.so
+unable to determine raw device of /usr/lib32/gconv/IBM1157.so
+unable to raw open /usr/lib32/gconv/IBM1157.so
+/usr/lib32/gconv/IBM4909.so
+unable to determine raw device of /usr/lib32/gconv/IBM4909.so
+unable to raw open /usr/lib32/gconv/IBM4909.so
+/usr/lib32/gconv/CP1258.so
+unable to determine raw device of /usr/lib32/gconv/CP1258.so
+unable to raw open /usr/lib32/gconv/CP1258.so
+/usr/lib32/gconv/HP-ROMAN9.so
+unable to determine raw device of /usr/lib32/gconv/HP-ROMAN9.so
+unable to raw open /usr/lib32/gconv/HP-ROMAN9.so
+/usr/lib32/gconv/IBM918.so
+unable to determine raw device of /usr/lib32/gconv/IBM918.so
+unable to raw open /usr/lib32/gconv/IBM918.so
+/usr/lib32/gconv/NATS-SEFI.so
+unable to determine raw device of /usr/lib32/gconv/NATS-SEFI.so
+unable to raw open /usr/lib32/gconv/NATS-SEFI.so
+/usr/lib32/gconv/IBM901.so
+unable to determine raw device of /usr/lib32/gconv/IBM901.so
+unable to raw open /usr/lib32/gconv/IBM901.so
+/usr/lib32/gconv/UTF-7.so
+unable to determine raw device of /usr/lib32/gconv/UTF-7.so
+unable to raw open /usr/lib32/gconv/UTF-7.so
+/usr/lib32/gconv/RK1048.so
+unable to determine raw device of /usr/lib32/gconv/RK1048.so
+unable to raw open /usr/lib32/gconv/RK1048.so
+/usr/lib32/gconv/ISO8859-2.so
+unable to determine raw device of /usr/lib32/gconv/ISO8859-2.so
+unable to raw open /usr/lib32/gconv/ISO8859-2.so
+/usr/lib32/gconv/ECMA-CYRILLIC.so
+unable to determine raw device of /usr/lib32/gconv/ECMA-CYRILLIC.so
+unable to raw open /usr/lib32/gconv/ECMA-CYRILLIC.so
+/usr/lib32/gconv/ISO_5428.so
+unable to determine raw device of /usr/lib32/gconv/ISO_5428.so
+unable to raw open /usr/lib32/gconv/ISO_5428.so
+/usr/lib32/gconv/libISOIR165.so
+unable to determine raw device of /usr/lib32/gconv/libISOIR165.so
+unable to raw open /usr/lib32/gconv/libISOIR165.so
+/usr/lib32/gconv/CP1252.so
+unable to determine raw device of /usr/lib32/gconv/CP1252.so
+unable to raw open /usr/lib32/gconv/CP1252.so
+/usr/lib32/libc_nonshared.a
+unable to determine raw device of /usr/lib32/libc_nonshared.a
+unable to raw open /usr/lib32/libc_nonshared.a
+/usr/lib32/libnss_compat.so.2
+unable to determine raw device of /usr/lib32/libnss_compat.so.2
+unable to raw open /usr/lib32/libnss_compat.so.2
+/usr/lib32/crtn.o
+unable to determine raw device of /usr/lib32/crtn.o
+unable to raw open /usr/lib32/crtn.o
+/usr/lib32/libBrokenLocale.a
+unable to determine raw device of /usr/lib32/libBrokenLocale.a
+unable to raw open /usr/lib32/libBrokenLocale.a
+/usr/lib32/libstdc++.so.6
+/usr/lib32/libstdc++.so.6 is not a regular file.
+/usr/lib32/libanl.so
+/usr/lib32/libanl.so is not a regular file.
+/usr/lib32/rcrt1.o
+unable to determine raw device of /usr/lib32/rcrt1.o
+unable to raw open /usr/lib32/rcrt1.o
+/usr/lib32/libresolv.a
+unable to determine raw device of /usr/lib32/libresolv.a
+unable to raw open /usr/lib32/libresolv.a
+/usr/lib32/libubsan.so.1.0.0
+unable to determine raw device of /usr/lib32/libubsan.so.1.0.0
+unable to raw open /usr/lib32/libubsan.so.1.0.0
+/usr/lib32/libgomp.so.1.0.0
+unable to determine raw device of /usr/lib32/libgomp.so.1.0.0
+unable to raw open /usr/lib32/libgomp.so.1.0.0
+/usr/lib32/libquadmath.so.0
+/usr/lib32/libquadmath.so.0 is not a regular file.
+/usr/lib32/crt1.o
+unable to determine raw device of /usr/lib32/crt1.o
+unable to raw open /usr/lib32/crt1.o
+/usr/lib32/libasan.so.6
+/usr/lib32/libasan.so.6 is not a regular file.
+/usr/lib32/libanl.so.1
+unable to determine raw device of /usr/lib32/libanl.so.1
+unable to raw open /usr/lib32/libanl.so.1
+/usr/lib32/libresolv.so
+/usr/lib32/libresolv.so is not a regular file.
+/usr/lib32/libatomic.so.1
+/usr/lib32/libatomic.so.1 is not a regular file.
+/usr/lib32/libm.so.6
+unable to determine raw device of /usr/lib32/libm.so.6
+unable to raw open /usr/lib32/libm.so.6
+/usr/lib32/libitm.so.1
+/usr/lib32/libitm.so.1 is not a regular file.
+/usr/lib32/libitm.so.1.0.0
+unable to determine raw device of /usr/lib32/libitm.so.1.0.0
+unable to raw open /usr/lib32/libitm.so.1.0.0
+/usr/lib32/libthread_db.so
+/usr/lib32/libthread_db.so is not a regular file.
+/usr/lib32/libasan.so.6.0.0
+unable to determine raw device of /usr/lib32/libasan.so.6.0.0
+unable to raw open /usr/lib32/libasan.so.6.0.0
+/usr/lib32/crti.o
+unable to determine raw device of /usr/lib32/crti.o
+unable to raw open /usr/lib32/crti.o
+/usr/lib32/Mcrt1.o
+unable to determine raw device of /usr/lib32/Mcrt1.o
+unable to raw open /usr/lib32/Mcrt1.o
+/usr/lib32/libc_malloc_debug.so
+/usr/lib32/libc_malloc_debug.so is not a regular file.
+/usr/lib32/ld-linux.so.2
+unable to determine raw device of /usr/lib32/ld-linux.so.2
+unable to raw open /usr/lib32/ld-linux.so.2
+/usr/lib32/libnss_compat.so
+/usr/lib32/libnss_compat.so is not a regular file.
+/usr/lib32/libnss_hesiod.so.2
+unable to determine raw device of /usr/lib32/libnss_hesiod.so.2
+unable to raw open /usr/lib32/libnss_hesiod.so.2
+/usr/lib32/libc_malloc_debug.so.0
+unable to determine raw device of /usr/lib32/libc_malloc_debug.so.0
+unable to raw open /usr/lib32/libc_malloc_debug.so.0
+/usr/lib32/libc.so.6
+unable to determine raw device of /usr/lib32/libc.so.6
+unable to raw open /usr/lib32/libc.so.6
+/usr/lib32/grcrt1.o
+unable to determine raw device of /usr/lib32/grcrt1.o
+unable to raw open /usr/lib32/grcrt1.o
+/usr/lib32/libnss_dns.so.2
+unable to determine raw device of /usr/lib32/libnss_dns.so.2
+unable to raw open /usr/lib32/libnss_dns.so.2
+/usr/lib32/libBrokenLocale.so.1
+unable to determine raw device of /usr/lib32/libBrokenLocale.so.1
+unable to raw open /usr/lib32/libBrokenLocale.so.1
+/usr/lib32/librt.so.1
+unable to determine raw device of /usr/lib32/librt.so.1
+unable to raw open /usr/lib32/librt.so.1
+/usr/lib32/libm.so
+/usr/lib32/libm.so is not a regular file.
+/usr/lib32/libpcprofile.so
+unable to determine raw device of /usr/lib32/libpcprofile.so
+unable to raw open /usr/lib32/libpcprofile.so
+/usr/lib32/libubsan.so.1
+/usr/lib32/libubsan.so.1 is not a regular file.
+/usr/lib32/libpthread.a
+unable to determine raw device of /usr/lib32/libpthread.a
+unable to raw open /usr/lib32/libpthread.a
+/usr/lib32/gcrt1.o
+unable to determine raw device of /usr/lib32/gcrt1.o
+unable to raw open /usr/lib32/gcrt1.o
+/usr/lib32/libg.a
+unable to determine raw device of /usr/lib32/libg.a
+unable to raw open /usr/lib32/libg.a
+/usr/lib32/libgcc_s.so.1
+unable to determine raw device of /usr/lib32/libgcc_s.so.1
+unable to raw open /usr/lib32/libgcc_s.so.1
+/usr/lib32/libBrokenLocale.so
+/usr/lib32/libBrokenLocale.so is not a regular file.
+/usr/bin/ppmshift
+unable to determine raw device of /usr/bin/ppmshift
+unable to raw open /usr/bin/ppmshift
+/usr/bin/aa-exec
+unable to determine raw device of /usr/bin/aa-exec
+unable to raw open /usr/bin/aa-exec
+/usr/bin/ppmmake
+unable to determine raw device of /usr/bin/ppmmake
+unable to raw open /usr/bin/ppmmake
+/usr/bin/llvm-mt-11
+/usr/bin/llvm-mt-11 is not a regular file.
+/usr/bin/lwp-dump
+unable to determine raw device of /usr/bin/lwp-dump
+unable to raw open /usr/bin/lwp-dump
+/usr/bin/qml1plugindump
+/usr/bin/qml1plugindump is not a regular file.
+/usr/bin/pamdeinterlace
+unable to determine raw device of /usr/bin/pamdeinterlace
+unable to raw open /usr/bin/pamdeinterlace
+/usr/bin/rsync-ssl
+unable to determine raw device of /usr/bin/rsync-ssl
+unable to raw open /usr/bin/rsync-ssl
+/usr/bin/linux64
+/usr/bin/linux64 is not a regular file.
+/usr/bin/gstreamer-codec-install
+/usr/bin/gstreamer-codec-install is not a regular file.
+/usr/bin/mandb
+unable to determine raw device of /usr/bin/mandb
+unable to raw open /usr/bin/mandb
+/usr/bin/uncompress
+/usr/bin/uncompress has multiple links.
+unable to determine raw device of /usr/bin/uncompress
+unable to raw open /usr/bin/uncompress
+/usr/bin/systemd-tty-ask-password-agent
+unable to determine raw device of /usr/bin/systemd-tty-ask-password-agent
+unable to raw open /usr/bin/systemd-tty-ask-password-agent
+/usr/bin/xmessage
+unable to determine raw device of /usr/bin/xmessage
+unable to raw open /usr/bin/xmessage
+/usr/bin/tsort
+unable to determine raw device of /usr/bin/tsort
+unable to raw open /usr/bin/tsort
+/usr/bin/pw-cat
+unable to determine raw device of /usr/bin/pw-cat
+unable to raw open /usr/bin/pw-cat
+/usr/bin/sotruss
+unable to determine raw device of /usr/bin/sotruss
+unable to raw open /usr/bin/sotruss
+/usr/bin/ppdi
+unable to determine raw device of /usr/bin/ppdi
+unable to raw open /usr/bin/ppdi
+/usr/bin/b2sum
+unable to determine raw device of /usr/bin/b2sum
+unable to raw open /usr/bin/b2sum
+/usr/bin/ibus-setup
+unable to determine raw device of /usr/bin/ibus-setup
+unable to raw open /usr/bin/ibus-setup
+/usr/bin/ddstdecode
+unable to determine raw device of /usr/bin/ddstdecode
+unable to raw open /usr/bin/ddstdecode
+/usr/bin/getkeycodes
+unable to determine raw device of /usr/bin/getkeycodes
+unable to raw open /usr/bin/getkeycodes
+/usr/bin/ptar
+unable to determine raw device of /usr/bin/ptar
+unable to raw open /usr/bin/ptar
+/usr/bin/signtool
+unable to determine raw device of /usr/bin/signtool
+unable to raw open /usr/bin/signtool
+/usr/bin/taskset
+unable to determine raw device of /usr/bin/taskset
+unable to raw open /usr/bin/taskset
+/usr/bin/nisdomainname
+/usr/bin/nisdomainname is not a regular file.
+/usr/bin/ilbmtoppm
+unable to determine raw device of /usr/bin/ilbmtoppm
+unable to raw open /usr/bin/ilbmtoppm
+/usr/bin/akonadi_newmailnotifier_agent
+unable to determine raw device of /usr/bin/akonadi_newmailnotifier_agent
+unable to raw open /usr/bin/akonadi_newmailnotifier_agent
+/usr/bin/rpcgen
+unable to determine raw device of /usr/bin/rpcgen
+unable to raw open /usr/bin/rpcgen
+/usr/bin/infotocap
+/usr/bin/infotocap is not a regular file.
+/usr/bin/ypdomainname
+/usr/bin/ypdomainname is not a regular file.
+/usr/bin/wdctl
+unable to determine raw device of /usr/bin/wdctl
+unable to raw open /usr/bin/wdctl
+/usr/bin/pwdecrypt
+unable to determine raw device of /usr/bin/pwdecrypt
+unable to raw open /usr/bin/pwdecrypt
+/usr/bin/deb-systemd-invoke
+unable to determine raw device of /usr/bin/deb-systemd-invoke
+unable to raw open /usr/bin/deb-systemd-invoke
+/usr/bin/qemu-sparc64
+unable to determine raw device of /usr/bin/qemu-sparc64
+unable to raw open /usr/bin/qemu-sparc64
+/usr/bin/setmetamode
+unable to determine raw device of /usr/bin/setmetamode
+unable to raw open /usr/bin/setmetamode
+/usr/bin/gemtopnm
+unable to determine raw device of /usr/bin/gemtopnm
+unable to raw open /usr/bin/gemtopnm
+/usr/bin/awk
+/usr/bin/awk is not a regular file.
+/usr/bin/Xwayland
+unable to determine raw device of /usr/bin/Xwayland
+unable to raw open /usr/bin/Xwayland
+/usr/bin/gcc-11
+/usr/bin/gcc-11 is not a regular file.
+/usr/bin/llvm-ranlib-11
+/usr/bin/llvm-ranlib-11 is not a regular file.
+/usr/bin/x86_64-linux-gnu-python3-config
+/usr/bin/x86_64-linux-gnu-python3-config is not a regular file.
+/usr/bin/animate
+/usr/bin/animate is not a regular file.
+/usr/bin/fc-cat
+unable to determine raw device of /usr/bin/fc-cat
+unable to raw open /usr/bin/fc-cat
+/usr/bin/x86_64-linux-gnu-nm
+unable to determine raw device of /usr/bin/x86_64-linux-gnu-nm
+unable to raw open /usr/bin/x86_64-linux-gnu-nm
+/usr/bin/ptargrep
+unable to determine raw device of /usr/bin/ptargrep
+unable to raw open /usr/bin/ptargrep
+/usr/bin/pbmlife
+unable to determine raw device of /usr/bin/pbmlife
+unable to raw open /usr/bin/pbmlife
+/usr/bin/gnome-text-editor
+/usr/bin/gnome-text-editor is not a regular file.
+/usr/bin/ed
+unable to determine raw device of /usr/bin/ed
+unable to raw open /usr/bin/ed
+/usr/bin/troff
+unable to determine raw device of /usr/bin/troff
+unable to raw open /usr/bin/troff
+/usr/bin/breeze-settings5
+unable to determine raw device of /usr/bin/breeze-settings5
+unable to raw open /usr/bin/breeze-settings5
+/usr/bin/grub-glue-efi
+unable to determine raw device of /usr/bin/grub-glue-efi
+unable to raw open /usr/bin/grub-glue-efi
+/usr/bin/jpgicc
+unable to determine raw device of /usr/bin/jpgicc
+unable to raw open /usr/bin/jpgicc
+/usr/bin/manpath
+unable to determine raw device of /usr/bin/manpath
+unable to raw open /usr/bin/manpath
+/usr/bin/sputoppm
+unable to determine raw device of /usr/bin/sputoppm
+unable to raw open /usr/bin/sputoppm
+/usr/bin/dpkg-buildflags
+unable to determine raw device of /usr/bin/dpkg-buildflags
+unable to raw open /usr/bin/dpkg-buildflags
+/usr/bin/testparm
+unable to determine raw device of /usr/bin/testparm
+unable to raw open /usr/bin/testparm
+/usr/bin/x-terminal-emulator
+/usr/bin/x-terminal-emulator is not a regular file.
+/usr/bin/ntfsinfo
+unable to determine raw device of /usr/bin/ntfsinfo
+unable to raw open /usr/bin/ntfsinfo
+/usr/bin/networkctl
+unable to determine raw device of /usr/bin/networkctl
+unable to raw open /usr/bin/networkctl
+/usr/bin/vkcube
+unable to determine raw device of /usr/bin/vkcube
+unable to raw open /usr/bin/vkcube
+/usr/bin/snapctl
+/usr/bin/snapctl is not a regular file.
+/usr/bin/gpg-connect-agent
+unable to determine raw device of /usr/bin/gpg-connect-agent
+unable to raw open /usr/bin/gpg-connect-agent
+/usr/bin/qemu-system-rx
+unable to determine raw device of /usr/bin/qemu-system-rx
+unable to raw open /usr/bin/qemu-system-rx
+/usr/bin/dbwrap_tool
+unable to determine raw device of /usr/bin/dbwrap_tool
+unable to raw open /usr/bin/dbwrap_tool
+/usr/bin/kmail-refresh-settings
+unable to determine raw device of /usr/bin/kmail-refresh-settings
+unable to raw open /usr/bin/kmail-refresh-settings
+/usr/bin/qemu-xtensaeb
+unable to determine raw device of /usr/bin/qemu-xtensaeb
+unable to raw open /usr/bin/qemu-xtensaeb
+/usr/bin/vgdb
+unable to determine raw device of /usr/bin/vgdb
+unable to raw open /usr/bin/vgdb
+/usr/bin/llvm-tblgen-11
+/usr/bin/llvm-tblgen-11 is not a regular file.
+/usr/bin/7zz
+unable to determine raw device of /usr/bin/7zz
+unable to raw open /usr/bin/7zz
+/usr/bin/column
+unable to determine raw device of /usr/bin/column
+unable to raw open /usr/bin/column
+/usr/bin/xkbprint
+unable to determine raw device of /usr/bin/xkbprint
+unable to raw open /usr/bin/xkbprint
+/usr/bin/xvinfo
+unable to determine raw device of /usr/bin/xvinfo
+unable to raw open /usr/bin/xvinfo
+/usr/bin/clang-11
+/usr/bin/clang-11 is not a regular file.
+/usr/bin/foo2hp2600-wrapper
+unable to determine raw device of /usr/bin/foo2hp2600-wrapper
+unable to raw open /usr/bin/foo2hp2600-wrapper
+/usr/bin/pbmupc
+unable to determine raw device of /usr/bin/pbmupc
+unable to raw open /usr/bin/pbmupc
+/usr/bin/plasma-systemmonitor
+unable to determine raw device of /usr/bin/plasma-systemmonitor
+unable to raw open /usr/bin/plasma-systemmonitor
+/usr/bin/virtualbox
+/usr/bin/virtualbox is not a regular file.
+/usr/bin/cvt
+unable to determine raw device of /usr/bin/cvt
+unable to raw open /usr/bin/cvt
+/usr/bin/foo2xqx-wrapper
+unable to determine raw device of /usr/bin/foo2xqx-wrapper
+unable to raw open /usr/bin/foo2xqx-wrapper
+/usr/bin/distro-info
+/usr/bin/distro-info is not a regular file.
+/usr/bin/libwacom-show-stylus
+unable to determine raw device of /usr/bin/libwacom-show-stylus
+unable to raw open /usr/bin/libwacom-show-stylus
+/usr/bin/pbmtogo
+unable to determine raw device of /usr/bin/pbmtogo
+unable to raw open /usr/bin/pbmtogo
+/usr/bin/py3clean
+unable to determine raw device of /usr/bin/py3clean
+unable to raw open /usr/bin/py3clean
+/usr/bin/grdctl
+unable to determine raw device of /usr/bin/grdctl
+unable to raw open /usr/bin/grdctl
+/usr/bin/kinfocenter
+/usr/bin/kinfocenter is not a regular file.
+/usr/bin/pgmtoppm
+unable to determine raw device of /usr/bin/pgmtoppm
+unable to raw open /usr/bin/pgmtoppm
+/usr/bin/identify-im6.q16
+unable to determine raw device of /usr/bin/identify-im6.q16
+unable to raw open /usr/bin/identify-im6.q16
+/usr/bin/llvm-cxxdump-11
+/usr/bin/llvm-cxxdump-11 is not a regular file.
+/usr/bin/loginctl
+unable to determine raw device of /usr/bin/loginctl
+unable to raw open /usr/bin/loginctl
+/usr/bin/kmenuedit
+unable to determine raw device of /usr/bin/kmenuedit
+unable to raw open /usr/bin/kmenuedit
+/usr/bin/pinky
+unable to determine raw device of /usr/bin/pinky
+unable to raw open /usr/bin/pinky
+/usr/bin/gedit
+unable to determine raw device of /usr/bin/gedit
+unable to raw open /usr/bin/gedit
+/usr/bin/dbus-run-session
+unable to determine raw device of /usr/bin/dbus-run-session
+unable to raw open /usr/bin/dbus-run-session
+/usr/bin/llvm-symbolizer-11
+/usr/bin/llvm-symbolizer-11 is not a regular file.
+/usr/bin/plasma-apply-desktoptheme
+unable to determine raw device of /usr/bin/plasma-apply-desktoptheme
+unable to raw open /usr/bin/plasma-apply-desktoptheme
+/usr/bin/bzip2
+unable to determine raw device of /usr/bin/bzip2
+unable to raw open /usr/bin/bzip2
+/usr/bin/dumpcap
+unable to determine raw device of /usr/bin/dumpcap
+unable to raw open /usr/bin/dumpcap
+/usr/bin/composite-im6.q16
+unable to determine raw device of /usr/bin/composite-im6.q16
+unable to raw open /usr/bin/composite-im6.q16
+/usr/bin/scriptor
+unable to determine raw device of /usr/bin/scriptor
+unable to raw open /usr/bin/scriptor
+/usr/bin/top
+unable to determine raw device of /usr/bin/top
+unable to raw open /usr/bin/top
+/usr/bin/ppmtojpeg
+/usr/bin/ppmtojpeg is not a regular file.
+/usr/bin/perl
+unable to determine raw device of /usr/bin/perl
+unable to raw open /usr/bin/perl
+/usr/bin/md5sum.textutils
+/usr/bin/md5sum.textutils is not a regular file.
+/usr/bin/pl2link
+unable to determine raw device of /usr/bin/pl2link
+unable to raw open /usr/bin/pl2link
+/usr/bin/pbmtextps
+unable to determine raw device of /usr/bin/pbmtextps
+unable to raw open /usr/bin/pbmtextps
+/usr/bin/logname
+unable to determine raw device of /usr/bin/logname
+unable to raw open /usr/bin/logname
+/usr/bin/ssh-import-id
+unable to determine raw device of /usr/bin/ssh-import-id
+unable to raw open /usr/bin/ssh-import-id
+/usr/bin/llvm-cvtres-11
+/usr/bin/llvm-cvtres-11 is not a regular file.
+/usr/bin/sane-find-scanner
+unable to determine raw device of /usr/bin/sane-find-scanner
+unable to raw open /usr/bin/sane-find-scanner
+/usr/bin/lastb
+/usr/bin/lastb is not a regular file.
+/usr/bin/rgrep
+unable to determine raw device of /usr/bin/rgrep
+unable to raw open /usr/bin/rgrep
+/usr/bin/ipython3
+unable to determine raw device of /usr/bin/ipython3
+unable to raw open /usr/bin/ipython3
+/usr/bin/plmerge
+unable to determine raw device of /usr/bin/plmerge
+unable to raw open /usr/bin/plmerge
+/usr/bin/pbmtomacp
+unable to determine raw device of /usr/bin/pbmtomacp
+unable to raw open /usr/bin/pbmtomacp
+/usr/bin/rawtoppm
+unable to determine raw device of /usr/bin/rawtoppm
+unable to raw open /usr/bin/rawtoppm
+/usr/bin/ppmtompeg
+unable to determine raw device of /usr/bin/ppmtompeg
+unable to raw open /usr/bin/ppmtompeg
+/usr/bin/zstdcat
+/usr/bin/zstdcat is not a regular file.
+/usr/bin/kcmshell5
+unable to determine raw device of /usr/bin/kcmshell5
+unable to raw open /usr/bin/kcmshell5
+/usr/bin/objcopy
+/usr/bin/objcopy is not a regular file.
+/usr/bin/gdbus
+unable to determine raw device of /usr/bin/gdbus
+unable to raw open /usr/bin/gdbus
+/usr/bin/ibus-daemon
+unable to determine raw device of /usr/bin/ibus-daemon
+unable to raw open /usr/bin/ibus-daemon
+/usr/bin/qemu-system-mips64el
+unable to determine raw device of /usr/bin/qemu-system-mips64el
+unable to raw open /usr/bin/qemu-system-mips64el
+/usr/bin/locale
+unable to determine raw device of /usr/bin/locale
+unable to raw open /usr/bin/locale
+/usr/bin/qemu-system-arm
+unable to determine raw device of /usr/bin/qemu-system-arm
+unable to raw open /usr/bin/qemu-system-arm
+/usr/bin/gcc-ar-11
+/usr/bin/gcc-ar-11 is not a regular file.
+/usr/bin/x-window-manager
+/usr/bin/x-window-manager is not a regular file.
+/usr/bin/yelp
+unable to determine raw device of /usr/bin/yelp
+unable to raw open /usr/bin/yelp
+/usr/bin/debconf-escape
+unable to determine raw device of /usr/bin/debconf-escape
+unable to raw open /usr/bin/debconf-escape
+/usr/bin/gnome-logs
+unable to determine raw device of /usr/bin/gnome-logs
+unable to raw open /usr/bin/gnome-logs
+/usr/bin/run-with-aspell
+unable to determine raw device of /usr/bin/run-with-aspell
+unable to raw open /usr/bin/run-with-aspell
+/usr/bin/unopkg
+unable to determine raw device of /usr/bin/unopkg
+unable to raw open /usr/bin/unopkg
+/usr/bin/avahi-resolve-address
+/usr/bin/avahi-resolve-address is not a regular file.
+/usr/bin/locale-check
+unable to determine raw device of /usr/bin/locale-check
+unable to raw open /usr/bin/locale-check
+/usr/bin/kincidenceeditor
+unable to determine raw device of /usr/bin/kincidenceeditor
+unable to raw open /usr/bin/kincidenceeditor
+/usr/bin/foo2xqx
+unable to determine raw device of /usr/bin/foo2xqx
+unable to raw open /usr/bin/foo2xqx
+/usr/bin/akonadi_vcarddir_resource
+unable to determine raw device of /usr/bin/akonadi_vcarddir_resource
+unable to raw open /usr/bin/akonadi_vcarddir_resource
+/usr/bin/libwacom-update-db
+unable to determine raw device of /usr/bin/libwacom-update-db
+unable to raw open /usr/bin/libwacom-update-db
+/usr/bin/opentool
+unable to determine raw device of /usr/bin/opentool
+unable to raw open /usr/bin/opentool
+/usr/bin/GET
+/usr/bin/GET is not a regular file.
+/usr/bin/snap
+unable to determine raw device of /usr/bin/snap
+unable to raw open /usr/bin/snap
+/usr/bin/dpkg-buildpackage
+unable to determine raw device of /usr/bin/dpkg-buildpackage
+unable to raw open /usr/bin/dpkg-buildpackage
+/usr/bin/mmcat
+unable to determine raw device of /usr/bin/mmcat
+unable to raw open /usr/bin/mmcat
+/usr/bin/pnmsmooth
+unable to determine raw device of /usr/bin/pnmsmooth
+unable to raw open /usr/bin/pnmsmooth
+/usr/bin/tset
+unable to determine raw device of /usr/bin/tset
+unable to raw open /usr/bin/tset
+/usr/bin/lsusb
+unable to determine raw device of /usr/bin/lsusb
+unable to raw open /usr/bin/lsusb
+/usr/bin/systemd-stdio-bridge
+unable to determine raw device of /usr/bin/systemd-stdio-bridge
+unable to raw open /usr/bin/systemd-stdio-bridge
+/usr/bin/kwrapper5
+unable to determine raw device of /usr/bin/kwrapper5
+unable to raw open /usr/bin/kwrapper5
+/usr/bin/ranlib
+/usr/bin/ranlib is not a regular file.
+/usr/bin/pdftoppm
+unable to determine raw device of /usr/bin/pdftoppm
+unable to raw open /usr/bin/pdftoppm
+/usr/bin/innochecksum
+unable to determine raw device of /usr/bin/innochecksum
+unable to raw open /usr/bin/innochecksum
+/usr/bin/hp-config_usb_printer
+/usr/bin/hp-config_usb_printer is not a regular file.
+/usr/bin/kwalletd5
+unable to determine raw device of /usr/bin/kwalletd5
+unable to raw open /usr/bin/kwalletd5
+/usr/bin/orca
+unable to determine raw device of /usr/bin/orca
+unable to raw open /usr/bin/orca
+/usr/bin/who
+unable to determine raw device of /usr/bin/who
+unable to raw open /usr/bin/who
+/usr/bin/7z
+unable to determine raw device of /usr/bin/7z
+unable to raw open /usr/bin/7z
+/usr/bin/printf
+unable to determine raw device of /usr/bin/printf
+unable to raw open /usr/bin/printf
+/usr/bin/crlutil
+unable to determine raw device of /usr/bin/crlutil
+unable to raw open /usr/bin/crlutil
+/usr/bin/ar
+/usr/bin/ar is not a regular file.
+/usr/bin/qemu-system-m68k
+unable to determine raw device of /usr/bin/qemu-system-m68k
+unable to raw open /usr/bin/qemu-system-m68k
+/usr/bin/bzexe
+unable to determine raw device of /usr/bin/bzexe
+unable to raw open /usr/bin/bzexe
+/usr/bin/fiascotopnm
+unable to determine raw device of /usr/bin/fiascotopnm
+unable to raw open /usr/bin/fiascotopnm
+/usr/bin/montage-im6.q16
+unable to determine raw device of /usr/bin/montage-im6.q16
+unable to raw open /usr/bin/montage-im6.q16
+/usr/bin/dbus-uuidgen
+unable to determine raw device of /usr/bin/dbus-uuidgen
+unable to raw open /usr/bin/dbus-uuidgen
+/usr/bin/compare-im6.q16
+unable to determine raw device of /usr/bin/compare-im6.q16
+unable to raw open /usr/bin/compare-im6.q16
+/usr/bin/blkcat
+unable to determine raw device of /usr/bin/blkcat
+unable to raw open /usr/bin/blkcat
+/usr/bin/bash
+unable to determine raw device of /usr/bin/bash
+unable to raw open /usr/bin/bash
+/usr/bin/xzmore
+unable to determine raw device of /usr/bin/xzmore
+unable to raw open /usr/bin/xzmore
+/usr/bin/colcrt
+unable to determine raw device of /usr/bin/colcrt
+unable to raw open /usr/bin/colcrt
+/usr/bin/foo2oak
+unable to determine raw device of /usr/bin/foo2oak
+unable to raw open /usr/bin/foo2oak
+/usr/bin/avahi-set-host-name
+unable to determine raw device of /usr/bin/avahi-set-host-name
+unable to raw open /usr/bin/avahi-set-host-name
+/usr/bin/pdffonts
+unable to determine raw device of /usr/bin/pdffonts
+unable to raw open /usr/bin/pdffonts
+/usr/bin/gjs
+/usr/bin/gjs is not a regular file.
+/usr/bin/foo2hbpl2-wrapper
+unable to determine raw device of /usr/bin/foo2hbpl2-wrapper
+unable to raw open /usr/bin/foo2hbpl2-wrapper
+/usr/bin/ul
+unable to determine raw device of /usr/bin/ul
+unable to raw open /usr/bin/ul
+/usr/bin/kdeinit5_wrapper
+unable to determine raw device of /usr/bin/kdeinit5_wrapper
+unable to raw open /usr/bin/kdeinit5_wrapper
+/usr/bin/nasm
+unable to determine raw device of /usr/bin/nasm
+unable to raw open /usr/bin/nasm
+/usr/bin/foomatic-rip
+/usr/bin/foomatic-rip is not a regular file.
+/usr/bin/xls2csv
+unable to determine raw device of /usr/bin/xls2csv
+unable to raw open /usr/bin/xls2csv
+/usr/bin/ssh-askpass
+/usr/bin/ssh-askpass is not a regular file.
+/usr/bin/pnmmargin
+unable to determine raw device of /usr/bin/pnmmargin
+unable to raw open /usr/bin/pnmmargin
+/usr/bin/qemu-system-ppc64le
+/usr/bin/qemu-system-ppc64le is not a regular file.
+/usr/bin/pcre2-config
+unable to determine raw device of /usr/bin/pcre2-config
+unable to raw open /usr/bin/pcre2-config
+/usr/bin/rdesktop-vrdp
+unable to determine raw device of /usr/bin/rdesktop-vrdp
+unable to raw open /usr/bin/rdesktop-vrdp
+/usr/bin/pnmtosir
+unable to determine raw device of /usr/bin/pnmtosir
+unable to raw open /usr/bin/pnmtosir
+/usr/bin/mmstat
+unable to determine raw device of /usr/bin/mmstat
+unable to raw open /usr/bin/mmstat
+/usr/bin/kde-inhibit
+unable to determine raw device of /usr/bin/kde-inhibit
+unable to raw open /usr/bin/kde-inhibit
+/usr/bin/gtk4-query-settings
+unable to determine raw device of /usr/bin/gtk4-query-settings
+unable to raw open /usr/bin/gtk4-query-settings
+/usr/bin/gamma4scanimage
+unable to determine raw device of /usr/bin/gamma4scanimage
+unable to raw open /usr/bin/gamma4scanimage
+/usr/bin/gst-device-monitor-1.0
+unable to determine raw device of /usr/bin/gst-device-monitor-1.0
+unable to raw open /usr/bin/gst-device-monitor-1.0
+/usr/bin/gtk-builder-tool
+unable to determine raw device of /usr/bin/gtk-builder-tool
+unable to raw open /usr/bin/gtk-builder-tool
+/usr/bin/csplit
+unable to determine raw device of /usr/bin/csplit
+unable to raw open /usr/bin/csplit
+/usr/bin/grub-mkfont
+unable to determine raw device of /usr/bin/grub-mkfont
+unable to raw open /usr/bin/grub-mkfont
+/usr/bin/llvm-elfabi-11
+/usr/bin/llvm-elfabi-11 is not a regular file.
+/usr/bin/lsns
+unable to determine raw device of /usr/bin/lsns
+unable to raw open /usr/bin/lsns
+/usr/bin/stty
+unable to determine raw device of /usr/bin/stty
+unable to raw open /usr/bin/stty
+/usr/bin/axi-cache
+unable to determine raw device of /usr/bin/axi-cache
+unable to raw open /usr/bin/axi-cache
+/usr/bin/llvm-ifs-11
+/usr/bin/llvm-ifs-11 is not a regular file.
+/usr/bin/readlink
+unable to determine raw device of /usr/bin/readlink
+unable to raw open /usr/bin/readlink
+/usr/bin/gouldtoppm
+unable to determine raw device of /usr/bin/gouldtoppm
+unable to raw open /usr/bin/gouldtoppm
+/usr/bin/grub-fstest
+unable to determine raw device of /usr/bin/grub-fstest
+unable to raw open /usr/bin/grub-fstest
+/usr/bin/gnome-shell-extension-tool
+unable to determine raw device of /usr/bin/gnome-shell-extension-tool
+unable to raw open /usr/bin/gnome-shell-extension-tool
+/usr/bin/vulkaninfo
+unable to determine raw device of /usr/bin/vulkaninfo
+unable to raw open /usr/bin/vulkaninfo
+/usr/bin/xlsatoms
+unable to determine raw device of /usr/bin/xlsatoms
+unable to raw open /usr/bin/xlsatoms
+/usr/bin/sensible-pager
+unable to determine raw device of /usr/bin/sensible-pager
+unable to raw open /usr/bin/sensible-pager
+/usr/bin/dig
+unable to determine raw device of /usr/bin/dig
+unable to raw open /usr/bin/dig
+/usr/bin/which
+/usr/bin/which is not a regular file.
+/usr/bin/ln
+unable to determine raw device of /usr/bin/ln
+unable to raw open /usr/bin/ln
+/usr/bin/pacmd
+unable to determine raw device of /usr/bin/pacmd
+unable to raw open /usr/bin/pacmd
+/usr/bin/udevadm
+unable to determine raw device of /usr/bin/udevadm
+unable to raw open /usr/bin/udevadm
+/usr/bin/sort-dctrl
+unable to determine raw device of /usr/bin/sort-dctrl
+unable to raw open /usr/bin/sort-dctrl
+/usr/bin/pbmtoppa
+unable to determine raw device of /usr/bin/pbmtoppa
+unable to raw open /usr/bin/pbmtoppa
+/usr/bin/ctstat
+/usr/bin/ctstat is not a regular file.
+/usr/bin/dpkg-statoverride
+unable to determine raw device of /usr/bin/dpkg-statoverride
+unable to raw open /usr/bin/dpkg-statoverride
+/usr/bin/slogin
+/usr/bin/slogin is not a regular file.
+/usr/bin/lodraw
+unable to determine raw device of /usr/bin/lodraw
+unable to raw open /usr/bin/lodraw
+/usr/bin/cmsutil
+unable to determine raw device of /usr/bin/cmsutil
+unable to raw open /usr/bin/cmsutil
+/usr/bin/vim.tiny
+unable to determine raw device of /usr/bin/vim.tiny
+unable to raw open /usr/bin/vim.tiny
+/usr/bin/xzcmp
+/usr/bin/xzcmp is not a regular file.
+/usr/bin/umax_pp
+unable to determine raw device of /usr/bin/umax_pp
+unable to raw open /usr/bin/umax_pp
+/usr/bin/pnmnoraw
+/usr/bin/pnmnoraw is not a regular file.
+/usr/bin/psidtopgm
+unable to determine raw device of /usr/bin/psidtopgm
+unable to raw open /usr/bin/psidtopgm
+/usr/bin/xkill
+unable to determine raw device of /usr/bin/xkill
+unable to raw open /usr/bin/xkill
+/usr/bin/pk1sign
+unable to determine raw device of /usr/bin/pk1sign
+unable to raw open /usr/bin/pk1sign
+/usr/bin/pnmgamma
+unable to determine raw device of /usr/bin/pnmgamma
+unable to raw open /usr/bin/pnmgamma
+/usr/bin/xxd
+unable to determine raw device of /usr/bin/xxd
+unable to raw open /usr/bin/xxd
+/usr/bin/setxkbmap
+unable to determine raw device of /usr/bin/setxkbmap
+unable to raw open /usr/bin/setxkbmap
+/usr/bin/pwd
+unable to determine raw device of /usr/bin/pwd
+unable to raw open /usr/bin/pwd
+/usr/bin/pon
+unable to determine raw device of /usr/bin/pon
+unable to raw open /usr/bin/pon
+/usr/bin/dragon
+unable to determine raw device of /usr/bin/dragon
+unable to raw open /usr/bin/dragon
+/usr/bin/alsatplg
+unable to determine raw device of /usr/bin/alsatplg
+unable to raw open /usr/bin/alsatplg
+/usr/bin/pkcs11-tool
+unable to determine raw device of /usr/bin/pkcs11-tool
+unable to raw open /usr/bin/pkcs11-tool
+/usr/bin/tclsh8.6
+unable to determine raw device of /usr/bin/tclsh8.6
+unable to raw open /usr/bin/tclsh8.6
+/usr/bin/dbus-send
+unable to determine raw device of /usr/bin/dbus-send
+unable to raw open /usr/bin/dbus-send
+/usr/bin/pstree.x11
+/usr/bin/pstree.x11 is not a regular file.
+/usr/bin/ppmtoacad
+unable to determine raw device of /usr/bin/ppmtoacad
+unable to raw open /usr/bin/ppmtoacad
+/usr/bin/blkstat
+unable to determine raw device of /usr/bin/blkstat
+unable to raw open /usr/bin/blkstat
+/usr/bin/llvm-diff-11
+/usr/bin/llvm-diff-11 is not a regular file.
+/usr/bin/winicontoppm
+unable to determine raw device of /usr/bin/winicontoppm
+unable to raw open /usr/bin/winicontoppm
+/usr/bin/ybmtopbm
+unable to determine raw device of /usr/bin/ybmtopbm
+unable to raw open /usr/bin/ybmtopbm
+/usr/bin/tac
+unable to determine raw device of /usr/bin/tac
+unable to raw open /usr/bin/tac
+/usr/bin/pnm2ppa
+unable to determine raw device of /usr/bin/pnm2ppa
+unable to raw open /usr/bin/pnm2ppa
+/usr/bin/pnmcomp
+unable to determine raw device of /usr/bin/pnmcomp
+unable to raw open /usr/bin/pnmcomp
+/usr/bin/kf5-config
+unable to determine raw device of /usr/bin/kf5-config
+unable to raw open /usr/bin/kf5-config
+/usr/bin/dconf
+unable to determine raw device of /usr/bin/dconf
+unable to raw open /usr/bin/dconf
+/usr/bin/llvm-reduce-11
+/usr/bin/llvm-reduce-11 is not a regular file.
+/usr/bin/genrb
+unable to determine raw device of /usr/bin/genrb
+unable to raw open /usr/bin/genrb
+/usr/bin/gcov-tool
+/usr/bin/gcov-tool is not a regular file.
+/usr/bin/broadwayd
+unable to determine raw device of /usr/bin/broadwayd
+unable to raw open /usr/bin/broadwayd
+/usr/bin/xsetmode
+unable to determine raw device of /usr/bin/xsetmode
+unable to raw open /usr/bin/xsetmode
+/usr/bin/dpkg-split
+unable to determine raw device of /usr/bin/dpkg-split
+unable to raw open /usr/bin/dpkg-split
+/usr/bin/pro
+/usr/bin/pro is not a regular file.
+/usr/bin/llvm-nm-11
+/usr/bin/llvm-nm-11 is not a regular file.
+/usr/bin/llvm-mca-11
+/usr/bin/llvm-mca-11 is not a regular file.
+/usr/bin/i386
+/usr/bin/i386 is not a regular file.
+/usr/bin/pkcs15-tool
+unable to determine raw device of /usr/bin/pkcs15-tool
+unable to raw open /usr/bin/pkcs15-tool
+/usr/bin/pbmtowbmp
+unable to determine raw device of /usr/bin/pbmtowbmp
+unable to raw open /usr/bin/pbmtowbmp
+/usr/bin/kwin
+/usr/bin/kwin is not a regular file.
+/usr/bin/mactime
+unable to determine raw device of /usr/bin/mactime
+unable to raw open /usr/bin/mactime
+/usr/bin/isdv4-serial-debugger
+unable to determine raw device of /usr/bin/isdv4-serial-debugger
+unable to raw open /usr/bin/isdv4-serial-debugger
+/usr/bin/eog
+unable to determine raw device of /usr/bin/eog
+unable to raw open /usr/bin/eog
+/usr/bin/psfxtable
+unable to determine raw device of /usr/bin/psfxtable
+unable to raw open /usr/bin/psfxtable
+/usr/bin/apt-get
+unable to determine raw device of /usr/bin/apt-get
+unable to raw open /usr/bin/apt-get
+/usr/bin/preunzip
+unable to determine raw device of /usr/bin/preunzip
+unable to raw open /usr/bin/preunzip
+/usr/bin/solid-action-desktop-gen
+unable to determine raw device of /usr/bin/solid-action-desktop-gen
+unable to raw open /usr/bin/solid-action-desktop-gen
+/usr/bin/gnome-www-browser
+/usr/bin/gnome-www-browser is not a regular file.
+/usr/bin/ktrash5
+unable to determine raw device of /usr/bin/ktrash5
+unable to raw open /usr/bin/ktrash5
+/usr/bin/date
+unable to determine raw device of /usr/bin/date
+unable to raw open /usr/bin/date
+/usr/bin/bluetooth-sendto
+unable to determine raw device of /usr/bin/bluetooth-sendto
+unable to raw open /usr/bin/bluetooth-sendto
+/usr/bin/ppmcie
+unable to determine raw device of /usr/bin/ppmcie
+unable to raw open /usr/bin/ppmcie
+/usr/bin/hp-pkservice
+/usr/bin/hp-pkservice is not a regular file.
+/usr/bin/lesspipe
+unable to determine raw device of /usr/bin/lesspipe
+unable to raw open /usr/bin/lesspipe
+/usr/bin/dpkg-divert
+unable to determine raw device of /usr/bin/dpkg-divert
+unable to raw open /usr/bin/dpkg-divert
+/usr/bin/fsstat
+unable to determine raw device of /usr/bin/fsstat
+unable to raw open /usr/bin/fsstat
+/usr/bin/zipsplit
+unable to determine raw device of /usr/bin/zipsplit
+unable to raw open /usr/bin/zipsplit
+/usr/bin/p7content
+unable to determine raw device of /usr/bin/p7content
+unable to raw open /usr/bin/p7content
+/usr/bin/bzmore
+unable to determine raw device of /usr/bin/bzmore
+unable to raw open /usr/bin/bzmore
+/usr/bin/kdeconnect-settings
+unable to determine raw device of /usr/bin/kdeconnect-settings
+unable to raw open /usr/bin/kdeconnect-settings
+/usr/bin/rrsync
+/usr/bin/rrsync is not a regular file.
+/usr/bin/pstopnm
+unable to determine raw device of /usr/bin/pstopnm
+unable to raw open /usr/bin/pstopnm
+/usr/bin/ppdpo
+unable to determine raw device of /usr/bin/ppdpo
+unable to raw open /usr/bin/ppdpo
+find: File system loop detected; ‘/usr/bin/X11’ is part of the same file system loop as ‘/usr/bin’.
+/usr/bin/do-release-upgrade
+unable to determine raw device of /usr/bin/do-release-upgrade
+unable to raw open /usr/bin/do-release-upgrade
+/usr/bin/pdfunite
+unable to determine raw device of /usr/bin/pdfunite
+unable to raw open /usr/bin/pdfunite
+/usr/bin/evince-thumbnailer
+unable to determine raw device of /usr/bin/evince-thumbnailer
+unable to raw open /usr/bin/evince-thumbnailer
+/usr/bin/gsec
+unable to determine raw device of /usr/bin/gsec
+unable to raw open /usr/bin/gsec
+/usr/bin/tload
+unable to determine raw device of /usr/bin/tload
+unable to raw open /usr/bin/tload
+/usr/bin/update-notifier
+unable to determine raw device of /usr/bin/update-notifier
+unable to raw open /usr/bin/update-notifier
+/usr/bin/jexec
+/usr/bin/jexec is not a regular file.
+/usr/bin/rdf2ith
+/usr/bin/rdf2ith is not a regular file.
+/usr/bin/qemu-riscv32
+unable to determine raw device of /usr/bin/qemu-riscv32
+unable to raw open /usr/bin/qemu-riscv32
+/usr/bin/gtk4-builder-tool
+unable to determine raw device of /usr/bin/gtk4-builder-tool
+unable to raw open /usr/bin/gtk4-builder-tool
+/usr/bin/ls
+unable to determine raw device of /usr/bin/ls
+unable to raw open /usr/bin/ls
+/usr/bin/valgrind
+unable to determine raw device of /usr/bin/valgrind
+unable to raw open /usr/bin/valgrind
+/usr/bin/uuidgen
+unable to determine raw device of /usr/bin/uuidgen
+unable to raw open /usr/bin/uuidgen
+/usr/bin/wireshark
+unable to determine raw device of /usr/bin/wireshark
+unable to raw open /usr/bin/wireshark
+/usr/bin/ntfssecaudit
+unable to determine raw device of /usr/bin/ntfssecaudit
+unable to raw open /usr/bin/ntfssecaudit
+/usr/bin/plasma-shutdown
+unable to determine raw device of /usr/bin/plasma-shutdown
+unable to raw open /usr/bin/plasma-shutdown
+/usr/bin/pbmmask
+unable to determine raw device of /usr/bin/pbmmask
+unable to raw open /usr/bin/pbmmask
+/usr/bin/sudo
+unable to determine raw device of /usr/bin/sudo
+unable to raw open /usr/bin/sudo
+/usr/bin/xdg-user-dir
+unable to determine raw device of /usr/bin/xdg-user-dir
+unable to raw open /usr/bin/xdg-user-dir
+/usr/bin/uconv
+unable to determine raw device of /usr/bin/uconv
+unable to raw open /usr/bin/uconv
+/usr/bin/repc
+/usr/bin/repc is not a regular file.
+/usr/bin/akonadi_ews_resource
+unable to determine raw device of /usr/bin/akonadi_ews_resource
+unable to raw open /usr/bin/akonadi_ews_resource
+/usr/bin/convert-im6.q16
+unable to determine raw device of /usr/bin/convert-im6.q16
+unable to raw open /usr/bin/convert-im6.q16
+/usr/bin/bluemoon
+unable to determine raw device of /usr/bin/bluemoon
+unable to raw open /usr/bin/bluemoon
+/usr/bin/jfr
+/usr/bin/jfr is not a regular file.
+/usr/bin/sbattach
+unable to determine raw device of /usr/bin/sbattach
+unable to raw open /usr/bin/sbattach
+/usr/bin/akonadi_google_resource
+unable to determine raw device of /usr/bin/akonadi_google_resource
+unable to raw open /usr/bin/akonadi_google_resource
+/usr/bin/ppmtv
+unable to determine raw device of /usr/bin/ppmtv
+unable to raw open /usr/bin/ppmtv
+/usr/bin/pulseaudio
+unable to determine raw device of /usr/bin/pulseaudio
+unable to raw open /usr/bin/pulseaudio
+/usr/bin/pnmmontage
+unable to determine raw device of /usr/bin/pnmmontage
+unable to raw open /usr/bin/pnmmontage
+/usr/bin/pdfinfo
+unable to determine raw device of /usr/bin/pdfinfo
+unable to raw open /usr/bin/pdfinfo
+/usr/bin/gencnval
+unable to determine raw device of /usr/bin/gencnval
+unable to raw open /usr/bin/gencnval
+/usr/bin/x86_64-linux-gnu-g++
+/usr/bin/x86_64-linux-gnu-g++ is not a regular file.
+/usr/bin/qdbusviewer
+/usr/bin/qdbusviewer is not a regular file.
+/usr/bin/sieveeditor
+unable to determine raw device of /usr/bin/sieveeditor
+unable to raw open /usr/bin/sieveeditor
+/usr/bin/ubuntu-advantage
+unable to determine raw device of /usr/bin/ubuntu-advantage
+unable to raw open /usr/bin/ubuntu-advantage
+/usr/bin/gpgv
+unable to determine raw device of /usr/bin/gpgv
+unable to raw open /usr/bin/gpgv
+/usr/bin/pydoc2.7
+unable to determine raw device of /usr/bin/pydoc2.7
+unable to raw open /usr/bin/pydoc2.7
+/usr/bin/llvm-config-11
+/usr/bin/llvm-config-11 is not a regular file.
+/usr/bin/xdg-dbus-proxy
+unable to determine raw device of /usr/bin/xdg-dbus-proxy
+unable to raw open /usr/bin/xdg-dbus-proxy
+/usr/bin/xload
+unable to determine raw device of /usr/bin/xload
+unable to raw open /usr/bin/xload
+/usr/bin/pw-top
+unable to determine raw device of /usr/bin/pw-top
+unable to raw open /usr/bin/pw-top
+/usr/bin/qemu-sparc
+unable to determine raw device of /usr/bin/qemu-sparc
+unable to raw open /usr/bin/qemu-sparc
+/usr/bin/akonadi_mbox_resource
+unable to determine raw device of /usr/bin/akonadi_mbox_resource
+unable to raw open /usr/bin/akonadi_mbox_resource
+/usr/bin/os-prober
+unable to determine raw device of /usr/bin/os-prober
+unable to raw open /usr/bin/os-prober
+/usr/bin/icontopbm
+unable to determine raw device of /usr/bin/icontopbm
+unable to raw open /usr/bin/icontopbm
+/usr/bin/rm
+unable to determine raw device of /usr/bin/rm
+unable to raw open /usr/bin/rm
+/usr/bin/gsnd
+unable to determine raw device of /usr/bin/gsnd
+unable to raw open /usr/bin/gsnd
+/usr/bin/defaults
+unable to determine raw device of /usr/bin/defaults
+unable to raw open /usr/bin/defaults
+/usr/bin/jconsole
+/usr/bin/jconsole is not a regular file.
+/usr/bin/dbxtool
+unable to determine raw device of /usr/bin/dbxtool
+unable to raw open /usr/bin/dbxtool
+/usr/bin/xmlparse
+unable to determine raw device of /usr/bin/xmlparse
+unable to raw open /usr/bin/xmlparse
+/usr/bin/glib-compile-resources
+unable to determine raw device of /usr/bin/glib-compile-resources
+unable to raw open /usr/bin/glib-compile-resources
+/usr/bin/llvm-profdata-11
+/usr/bin/llvm-profdata-11 is not a regular file.
+/usr/bin/lrelease
+/usr/bin/lrelease is not a regular file.
+/usr/bin/red
+unable to determine raw device of /usr/bin/red
+unable to raw open /usr/bin/red
+/usr/bin/dpkg-deb
+unable to determine raw device of /usr/bin/dpkg-deb
+unable to raw open /usr/bin/dpkg-deb
+/usr/bin/diff3
+unable to determine raw device of /usr/bin/diff3
+unable to raw open /usr/bin/diff3
+/usr/bin/pkcs15-crypt
+unable to determine raw device of /usr/bin/pkcs15-crypt
+unable to raw open /usr/bin/pkcs15-crypt
+/usr/bin/vmwarectrl
+unable to determine raw device of /usr/bin/vmwarectrl
+unable to raw open /usr/bin/vmwarectrl
+/usr/bin/apturl-gtk
+unable to determine raw device of /usr/bin/apturl-gtk
+unable to raw open /usr/bin/apturl-gtk
+/usr/bin/tcpdump
+unable to determine raw device of /usr/bin/tcpdump
+unable to raw open /usr/bin/tcpdump
+/usr/bin/resizepart
+unable to determine raw device of /usr/bin/resizepart
+unable to raw open /usr/bin/resizepart
+/usr/bin/pnmdepth
+unable to determine raw device of /usr/bin/pnmdepth
+unable to raw open /usr/bin/pnmdepth
+/usr/bin/padsp
+unable to determine raw device of /usr/bin/padsp
+unable to raw open /usr/bin/padsp
+/usr/bin/nsupdate
+unable to determine raw device of /usr/bin/nsupdate
+unable to raw open /usr/bin/nsupdate
+/usr/bin/ppmtolj
+unable to determine raw device of /usr/bin/ppmtolj
+unable to raw open /usr/bin/ppmtolj
+/usr/bin/pnmtorle
+unable to determine raw device of /usr/bin/pnmtorle
+unable to raw open /usr/bin/pnmtorle
+/usr/bin/xmodmap
+unable to determine raw device of /usr/bin/xmodmap
+unable to raw open /usr/bin/xmodmap
+/usr/bin/xdg-user-dirs-update
+unable to determine raw device of /usr/bin/xdg-user-dirs-update
+unable to raw open /usr/bin/xdg-user-dirs-update
+/usr/bin/f2py3.10
+unable to determine raw device of /usr/bin/f2py3.10
+unable to raw open /usr/bin/f2py3.10
+/usr/bin/ps2pdf13
+unable to determine raw device of /usr/bin/ps2pdf13
+unable to raw open /usr/bin/ps2pdf13
+/usr/bin/qemu-system-or1k
+unable to determine raw device of /usr/bin/qemu-system-or1k
+unable to raw open /usr/bin/qemu-system-or1k
+/usr/bin/neotoppm
+unable to determine raw device of /usr/bin/neotoppm
+unable to raw open /usr/bin/neotoppm
+/usr/bin/fbstat
+unable to determine raw device of /usr/bin/fbstat
+unable to raw open /usr/bin/fbstat
+/usr/bin/llvm-dwp-11
+/usr/bin/llvm-dwp-11 is not a regular file.
+/usr/bin/bluedevil-sendfile
+unable to determine raw device of /usr/bin/bluedevil-sendfile
+unable to raw open /usr/bin/bluedevil-sendfile
+/usr/bin/xdg-desktop-menu
+unable to determine raw device of /usr/bin/xdg-desktop-menu
+unable to raw open /usr/bin/xdg-desktop-menu
+/usr/bin/mimetype
+unable to determine raw device of /usr/bin/mimetype
+unable to raw open /usr/bin/mimetype
+/usr/bin/kapplymousetheme
+unable to determine raw device of /usr/bin/kapplymousetheme
+unable to raw open /usr/bin/kapplymousetheme
+/usr/bin/qmlcachegen
+/usr/bin/qmlcachegen is not a regular file.
+/usr/bin/pgmenhance
+unable to determine raw device of /usr/bin/pgmenhance
+unable to raw open /usr/bin/pgmenhance
+/usr/bin/perldoc
+unable to determine raw device of /usr/bin/perldoc
+unable to raw open /usr/bin/perldoc
+/usr/bin/qmlbundle
+/usr/bin/qmlbundle is not a regular file.
+/usr/bin/smbpasswd
+unable to determine raw device of /usr/bin/smbpasswd
+unable to raw open /usr/bin/smbpasswd
+/usr/bin/ppmntsc
+unable to determine raw device of /usr/bin/ppmntsc
+unable to raw open /usr/bin/ppmntsc
+/usr/bin/alsaucm
+unable to determine raw device of /usr/bin/alsaucm
+unable to raw open /usr/bin/alsaucm
+/usr/bin/neqn
+unable to determine raw device of /usr/bin/neqn
+unable to raw open /usr/bin/neqn
+/usr/bin/kde-open
+unable to determine raw device of /usr/bin/kde-open
+unable to raw open /usr/bin/kde-open
+/usr/bin/tar
+unable to determine raw device of /usr/bin/tar
+unable to raw open /usr/bin/tar
+/usr/bin/gobject-query
+unable to determine raw device of /usr/bin/gobject-query
+unable to raw open /usr/bin/gobject-query
+/usr/bin/lpr
+unable to determine raw device of /usr/bin/lpr
+unable to raw open /usr/bin/lpr
+/usr/bin/ntfsdecrypt
+unable to determine raw device of /usr/bin/ntfsdecrypt
+unable to raw open /usr/bin/ntfsdecrypt
+/usr/bin/xdg-icon-resource
+unable to determine raw device of /usr/bin/xdg-icon-resource
+unable to raw open /usr/bin/xdg-icon-resource
+/usr/bin/hostname
+unable to determine raw device of /usr/bin/hostname
+unable to raw open /usr/bin/hostname
+/usr/bin/systemd-hwdb
+unable to determine raw device of /usr/bin/systemd-hwdb
+unable to raw open /usr/bin/systemd-hwdb
+/usr/bin/llvm-bcanalyzer-11
+/usr/bin/llvm-bcanalyzer-11 is not a regular file.
+/usr/bin/pnmcat
+unable to determine raw device of /usr/bin/pnmcat
+unable to raw open /usr/bin/pnmcat
+/usr/bin/unsquashfs
+unable to determine raw device of /usr/bin/unsquashfs
+unable to raw open /usr/bin/unsquashfs
+/usr/bin/gprof
+/usr/bin/gprof is not a regular file.
+/usr/bin/lavadecode
+unable to determine raw device of /usr/bin/lavadecode
+unable to raw open /usr/bin/lavadecode
+/usr/bin/perli11ndoc
+unable to determine raw device of /usr/bin/perli11ndoc
+unable to raw open /usr/bin/perli11ndoc
+/usr/bin/linux-update-symlinks
+unable to determine raw device of /usr/bin/linux-update-symlinks
+unable to raw open /usr/bin/linux-update-symlinks
+/usr/bin/ex
+/usr/bin/ex is not a regular file.
+/usr/bin/pdfseparate
+unable to determine raw device of /usr/bin/pdfseparate
+unable to raw open /usr/bin/pdfseparate
+/usr/bin/fmt
+unable to determine raw device of /usr/bin/fmt
+unable to raw open /usr/bin/fmt
+/usr/bin/switcherooctl
+unable to determine raw device of /usr/bin/switcherooctl
+unable to raw open /usr/bin/switcherooctl
+/usr/bin/x86_64-linux-gnu-g++-11
+unable to determine raw device of /usr/bin/x86_64-linux-gnu-g++-11
+unable to raw open /usr/bin/x86_64-linux-gnu-g++-11
+/usr/bin/kwriteconfig5
+unable to determine raw device of /usr/bin/kwriteconfig5
+unable to raw open /usr/bin/kwriteconfig5
+/usr/bin/vfyserv
+unable to determine raw device of /usr/bin/vfyserv
+unable to raw open /usr/bin/vfyserv
+/usr/bin/localedef
+unable to determine raw device of /usr/bin/localedef
+unable to raw open /usr/bin/localedef
+/usr/bin/qemu-x86_64
+unable to determine raw device of /usr/bin/qemu-x86_64
+unable to raw open /usr/bin/qemu-x86_64
+/usr/bin/plasma-browser-integration-host
+unable to determine raw device of /usr/bin/plasma-browser-integration-host
+unable to raw open /usr/bin/plasma-browser-integration-host
+/usr/bin/systemd-cgtop
+unable to determine raw device of /usr/bin/systemd-cgtop
+unable to raw open /usr/bin/systemd-cgtop
+/usr/bin/xdg-desktop-icon
+unable to determine raw device of /usr/bin/xdg-desktop-icon
+unable to raw open /usr/bin/xdg-desktop-icon
+/usr/bin/su
+unable to determine raw device of /usr/bin/su
+unable to raw open /usr/bin/su
+/usr/bin/xkbbell
+unable to determine raw device of /usr/bin/xkbbell
+unable to raw open /usr/bin/xkbbell
+/usr/bin/lzdiff
+/usr/bin/lzdiff is not a regular file.
+/usr/bin/pgmramp
+unable to determine raw device of /usr/bin/pgmramp
+unable to raw open /usr/bin/pgmramp
+/usr/bin/pgmslice
+unable to determine raw device of /usr/bin/pgmslice
+unable to raw open /usr/bin/pgmslice
+/usr/bin/dc
+unable to determine raw device of /usr/bin/dc
+unable to raw open /usr/bin/dc
+/usr/bin/VirtualBox
+/usr/bin/VirtualBox is not a regular file.
+/usr/bin/tsk_loaddb
+unable to determine raw device of /usr/bin/tsk_loaddb
+unable to raw open /usr/bin/tsk_loaddb
+/usr/bin/qtconfig
+/usr/bin/qtconfig is not a regular file.
+/usr/bin/xbiff
+unable to determine raw device of /usr/bin/xbiff
+unable to raw open /usr/bin/xbiff
+/usr/bin/pldes
+unable to determine raw device of /usr/bin/pldes
+unable to raw open /usr/bin/pldes
+/usr/bin/unicode_stop
+unable to determine raw device of /usr/bin/unicode_stop
+unable to raw open /usr/bin/unicode_stop
+/usr/bin/pnmquant
+unable to determine raw device of /usr/bin/pnmquant
+unable to raw open /usr/bin/pnmquant
+/usr/bin/write.ul
+unable to determine raw device of /usr/bin/write.ul
+unable to raw open /usr/bin/write.ul
+/usr/bin/sddmthemeinstaller
+unable to determine raw device of /usr/bin/sddmthemeinstaller
+unable to raw open /usr/bin/sddmthemeinstaller
+/usr/bin/cut
+unable to determine raw device of /usr/bin/cut
+unable to raw open /usr/bin/cut
+/usr/bin/xstdcmap
+unable to determine raw device of /usr/bin/xstdcmap
+unable to raw open /usr/bin/xstdcmap
+/usr/bin/kscreen-console
+unable to determine raw device of /usr/bin/kscreen-console
+unable to raw open /usr/bin/kscreen-console
+/usr/bin/bunzip2
+unable to determine raw device of /usr/bin/bunzip2
+unable to raw open /usr/bin/bunzip2
+/usr/bin/ntfstruncate
+unable to determine raw device of /usr/bin/ntfstruncate
+unable to raw open /usr/bin/ntfstruncate
+/usr/bin/convert
+/usr/bin/convert is not a regular file.
+/usr/bin/pinentry-gnome3
+unable to determine raw device of /usr/bin/pinentry-gnome3
+unable to raw open /usr/bin/pinentry-gnome3
+/usr/bin/zjsdecode
+unable to determine raw device of /usr/bin/zjsdecode
+unable to raw open /usr/bin/zjsdecode
+/usr/bin/eyuvtoppm
+unable to determine raw device of /usr/bin/eyuvtoppm
+unable to raw open /usr/bin/eyuvtoppm
+/usr/bin/stream
+/usr/bin/stream is not a regular file.
+/usr/bin/kmimetypefinder
+unable to determine raw device of /usr/bin/kmimetypefinder
+unable to raw open /usr/bin/kmimetypefinder
+/usr/bin/sharkd
+unable to determine raw device of /usr/bin/sharkd
+unable to raw open /usr/bin/sharkd
+/usr/bin/nohup
+unable to determine raw device of /usr/bin/nohup
+unable to raw open /usr/bin/nohup
+/usr/bin/ppmhist
+unable to determine raw device of /usr/bin/ppmhist
+unable to raw open /usr/bin/ppmhist
+/usr/bin/wc
+unable to determine raw device of /usr/bin/wc
+unable to raw open /usr/bin/wc
+/usr/bin/pyclean
+unable to determine raw device of /usr/bin/pyclean
+unable to raw open /usr/bin/pyclean
+/usr/bin/pnminterp
+/usr/bin/pnminterp is not a regular file.
+/usr/bin/wall
+unable to determine raw device of /usr/bin/wall
+unable to raw open /usr/bin/wall
+/usr/bin/obexctl
+unable to determine raw device of /usr/bin/obexctl
+unable to raw open /usr/bin/obexctl
+/usr/bin/ps2pdf14
+unable to determine raw device of /usr/bin/ps2pdf14
+unable to raw open /usr/bin/ps2pdf14
+/usr/bin/VBoxHeadless
+/usr/bin/VBoxHeadless is not a regular file.
+/usr/bin/tabs
+unable to determine raw device of /usr/bin/tabs
+unable to raw open /usr/bin/tabs
+/usr/bin/isdv4-serial-inputattach
+unable to determine raw device of /usr/bin/isdv4-serial-inputattach
+unable to raw open /usr/bin/isdv4-serial-inputattach
+/usr/bin/apt-cdrom
+unable to determine raw device of /usr/bin/apt-cdrom
+unable to raw open /usr/bin/apt-cdrom
+/usr/bin/grub-render-label
+unable to determine raw device of /usr/bin/grub-render-label
+unable to raw open /usr/bin/grub-render-label
+/usr/bin/instmodsh
+unable to determine raw device of /usr/bin/instmodsh
+unable to raw open /usr/bin/instmodsh
+/usr/bin/x86_64-linux-gnu-gprof
+unable to determine raw device of /usr/bin/x86_64-linux-gnu-gprof
+unable to raw open /usr/bin/x86_64-linux-gnu-gprof
+/usr/bin/xditview
+unable to determine raw device of /usr/bin/xditview
+unable to raw open /usr/bin/xditview
+/usr/bin/unshare
+unable to determine raw device of /usr/bin/unshare
+unable to raw open /usr/bin/unshare
+/usr/bin/gdk-pixbuf-thumbnailer
+unable to determine raw device of /usr/bin/gdk-pixbuf-thumbnailer
+unable to raw open /usr/bin/gdk-pixbuf-thumbnailer
+/usr/bin/xeyes
+unable to determine raw device of /usr/bin/xeyes
+unable to raw open /usr/bin/xeyes
+/usr/bin/scp
+unable to determine raw device of /usr/bin/scp
+unable to raw open /usr/bin/scp
+/usr/bin/x86_64-linux-gnu-lto-dump-11
+unable to determine raw device of /usr/bin/x86_64-linux-gnu-lto-dump-11
+unable to raw open /usr/bin/x86_64-linux-gnu-lto-dump-11
+/usr/bin/pbmtoptx
+unable to determine raw device of /usr/bin/pbmtoptx
+unable to raw open /usr/bin/pbmtoptx
+/usr/bin/akonadi_rds
+unable to determine raw device of /usr/bin/akonadi_rds
+unable to raw open /usr/bin/akonadi_rds
+/usr/bin/ktelnetservice5
+unable to determine raw device of /usr/bin/ktelnetservice5
+unable to raw open /usr/bin/ktelnetservice5
+/usr/bin/vicc
+unable to determine raw device of /usr/bin/vicc
+unable to raw open /usr/bin/vicc
+/usr/bin/ppmtomitsu
+unable to determine raw device of /usr/bin/ppmtomitsu
+unable to raw open /usr/bin/ppmtomitsu
+/usr/bin/kmail_clamav
+unable to determine raw device of /usr/bin/kmail_clamav
+unable to raw open /usr/bin/kmail_clamav
+/usr/bin/akonadi_sendlater_agent
+unable to determine raw device of /usr/bin/akonadi_sendlater_agent
+unable to raw open /usr/bin/akonadi_sendlater_agent
+/usr/bin/sbverify
+unable to determine raw device of /usr/bin/sbverify
+unable to raw open /usr/bin/sbverify
+/usr/bin/zipdetails
+unable to determine raw device of /usr/bin/zipdetails
+unable to raw open /usr/bin/zipdetails
+/usr/bin/qemu-s390x
+unable to determine raw device of /usr/bin/qemu-s390x
+unable to raw open /usr/bin/qemu-s390x
+/usr/bin/corelist
+unable to determine raw device of /usr/bin/corelist
+unable to raw open /usr/bin/corelist
+/usr/bin/run-on-bat
+/usr/bin/run-on-bat is not a regular file.
+/usr/bin/xz
+unable to determine raw device of /usr/bin/xz
+unable to raw open /usr/bin/xz
+/usr/bin/ndisasm
+unable to determine raw device of /usr/bin/ndisasm
+unable to raw open /usr/bin/ndisasm
+/usr/bin/routel
+unable to determine raw device of /usr/bin/routel
+unable to raw open /usr/bin/routel
+/usr/bin/scriptreplay
+unable to determine raw device of /usr/bin/scriptreplay
+unable to raw open /usr/bin/scriptreplay
+/usr/bin/ua
+/usr/bin/ua is not a regular file.
+/usr/bin/llvm-size-11
+/usr/bin/llvm-size-11 is not a regular file.
+/usr/bin/unzipsfx
+unable to determine raw device of /usr/bin/unzipsfx
+unable to raw open /usr/bin/unzipsfx
+/usr/bin/nice
+unable to determine raw device of /usr/bin/nice
+unable to raw open /usr/bin/nice
+/usr/bin/qemu-microblazeel
+unable to determine raw device of /usr/bin/qemu-microblazeel
+unable to raw open /usr/bin/qemu-microblazeel
+/usr/bin/pinentry-x11
+/usr/bin/pinentry-x11 is not a regular file.
+/usr/bin/jhsdb
+/usr/bin/jhsdb is not a regular file.
+/usr/bin/xdg-email
+unable to determine raw device of /usr/bin/xdg-email
+unable to raw open /usr/bin/xdg-email
+/usr/bin/glxheads.x86_64-linux-gnu
+unable to determine raw device of /usr/bin/glxheads.x86_64-linux-gnu
+unable to raw open /usr/bin/glxheads.x86_64-linux-gnu
+/usr/bin/ppmtoyuv
+unable to determine raw device of /usr/bin/ppmtoyuv
+unable to raw open /usr/bin/ppmtoyuv
+/usr/bin/gtk4-update-icon-cache
+unable to determine raw device of /usr/bin/gtk4-update-icon-cache
+unable to raw open /usr/bin/gtk4-update-icon-cache
+/usr/bin/llc-11
+/usr/bin/llc-11 is not a regular file.
+/usr/bin/ld.gold
+/usr/bin/ld.gold is not a regular file.
+/usr/bin/zcat
+unable to determine raw device of /usr/bin/zcat
+unable to raw open /usr/bin/zcat
+/usr/bin/dpkg-realpath
+unable to determine raw device of /usr/bin/dpkg-realpath
+unable to raw open /usr/bin/dpkg-realpath
+/usr/bin/yes
+unable to determine raw device of /usr/bin/yes
+unable to raw open /usr/bin/yes
+/usr/bin/iptables-xml
+/usr/bin/iptables-xml is not a regular file.
+/usr/bin/xmlpatterns
+/usr/bin/xmlpatterns is not a regular file.
+/usr/bin/ssh-keyscan
+unable to determine raw device of /usr/bin/ssh-keyscan
+unable to raw open /usr/bin/ssh-keyscan
+/usr/bin/qpdldecode
+unable to determine raw device of /usr/bin/qpdldecode
+unable to raw open /usr/bin/qpdldecode
+/usr/bin/ucs2any
+unable to determine raw device of /usr/bin/ucs2any
+unable to raw open /usr/bin/ucs2any
+/usr/bin/httpserv
+unable to determine raw device of /usr/bin/httpserv
+unable to raw open /usr/bin/httpserv
+/usr/bin/ppmtoilbm
+unable to determine raw device of /usr/bin/ppmtoilbm
+unable to raw open /usr/bin/ppmtoilbm
+/usr/bin/pnmfile
+unable to determine raw device of /usr/bin/pnmfile
+unable to raw open /usr/bin/pnmfile
+/usr/bin/hp-firmware
+/usr/bin/hp-firmware is not a regular file.
+/usr/bin/xwd
+unable to determine raw device of /usr/bin/xwd
+unable to raw open /usr/bin/xwd
+/usr/bin/jps
+/usr/bin/jps is not a regular file.
+/usr/bin/gnome-system-monitor
+unable to determine raw device of /usr/bin/gnome-system-monitor
+unable to raw open /usr/bin/gnome-system-monitor
+/usr/bin/cpan
+unable to determine raw device of /usr/bin/cpan
+unable to raw open /usr/bin/cpan
+/usr/bin/x86_64-linux-gnu-ld.bfd
+unable to determine raw device of /usr/bin/x86_64-linux-gnu-ld.bfd
+unable to raw open /usr/bin/x86_64-linux-gnu-ld.bfd
+/usr/bin/cd-create-profile
+unable to determine raw device of /usr/bin/cd-create-profile
+unable to raw open /usr/bin/cd-create-profile
+/usr/bin/pip3.10
+unable to determine raw device of /usr/bin/pip3.10
+unable to raw open /usr/bin/pip3.10
+/usr/bin/gnome-keyring-3
+unable to determine raw device of /usr/bin/gnome-keyring-3
+unable to raw open /usr/bin/gnome-keyring-3
+/usr/bin/min12xxw
+unable to determine raw device of /usr/bin/min12xxw
+unable to raw open /usr/bin/min12xxw
+/usr/bin/pbmtobbnbg
+unable to determine raw device of /usr/bin/pbmtobbnbg
+unable to raw open /usr/bin/pbmtobbnbg
+/usr/bin/plymouth
+unable to determine raw device of /usr/bin/plymouth
+unable to raw open /usr/bin/plymouth
+/usr/bin/protocoltojson
+unable to determine raw device of /usr/bin/protocoltojson
+unable to raw open /usr/bin/protocoltojson
+/usr/bin/pnmflip
+unable to determine raw device of /usr/bin/pnmflip
+unable to raw open /usr/bin/pnmflip
+/usr/bin/chfn
+unable to determine raw device of /usr/bin/chfn
+unable to raw open /usr/bin/chfn
+/usr/bin/setsid
+unable to determine raw device of /usr/bin/setsid
+unable to raw open /usr/bin/setsid
+/usr/bin/rtstat
+/usr/bin/rtstat is not a regular file.
+/usr/bin/qdbusxml2cpp
+/usr/bin/qdbusxml2cpp is not a regular file.
+/usr/bin/gnome-help
+/usr/bin/gnome-help is not a regular file.
+/usr/bin/vbox-img
+/usr/bin/vbox-img is not a regular file.
+/usr/bin/mogrify
+/usr/bin/mogrify is not a regular file.
+/usr/bin/egrep
+unable to determine raw device of /usr/bin/egrep
+unable to raw open /usr/bin/egrep
+/usr/bin/qemu-system-i386
+unable to determine raw device of /usr/bin/qemu-system-i386
+unable to raw open /usr/bin/qemu-system-i386
+/usr/bin/sensible-editor
+unable to determine raw device of /usr/bin/sensible-editor
+unable to raw open /usr/bin/sensible-editor
+/usr/bin/plog
+unable to determine raw device of /usr/bin/plog
+unable to raw open /usr/bin/plog
+/usr/bin/printenv
+unable to determine raw device of /usr/bin/printenv
+unable to raw open /usr/bin/printenv
+/usr/bin/ppmspread
+unable to determine raw device of /usr/bin/ppmspread
+unable to raw open /usr/bin/ppmspread
+/usr/bin/x-session-manager
+/usr/bin/x-session-manager is not a regular file.
+/usr/bin/avahi-publish
+unable to determine raw device of /usr/bin/avahi-publish
+unable to raw open /usr/bin/avahi-publish
+/usr/bin/smbcacls
+unable to determine raw device of /usr/bin/smbcacls
+unable to raw open /usr/bin/smbcacls
+/usr/bin/enc2xs
+unable to determine raw device of /usr/bin/enc2xs
+unable to raw open /usr/bin/enc2xs
+/usr/bin/gold
+/usr/bin/gold is not a regular file.
+/usr/bin/smbspool
+unable to determine raw device of /usr/bin/smbspool
+unable to raw open /usr/bin/smbspool
+/usr/bin/pw-midiplay
+/usr/bin/pw-midiplay is not a regular file.
+/usr/bin/pdftohtml
+unable to determine raw device of /usr/bin/pdftohtml
+unable to raw open /usr/bin/pdftohtml
+/usr/bin/ppmtosixel
+unable to determine raw device of /usr/bin/ppmtosixel
+unable to raw open /usr/bin/ppmtosixel
+/usr/bin/strace
+unable to determine raw device of /usr/bin/strace
+unable to raw open /usr/bin/strace
+/usr/bin/lobase
+unable to determine raw device of /usr/bin/lobase
+unable to raw open /usr/bin/lobase
+/usr/bin/lwp-request
+unable to determine raw device of /usr/bin/lwp-request
+unable to raw open /usr/bin/lwp-request
+/usr/bin/edit
+/usr/bin/edit is not a regular file.
+/usr/bin/hipercdecode
+unable to determine raw device of /usr/bin/hipercdecode
+unable to raw open /usr/bin/hipercdecode
+/usr/bin/pnmtojpeg
+unable to determine raw device of /usr/bin/pnmtojpeg
+unable to raw open /usr/bin/pnmtojpeg
+/usr/bin/editor
+/usr/bin/editor is not a regular file.
+/usr/bin/sleep
+unable to determine raw device of /usr/bin/sleep
+unable to raw open /usr/bin/sleep
+/usr/bin/pdfdetach
+unable to determine raw device of /usr/bin/pdfdetach
+unable to raw open /usr/bin/pdfdetach
+/usr/bin/pixeltool
+/usr/bin/pixeltool is not a regular file.
+/usr/bin/ppmrelief
+unable to determine raw device of /usr/bin/ppmrelief
+unable to raw open /usr/bin/ppmrelief
+/usr/bin/python3-config
+/usr/bin/python3-config is not a regular file.
+/usr/bin/pbmtog3
+unable to determine raw device of /usr/bin/pbmtog3
+unable to raw open /usr/bin/pbmtog3
+/usr/bin/system-config-printer
+unable to determine raw device of /usr/bin/system-config-printer
+unable to raw open /usr/bin/system-config-printer
+/usr/bin/kbuildsycoca5
+unable to determine raw device of /usr/bin/kbuildsycoca5
+unable to raw open /usr/bin/kbuildsycoca5
+/usr/bin/deb-systemd-helper
+unable to determine raw device of /usr/bin/deb-systemd-helper
+unable to raw open /usr/bin/deb-systemd-helper
+/usr/bin/grep
+unable to determine raw device of /usr/bin/grep
+unable to raw open /usr/bin/grep
+/usr/bin/akonadi_control
+unable to determine raw device of /usr/bin/akonadi_control
+unable to raw open /usr/bin/akonadi_control
+/usr/bin/cifsdd
+unable to determine raw device of /usr/bin/cifsdd
+unable to raw open /usr/bin/cifsdd
+/usr/bin/grog
+unable to determine raw device of /usr/bin/grog
+unable to raw open /usr/bin/grog
+/usr/bin/ftp
+/usr/bin/ftp is not a regular file.
+/usr/bin/jarsigner
+/usr/bin/jarsigner is not a regular file.
+/usr/bin/enchant-lsmod-2
+unable to determine raw device of /usr/bin/enchant-lsmod-2
+unable to raw open /usr/bin/enchant-lsmod-2
+/usr/bin/pnmhistmap
+unable to determine raw device of /usr/bin/pnmhistmap
+unable to raw open /usr/bin/pnmhistmap
+/usr/bin/select-editor
+unable to determine raw device of /usr/bin/select-editor
+unable to raw open /usr/bin/select-editor
+/usr/bin/pygettext2.7
+unable to determine raw device of /usr/bin/pygettext2.7
+unable to raw open /usr/bin/pygettext2.7
+/usr/bin/c99
+/usr/bin/c99 is not a regular file.
+/usr/bin/qemu-system-aarch64
+unable to determine raw device of /usr/bin/qemu-system-aarch64
+unable to raw open /usr/bin/qemu-system-aarch64
+/usr/bin/factor
+unable to determine raw device of /usr/bin/factor
+unable to raw open /usr/bin/factor
+/usr/bin/ippfind
+unable to determine raw device of /usr/bin/ippfind
+unable to raw open /usr/bin/ippfind
+/usr/bin/7za
+unable to determine raw device of /usr/bin/7za
+unable to raw open /usr/bin/7za
+/usr/bin/akregator
+unable to determine raw device of /usr/bin/akregator
+unable to raw open /usr/bin/akregator
+/usr/bin/apport-cli
+unable to determine raw device of /usr/bin/apport-cli
+unable to raw open /usr/bin/apport-cli
+/usr/bin/atktopbm
+unable to determine raw device of /usr/bin/atktopbm
+unable to raw open /usr/bin/atktopbm
+/usr/bin/grep-status
+/usr/bin/grep-status is not a regular file.
+/usr/bin/avahi-resolve
+unable to determine raw device of /usr/bin/avahi-resolve
+unable to raw open /usr/bin/avahi-resolve
+/usr/bin/see
+/usr/bin/see is not a regular file.
+/usr/bin/vkcubepp
+unable to determine raw device of /usr/bin/vkcubepp
+unable to raw open /usr/bin/vkcubepp
+/usr/bin/pygettext3
+/usr/bin/pygettext3 is not a regular file.
+/usr/bin/mt
+/usr/bin/mt is not a regular file.
+/usr/bin/lprm
+unable to determine raw device of /usr/bin/lprm
+unable to raw open /usr/bin/lprm
+/usr/bin/choom
+unable to determine raw device of /usr/bin/choom
+unable to raw open /usr/bin/choom
+/usr/bin/tmux
+unable to determine raw device of /usr/bin/tmux
+unable to raw open /usr/bin/tmux
+/usr/bin/f2py3
+unable to determine raw device of /usr/bin/f2py3
+unable to raw open /usr/bin/f2py3
+/usr/bin/apport-collect
+/usr/bin/apport-collect is not a regular file.
+/usr/bin/bugpoint-11
+/usr/bin/bugpoint-11 is not a regular file.
+/usr/bin/rpcclient
+unable to determine raw device of /usr/bin/rpcclient
+unable to raw open /usr/bin/rpcclient
+/usr/bin/xrefresh
+unable to determine raw device of /usr/bin/xrefresh
+unable to raw open /usr/bin/xrefresh
+/usr/bin/tsk_comparedir
+unable to determine raw device of /usr/bin/tsk_comparedir
+unable to raw open /usr/bin/tsk_comparedir
+/usr/bin/lwp-mirror
+unable to determine raw device of /usr/bin/lwp-mirror
+unable to raw open /usr/bin/lwp-mirror
+/usr/bin/file
+unable to determine raw device of /usr/bin/file
+unable to raw open /usr/bin/file
+/usr/bin/pbmtonokia
+unable to determine raw device of /usr/bin/pbmtonokia
+unable to raw open /usr/bin/pbmtonokia
+/usr/bin/llvm-lib-11
+/usr/bin/llvm-lib-11 is not a regular file.
+/usr/bin/sha512sum
+unable to determine raw device of /usr/bin/sha512sum
+unable to raw open /usr/bin/sha512sum
+/usr/bin/ps2pdfwr
+unable to determine raw device of /usr/bin/ps2pdfwr
+unable to raw open /usr/bin/ps2pdfwr
+/usr/bin/chcon
+unable to determine raw device of /usr/bin/chcon
+unable to raw open /usr/bin/chcon
+/usr/bin/proxy
+unable to determine raw device of /usr/bin/proxy
+unable to raw open /usr/bin/proxy
+/usr/bin/kactivities-cli
+unable to determine raw device of /usr/bin/kactivities-cli
+unable to raw open /usr/bin/kactivities-cli
+/usr/bin/desktop-file-install
+unable to determine raw device of /usr/bin/desktop-file-install
+unable to raw open /usr/bin/desktop-file-install
+/usr/bin/systemd-tmpfiles
+unable to determine raw device of /usr/bin/systemd-tmpfiles
+unable to raw open /usr/bin/systemd-tmpfiles
+/usr/bin/ipcrm
+unable to determine raw device of /usr/bin/ipcrm
+unable to raw open /usr/bin/ipcrm
+/usr/bin/mmcli
+unable to determine raw device of /usr/bin/mmcli
+unable to raw open /usr/bin/mmcli
+/usr/bin/llvm-install-name-tool-11
+/usr/bin/llvm-install-name-tool-11 is not a regular file.
+/usr/bin/mountpoint
+unable to determine raw device of /usr/bin/mountpoint
+unable to raw open /usr/bin/mountpoint
+/usr/bin/git-upload-archive
+/usr/bin/git-upload-archive is not a regular file.
+/usr/bin/ximtoppm
+unable to determine raw device of /usr/bin/ximtoppm
+unable to raw open /usr/bin/ximtoppm
+/usr/bin/oxygen-demo5
+unable to determine raw device of /usr/bin/oxygen-demo5
+unable to raw open /usr/bin/oxygen-demo5
+/usr/bin/2to3-2.7
+unable to determine raw device of /usr/bin/2to3-2.7
+unable to raw open /usr/bin/2to3-2.7
+/usr/bin/vfychain
+unable to determine raw device of /usr/bin/vfychain
+unable to raw open /usr/bin/vfychain
+/usr/bin/dbus-cleanup-sockets
+unable to determine raw device of /usr/bin/dbus-cleanup-sockets
+unable to raw open /usr/bin/dbus-cleanup-sockets
+/usr/bin/python2.7
+unable to determine raw device of /usr/bin/python2.7
+unable to raw open /usr/bin/python2.7
+/usr/bin/lwp-download
+unable to determine raw device of /usr/bin/lwp-download
+unable to raw open /usr/bin/lwp-download
+/usr/bin/zipinfo
+/usr/bin/zipinfo has multiple links.
+unable to determine raw device of /usr/bin/zipinfo
+unable to raw open /usr/bin/zipinfo
+/usr/bin/xev
+unable to determine raw device of /usr/bin/xev
+unable to raw open /usr/bin/xev
+/usr/bin/pphs
+unable to determine raw device of /usr/bin/pphs
+unable to raw open /usr/bin/pphs
+/usr/bin/oomctl
+unable to determine raw device of /usr/bin/oomctl
+unable to raw open /usr/bin/oomctl
+/usr/bin/qemu-system-sh4eb
+unable to determine raw device of /usr/bin/qemu-system-sh4eb
+unable to raw open /usr/bin/qemu-system-sh4eb
+/usr/bin/qmljs
+/usr/bin/qmljs is not a regular file.
+/usr/bin/mscompress
+unable to determine raw device of /usr/bin/mscompress
+unable to raw open /usr/bin/mscompress
+/usr/bin/pk12util
+unable to determine raw device of /usr/bin/pk12util
+unable to raw open /usr/bin/pk12util
+/usr/bin/kdialog
+unable to determine raw device of /usr/bin/kdialog
+unable to raw open /usr/bin/kdialog
+/usr/bin/axfer
+unable to determine raw device of /usr/bin/axfer
+unable to raw open /usr/bin/axfer
+/usr/bin/ssh-import-id-gh
+unable to determine raw device of /usr/bin/ssh-import-id-gh
+unable to raw open /usr/bin/ssh-import-id-gh
+/usr/bin/btattach
+unable to determine raw device of /usr/bin/btattach
+unable to raw open /usr/bin/btattach
+/usr/bin/mkdir
+unable to determine raw device of /usr/bin/mkdir
+unable to raw open /usr/bin/mkdir
+/usr/bin/ppmquantall
+unable to determine raw device of /usr/bin/ppmquantall
+unable to raw open /usr/bin/ppmquantall
+/usr/bin/dmesg
+unable to determine raw device of /usr/bin/dmesg
+unable to raw open /usr/bin/dmesg
+/usr/bin/grub-mkstandalone
+unable to determine raw device of /usr/bin/grub-mkstandalone
+unable to raw open /usr/bin/grub-mkstandalone
+/usr/bin/xkbvleds
+unable to determine raw device of /usr/bin/xkbvleds
+unable to raw open /usr/bin/xkbvleds
+/usr/bin/grotty
+unable to determine raw device of /usr/bin/grotty
+unable to raw open /usr/bin/grotty
+/usr/bin/pygettext3.10
+unable to determine raw device of /usr/bin/pygettext3.10
+unable to raw open /usr/bin/pygettext3.10
+/usr/bin/strace-log-merge
+unable to determine raw device of /usr/bin/strace-log-merge
+unable to raw open /usr/bin/strace-log-merge
+/usr/bin/llvm-cov-11
+/usr/bin/llvm-cov-11 is not a regular file.
+/usr/bin/ubuntu-report
+unable to determine raw device of /usr/bin/ubuntu-report
+unable to raw open /usr/bin/ubuntu-report
+/usr/bin/gnome-calculator
+unable to determine raw device of /usr/bin/gnome-calculator
+unable to raw open /usr/bin/gnome-calculator
+/usr/bin/xhost
+unable to determine raw device of /usr/bin/xhost
+unable to raw open /usr/bin/xhost
+/usr/bin/qtdiag
+/usr/bin/qtdiag is not a regular file.
+/usr/bin/foo2oak-wrapper
+unable to determine raw device of /usr/bin/foo2oak-wrapper
+unable to raw open /usr/bin/foo2oak-wrapper
+/usr/bin/python3.10-config
+/usr/bin/python3.10-config is not a regular file.
+/usr/bin/ppmtopj
+unable to determine raw device of /usr/bin/ppmtopj
+unable to raw open /usr/bin/ppmtopj
+/usr/bin/jstatd
+/usr/bin/jstatd is not a regular file.
+/usr/bin/systemd-cryptenroll
+unable to determine raw device of /usr/bin/systemd-cryptenroll
+unable to raw open /usr/bin/systemd-cryptenroll
+/usr/bin/derb
+unable to determine raw device of /usr/bin/derb
+unable to raw open /usr/bin/derb
+/usr/bin/akonadiselftest
+unable to determine raw device of /usr/bin/akonadiselftest
+unable to raw open /usr/bin/akonadiselftest
+/usr/bin/hp-plugin
+/usr/bin/hp-plugin is not a regular file.
+/usr/bin/akonadi_openxchange_resource
+unable to determine raw device of /usr/bin/akonadi_openxchange_resource
+unable to raw open /usr/bin/akonadi_openxchange_resource
+/usr/bin/lsmem
+unable to determine raw device of /usr/bin/lsmem
+unable to raw open /usr/bin/lsmem
+/usr/bin/qmlimportscanner
+/usr/bin/qmlimportscanner is not a regular file.
+/usr/bin/gpre
+unable to determine raw device of /usr/bin/gpre
+unable to raw open /usr/bin/gpre
+/usr/bin/designer
+/usr/bin/designer is not a regular file.
+/usr/bin/lsar
+unable to determine raw device of /usr/bin/lsar
+unable to raw open /usr/bin/lsar
+/usr/bin/xzdiff
+unable to determine raw device of /usr/bin/xzdiff
+unable to raw open /usr/bin/xzdiff
+/usr/bin/pgrep
+unable to determine raw device of /usr/bin/pgrep
+unable to raw open /usr/bin/pgrep
+/usr/bin/p7env
+unable to determine raw device of /usr/bin/p7env
+unable to raw open /usr/bin/p7env
+/usr/bin/dpkg-query
+unable to determine raw device of /usr/bin/dpkg-query
+unable to raw open /usr/bin/dpkg-query
+/usr/bin/tty
+unable to determine raw device of /usr/bin/tty
+unable to raw open /usr/bin/tty
+/usr/bin/gids-tool
+unable to determine raw device of /usr/bin/gids-tool
+unable to raw open /usr/bin/gids-tool
+/usr/bin/ocspclnt
+unable to determine raw device of /usr/bin/ocspclnt
+unable to raw open /usr/bin/ocspclnt
+/usr/bin/im-config
+unable to determine raw device of /usr/bin/im-config
+unable to raw open /usr/bin/im-config
+/usr/bin/xargs
+unable to determine raw device of /usr/bin/xargs
+unable to raw open /usr/bin/xargs
+/usr/bin/avahi-resolve-host-name
+/usr/bin/avahi-resolve-host-name is not a regular file.
+/usr/bin/accountwizard
+unable to determine raw device of /usr/bin/accountwizard
+unable to raw open /usr/bin/accountwizard
+/usr/bin/whoopsie
+unable to determine raw device of /usr/bin/whoopsie
+unable to raw open /usr/bin/whoopsie
+/usr/bin/gtester-report
+unable to determine raw device of /usr/bin/gtester-report
+unable to raw open /usr/bin/gtester-report
+/usr/bin/akonadi_ewsmta_resource
+unable to determine raw device of /usr/bin/akonadi_ewsmta_resource
+unable to raw open /usr/bin/akonadi_ewsmta_resource
+/usr/bin/llvm-split-11
+/usr/bin/llvm-split-11 is not a regular file.
+/usr/bin/gpg2
+/usr/bin/gpg2 is not a regular file.
+/usr/bin/catdoc
+unable to determine raw device of /usr/bin/catdoc
+unable to raw open /usr/bin/catdoc
+/usr/bin/animate-im6.q16
+unable to determine raw device of /usr/bin/animate-im6.q16
+unable to raw open /usr/bin/animate-im6.q16
+/usr/bin/lcf
+unable to determine raw device of /usr/bin/lcf
+unable to raw open /usr/bin/lcf
+/usr/bin/lessecho
+unable to determine raw device of /usr/bin/lessecho
+unable to raw open /usr/bin/lessecho
+/usr/bin/kmail_sav
+unable to determine raw device of /usr/bin/kmail_sav
+unable to raw open /usr/bin/kmail_sav
+/usr/bin/gtk-encode-symbolic-svg
+unable to determine raw device of /usr/bin/gtk-encode-symbolic-svg
+unable to raw open /usr/bin/gtk-encode-symbolic-svg
+/usr/bin/shasum
+unable to determine raw device of /usr/bin/shasum
+unable to raw open /usr/bin/shasum
+/usr/bin/sg
+/usr/bin/sg is not a regular file.
+/usr/bin/yacc
+/usr/bin/yacc is not a regular file.
+/usr/bin/fwupdmgr
+unable to determine raw device of /usr/bin/fwupdmgr
+unable to raw open /usr/bin/fwupdmgr
+/usr/bin/akonadi_agent_server
+unable to determine raw device of /usr/bin/akonadi_agent_server
+unable to raw open /usr/bin/akonadi_agent_server
+/usr/bin/print
+/usr/bin/print is not a regular file.
+/usr/bin/perlthanks
+unable to determine raw device of /usr/bin/perlthanks
+unable to raw open /usr/bin/perlthanks
+/usr/bin/pdftops
+unable to determine raw device of /usr/bin/pdftops
+unable to raw open /usr/bin/pdftops
+/usr/bin/jcat
+unable to determine raw device of /usr/bin/jcat
+unable to raw open /usr/bin/jcat
+/usr/bin/catman
+unable to determine raw device of /usr/bin/catman
+unable to raw open /usr/bin/catman
+/usr/bin/killall
+unable to determine raw device of /usr/bin/killall
+unable to raw open /usr/bin/killall
+/usr/bin/ntfswipe
+unable to determine raw device of /usr/bin/ntfswipe
+unable to raw open /usr/bin/ntfswipe
+/usr/bin/ppmtobmp
+unable to determine raw device of /usr/bin/ppmtobmp
+unable to raw open /usr/bin/ppmtobmp
+/usr/bin/cp
+unable to determine raw device of /usr/bin/cp
+unable to raw open /usr/bin/cp
+/usr/bin/qemu-system-ppc64
+unable to determine raw device of /usr/bin/qemu-system-ppc64
+unable to raw open /usr/bin/qemu-system-ppc64
+/usr/bin/qemu-xtensa
+unable to determine raw device of /usr/bin/qemu-xtensa
+unable to raw open /usr/bin/qemu-xtensa
+/usr/bin/libreoffice
+/usr/bin/libreoffice is not a regular file.
+/usr/bin/script
+unable to determine raw device of /usr/bin/script
+unable to raw open /usr/bin/script
+/usr/bin/llvm-jitlink-11
+/usr/bin/llvm-jitlink-11 is not a regular file.
+/usr/bin/ucfr
+unable to determine raw device of /usr/bin/ucfr
+unable to raw open /usr/bin/ucfr
+/usr/bin/efibootmgr
+unable to determine raw device of /usr/bin/efibootmgr
+unable to raw open /usr/bin/efibootmgr
+/usr/bin/xbrlapi
+unable to determine raw device of /usr/bin/xbrlapi
+unable to raw open /usr/bin/xbrlapi
+/usr/bin/xbmtopbm
+unable to determine raw device of /usr/bin/xbmtopbm
+unable to raw open /usr/bin/xbmtopbm
+/usr/bin/ubuntu-core-launcher
+/usr/bin/ubuntu-core-launcher is not a regular file.
+/usr/bin/zdump
+unable to determine raw device of /usr/bin/zdump
+unable to raw open /usr/bin/zdump
+/usr/bin/sweeper
+unable to determine raw device of /usr/bin/sweeper
+unable to raw open /usr/bin/sweeper
+/usr/bin/xkbevd
+unable to determine raw device of /usr/bin/xkbevd
+unable to raw open /usr/bin/xkbevd
+/usr/bin/lli-child-target-11
+/usr/bin/lli-child-target-11 is not a regular file.
+/usr/bin/pnmshear
+unable to determine raw device of /usr/bin/pnmshear
+unable to raw open /usr/bin/pnmshear
+/usr/bin/foo2lava
+unable to determine raw device of /usr/bin/foo2lava
+unable to raw open /usr/bin/foo2lava
+/usr/bin/hp-probe
+/usr/bin/hp-probe is not a regular file.
+/usr/bin/dpkg
+unable to determine raw device of /usr/bin/dpkg
+unable to raw open /usr/bin/dpkg
+/usr/bin/plasma_session
+unable to determine raw device of /usr/bin/plasma_session
+unable to raw open /usr/bin/plasma_session
+/usr/bin/cpp-11
+/usr/bin/cpp-11 is not a regular file.
+/usr/bin/pnmindex
+unable to determine raw device of /usr/bin/pnmindex
+unable to raw open /usr/bin/pnmindex
+/usr/bin/x86_64-linux-gnu-gcov-tool
+/usr/bin/x86_64-linux-gnu-gcov-tool is not a regular file.
+/usr/bin/ntfs-3g
+unable to determine raw device of /usr/bin/ntfs-3g
+unable to raw open /usr/bin/ntfs-3g
+/usr/bin/pbmtoicon
+unable to determine raw device of /usr/bin/pbmtoicon
+unable to raw open /usr/bin/pbmtoicon
+/usr/bin/routef
+unable to determine raw device of /usr/bin/routef
+unable to raw open /usr/bin/routef
+/usr/bin/rsh
+/usr/bin/rsh is not a regular file.
+/usr/bin/ucf
+unable to determine raw device of /usr/bin/ucf
+unable to raw open /usr/bin/ucf
+/usr/bin/jinfo
+/usr/bin/jinfo is not a regular file.
+/usr/bin/pimdataexporterconsole
+unable to determine raw device of /usr/bin/pimdataexporterconsole
+unable to raw open /usr/bin/pimdataexporterconsole
+/usr/bin/pamcut
+unable to determine raw device of /usr/bin/pamcut
+unable to raw open /usr/bin/pamcut
+/usr/bin/sbigtopgm
+unable to determine raw device of /usr/bin/sbigtopgm
+unable to raw open /usr/bin/sbigtopgm
+/usr/bin/kdeinit5
+unable to determine raw device of /usr/bin/kdeinit5
+unable to raw open /usr/bin/kdeinit5
+/usr/bin/pygmentize
+unable to determine raw device of /usr/bin/pygmentize
+unable to raw open /usr/bin/pygmentize
+/usr/bin/hipstopgm
+unable to determine raw device of /usr/bin/hipstopgm
+unable to raw open /usr/bin/hipstopgm
+/usr/bin/sc-hsm-tool
+unable to determine raw device of /usr/bin/sc-hsm-tool
+unable to raw open /usr/bin/sc-hsm-tool
+/usr/bin/tsk_imageinfo
+unable to determine raw device of /usr/bin/tsk_imageinfo
+unable to raw open /usr/bin/tsk_imageinfo
+/usr/bin/flock
+unable to determine raw device of /usr/bin/flock
+unable to raw open /usr/bin/flock
+/usr/bin/pgmnoise
+unable to determine raw device of /usr/bin/pgmnoise
+unable to raw open /usr/bin/pgmnoise
+/usr/bin/qemu-system-mipsel
+unable to determine raw device of /usr/bin/qemu-system-mipsel
+unable to raw open /usr/bin/qemu-system-mipsel
+/usr/bin/sgitopnm
+unable to determine raw device of /usr/bin/sgitopnm
+unable to raw open /usr/bin/sgitopnm
+/usr/bin/keytool
+/usr/bin/keytool is not a regular file.
+/usr/bin/pdfsig
+unable to determine raw device of /usr/bin/pdfsig
+unable to raw open /usr/bin/pdfsig
+/usr/bin/gpg
+unable to determine raw device of /usr/bin/gpg
+unable to raw open /usr/bin/gpg
+/usr/bin/run-mailcap
+unable to determine raw device of /usr/bin/run-mailcap
+unable to raw open /usr/bin/run-mailcap
+/usr/bin/ssltap
+unable to determine raw device of /usr/bin/ssltap
+unable to raw open /usr/bin/ssltap
+/usr/bin/par2repair
+/usr/bin/par2repair is not a regular file.
+/usr/bin/join
+unable to determine raw device of /usr/bin/join
+unable to raw open /usr/bin/join
+/usr/bin/run-on-ac
+unable to determine raw device of /usr/bin/run-on-ac
+unable to raw open /usr/bin/run-on-ac
+/usr/bin/grub-mknetdir
+unable to determine raw device of /usr/bin/grub-mknetdir
+unable to raw open /usr/bin/grub-mknetdir
+/usr/bin/akonadi_mailmerge_agent
+unable to determine raw device of /usr/bin/akonadi_mailmerge_agent
+unable to raw open /usr/bin/akonadi_mailmerge_agent
+/usr/bin/ppmbrighten
+unable to determine raw device of /usr/bin/ppmbrighten
+unable to raw open /usr/bin/ppmbrighten
+/usr/bin/hp-info
+/usr/bin/hp-info is not a regular file.
+/usr/bin/jpeg_extract
+unable to determine raw device of /usr/bin/jpeg_extract
+unable to raw open /usr/bin/jpeg_extract
+/usr/bin/domainname
+/usr/bin/domainname is not a regular file.
+/usr/bin/x86_64-linux-gnu-ld.gold
+unable to determine raw device of /usr/bin/x86_64-linux-gnu-ld.gold
+unable to raw open /usr/bin/x86_64-linux-gnu-ld.gold
+/usr/bin/dpkg-scanpackages
+unable to determine raw device of /usr/bin/dpkg-scanpackages
+unable to raw open /usr/bin/dpkg-scanpackages
+/usr/bin/qemu-system-s390x
+unable to determine raw device of /usr/bin/qemu-system-s390x
+unable to raw open /usr/bin/qemu-system-s390x
+/usr/bin/qemu-aarch64
+unable to determine raw device of /usr/bin/qemu-aarch64
+unable to raw open /usr/bin/qemu-aarch64
+/usr/bin/btmon
+unable to determine raw device of /usr/bin/btmon
+unable to raw open /usr/bin/btmon
+/usr/bin/driverless
+/usr/bin/driverless is not a regular file.
+/usr/bin/kshell5
+unable to determine raw device of /usr/bin/kshell5
+unable to raw open /usr/bin/kshell5
+/usr/bin/git-upload-pack
+/usr/bin/git-upload-pack is not a regular file.
+/usr/bin/nmcli
+unable to determine raw device of /usr/bin/nmcli
+unable to raw open /usr/bin/nmcli
+/usr/bin/llvm-c-test-11
+/usr/bin/llvm-c-test-11 is not a regular file.
+/usr/bin/mergecap
+unable to determine raw device of /usr/bin/mergecap
+unable to raw open /usr/bin/mergecap
+/usr/bin/xml2-config
+unable to determine raw device of /usr/bin/xml2-config
+unable to raw open /usr/bin/xml2-config
+/usr/bin/gnome-font-viewer
+unable to determine raw device of /usr/bin/gnome-font-viewer
+unable to raw open /usr/bin/gnome-font-viewer
+/usr/bin/qemu-or1k
+unable to determine raw device of /usr/bin/qemu-or1k
+unable to raw open /usr/bin/qemu-or1k
+/usr/bin/g++
+/usr/bin/g++ is not a regular file.
+/usr/bin/gnome-terminal.wrapper
+unable to determine raw device of /usr/bin/gnome-terminal.wrapper
+unable to raw open /usr/bin/gnome-terminal.wrapper
+/usr/bin/javac
+/usr/bin/javac is not a regular file.
+/usr/bin/hashcat
+unable to determine raw device of /usr/bin/hashcat
+unable to raw open /usr/bin/hashcat
+/usr/bin/nmtui-hostname
+/usr/bin/nmtui-hostname is not a regular file.
+/usr/bin/eglinfo.x86_64-linux-gnu
+unable to determine raw device of /usr/bin/eglinfo.x86_64-linux-gnu
+unable to raw open /usr/bin/eglinfo.x86_64-linux-gnu
+/usr/bin/ppmcolormask
+unable to determine raw device of /usr/bin/ppmcolormask
+unable to raw open /usr/bin/ppmcolormask
+/usr/bin/alsamixer
+unable to determine raw device of /usr/bin/alsamixer
+unable to raw open /usr/bin/alsamixer
+/usr/bin/qtattributionsscanner
+/usr/bin/qtattributionsscanner is not a regular file.
+/usr/bin/ppdc
+unable to determine raw device of /usr/bin/ppdc
+unable to raw open /usr/bin/ppdc
+/usr/bin/llvm-link-11
+/usr/bin/llvm-link-11 is not a regular file.
+/usr/bin/rview
+/usr/bin/rview is not a regular file.
+/usr/bin/gmenudbusmenuproxy
+unable to determine raw device of /usr/bin/gmenudbusmenuproxy
+unable to raw open /usr/bin/gmenudbusmenuproxy
+/usr/bin/ppmpat
+unable to determine raw device of /usr/bin/ppmpat
+unable to raw open /usr/bin/ppmpat
+/usr/bin/leaftoppm
+unable to determine raw device of /usr/bin/leaftoppm
+unable to raw open /usr/bin/leaftoppm
+/usr/bin/fgrep
+unable to determine raw device of /usr/bin/fgrep
+unable to raw open /usr/bin/fgrep
+/usr/bin/infocmp
+unable to determine raw device of /usr/bin/infocmp
+unable to raw open /usr/bin/infocmp
+/usr/bin/tracepath
+unable to determine raw device of /usr/bin/tracepath
+unable to raw open /usr/bin/tracepath
+/usr/bin/bmptoppm
+/usr/bin/bmptoppm is not a regular file.
+/usr/bin/VBoxBalloonCtrl
+/usr/bin/VBoxBalloonCtrl is not a regular file.
+/usr/bin/x86_64-linux-gnu-ranlib
+unable to determine raw device of /usr/bin/x86_64-linux-gnu-ranlib
+unable to raw open /usr/bin/x86_64-linux-gnu-ranlib
+/usr/bin/istat
+unable to determine raw device of /usr/bin/istat
+unable to raw open /usr/bin/istat
+/usr/bin/aspell-import
+unable to determine raw device of /usr/bin/aspell-import
+unable to raw open /usr/bin/aspell-import
+/usr/bin/kiconfinder5
+unable to determine raw device of /usr/bin/kiconfinder5
+unable to raw open /usr/bin/kiconfinder5
+/usr/bin/linux-check-removal
+unable to determine raw device of /usr/bin/linux-check-removal
+unable to raw open /usr/bin/linux-check-removal
+/usr/bin/yuvtoppm
+unable to determine raw device of /usr/bin/yuvtoppm
+unable to raw open /usr/bin/yuvtoppm
+/usr/bin/kbdinfo
+unable to determine raw device of /usr/bin/kbdinfo
+unable to raw open /usr/bin/kbdinfo
+/usr/bin/pnmtoddif
+unable to determine raw device of /usr/bin/pnmtoddif
+unable to raw open /usr/bin/pnmtoddif
+/usr/bin/install-printerdriver
+unable to determine raw device of /usr/bin/install-printerdriver
+unable to raw open /usr/bin/install-printerdriver
+/usr/bin/imgtoppm
+unable to determine raw device of /usr/bin/imgtoppm
+unable to raw open /usr/bin/imgtoppm
+/usr/bin/pamstack
+unable to determine raw device of /usr/bin/pamstack
+unable to raw open /usr/bin/pamstack
+/usr/bin/xmllint
+unable to determine raw device of /usr/bin/xmllint
+unable to raw open /usr/bin/xmllint
+/usr/bin/lscpu
+unable to determine raw device of /usr/bin/lscpu
+unable to raw open /usr/bin/lscpu
+/usr/bin/utmpdump
+unable to determine raw device of /usr/bin/utmpdump
+unable to raw open /usr/bin/utmpdump
+/usr/bin/basename
+unable to determine raw device of /usr/bin/basename
+unable to raw open /usr/bin/basename
+/usr/bin/transset
+unable to determine raw device of /usr/bin/transset
+unable to raw open /usr/bin/transset
+/usr/bin/pax11publish
+unable to determine raw device of /usr/bin/pax11publish
+unable to raw open /usr/bin/pax11publish
+/usr/bin/sudoreplay
+unable to determine raw device of /usr/bin/sudoreplay
+unable to raw open /usr/bin/sudoreplay
+/usr/bin/debconf-apt-progress
+unable to determine raw device of /usr/bin/debconf-apt-progress
+unable to raw open /usr/bin/debconf-apt-progress
+/usr/bin/man
+unable to determine raw device of /usr/bin/man
+unable to raw open /usr/bin/man
+/usr/bin/hp-timedate
+/usr/bin/hp-timedate is not a regular file.
+/usr/bin/nmblookup
+unable to determine raw device of /usr/bin/nmblookup
+unable to raw open /usr/bin/nmblookup
+/usr/bin/akonadi_notes_resource
+unable to determine raw device of /usr/bin/akonadi_notes_resource
+unable to raw open /usr/bin/akonadi_notes_resource
+/usr/bin/ksvgtopng
+unable to determine raw device of /usr/bin/ksvgtopng
+unable to raw open /usr/bin/ksvgtopng
+/usr/bin/lsmod
+/usr/bin/lsmod is not a regular file.
+/usr/bin/sqlite3
+unable to determine raw device of /usr/bin/sqlite3
+unable to raw open /usr/bin/sqlite3
+/usr/bin/arecord
+/usr/bin/arecord is not a regular file.
+/usr/bin/evince
+unable to determine raw device of /usr/bin/evince
+unable to raw open /usr/bin/evince
+/usr/bin/strip
+/usr/bin/strip is not a regular file.
+/usr/bin/ppm3d
+unable to determine raw device of /usr/bin/ppm3d
+unable to raw open /usr/bin/ppm3d
+/usr/bin/gdnc
+unable to determine raw device of /usr/bin/gdnc
+unable to raw open /usr/bin/gdnc
+/usr/bin/kstart
+unable to determine raw device of /usr/bin/kstart
+unable to raw open /usr/bin/kstart
+/usr/bin/es2gears_wayland.x86_64-linux-gnu
+unable to determine raw device of /usr/bin/es2gears_wayland.x86_64-linux-gnu
+unable to raw open /usr/bin/es2gears_wayland.x86_64-linux-gnu
+/usr/bin/akonadi_indexing_agent
+unable to determine raw device of /usr/bin/akonadi_indexing_agent
+unable to raw open /usr/bin/akonadi_indexing_agent
+/usr/bin/es2gears_x11
+/usr/bin/es2gears_x11 is not a regular file.
+/usr/bin/pnmpaste
+unable to determine raw device of /usr/bin/pnmpaste
+unable to raw open /usr/bin/pnmpaste
+/usr/bin/pw-play
+/usr/bin/pw-play is not a regular file.
+/usr/bin/gnome-thumbnail-font
+unable to determine raw device of /usr/bin/gnome-thumbnail-font
+unable to raw open /usr/bin/gnome-thumbnail-font
+/usr/bin/headerthemeeditor
+unable to determine raw device of /usr/bin/headerthemeeditor
+unable to raw open /usr/bin/headerthemeeditor
+/usr/bin/convert-im6
+/usr/bin/convert-im6 is not a regular file.
+/usr/bin/spa-monitor
+unable to determine raw device of /usr/bin/spa-monitor
+unable to raw open /usr/bin/spa-monitor
+/usr/bin/zstdgrep
+unable to determine raw device of /usr/bin/zstdgrep
+unable to raw open /usr/bin/zstdgrep
+/usr/bin/avahi-publish-address
+/usr/bin/avahi-publish-address is not a regular file.
+/usr/bin/jls
+unable to determine raw device of /usr/bin/jls
+unable to raw open /usr/bin/jls
+/usr/bin/ppmquant
+unable to determine raw device of /usr/bin/ppmquant
+unable to raw open /usr/bin/ppmquant
+/usr/bin/geqn
+/usr/bin/geqn is not a regular file.
+/usr/bin/qdoc3
+/usr/bin/qdoc3 is not a regular file.
+/usr/bin/ppmnorm
+/usr/bin/ppmnorm is not a regular file.
+/usr/bin/bzgrep
+unable to determine raw device of /usr/bin/bzgrep
+unable to raw open /usr/bin/bzgrep
+/usr/bin/pinentry
+/usr/bin/pinentry is not a regular file.
+/usr/bin/ppmdim
+unable to determine raw device of /usr/bin/ppmdim
+unable to raw open /usr/bin/ppmdim
+/usr/bin/text2pcap
+unable to determine raw device of /usr/bin/text2pcap
+unable to raw open /usr/bin/text2pcap
+/usr/bin/foo2slx
+unable to determine raw device of /usr/bin/foo2slx
+unable to raw open /usr/bin/foo2slx
+/usr/bin/qemu-system-sparc
+unable to determine raw device of /usr/bin/qemu-system-sparc
+unable to raw open /usr/bin/qemu-system-sparc
+/usr/bin/ntfsls
+unable to determine raw device of /usr/bin/ntfsls
+unable to raw open /usr/bin/ntfsls
+/usr/bin/make_strings
+unable to determine raw device of /usr/bin/make_strings
+unable to raw open /usr/bin/make_strings
+/usr/bin/chacl
+unable to determine raw device of /usr/bin/chacl
+unable to raw open /usr/bin/chacl
+/usr/bin/glib-compile-schemas
+/usr/bin/glib-compile-schemas is not a regular file.
+/usr/bin/unlink
+unable to determine raw device of /usr/bin/unlink
+unable to raw open /usr/bin/unlink
+/usr/bin/x86_64-linux-gnu-objdump
+unable to determine raw device of /usr/bin/x86_64-linux-gnu-objdump
+unable to raw open /usr/bin/x86_64-linux-gnu-objdump
+/usr/bin/llvm-ml-11
+/usr/bin/llvm-ml-11 is not a regular file.
+/usr/bin/ssh-argv0
+unable to determine raw device of /usr/bin/ssh-argv0
+unable to raw open /usr/bin/ssh-argv0
+/usr/bin/foo2qpdl
+unable to determine raw device of /usr/bin/foo2qpdl
+unable to raw open /usr/bin/foo2qpdl
+/usr/bin/kdeconnect-indicator
+unable to determine raw device of /usr/bin/kdeconnect-indicator
+unable to raw open /usr/bin/kdeconnect-indicator
+/usr/bin/kbroadcastnotification
+unable to determine raw device of /usr/bin/kbroadcastnotification
+unable to raw open /usr/bin/kbroadcastnotification
+/usr/bin/hp-makeuri
+/usr/bin/hp-makeuri is not a regular file.
+/usr/bin/foo2hp
+unable to determine raw device of /usr/bin/foo2hp
+unable to raw open /usr/bin/foo2hp
+/usr/bin/ksplashqml
+unable to determine raw device of /usr/bin/ksplashqml
+unable to raw open /usr/bin/ksplashqml
+/usr/bin/pdb2.7
+/usr/bin/pdb2.7 is not a regular file.
+/usr/bin/openapp
+unable to determine raw device of /usr/bin/openapp
+unable to raw open /usr/bin/openapp
+/usr/bin/openssl
+unable to determine raw device of /usr/bin/openssl
+unable to raw open /usr/bin/openssl
+/usr/bin/rctest
+unable to determine raw device of /usr/bin/rctest
+unable to raw open /usr/bin/rctest
+/usr/bin/qtplugininfo
+/usr/bin/qtplugininfo is not a regular file.
+/usr/bin/gcov
+/usr/bin/gcov is not a regular file.
+/usr/bin/qemu-system-avr
+unable to determine raw device of /usr/bin/qemu-system-avr
+unable to raw open /usr/bin/qemu-system-avr
+/usr/bin/pamoil
+unable to determine raw device of /usr/bin/pamoil
+unable to raw open /usr/bin/pamoil
+/usr/bin/xedit
+unable to determine raw device of /usr/bin/xedit
+unable to raw open /usr/bin/xedit
+/usr/bin/pdf2ps
+unable to determine raw device of /usr/bin/pdf2ps
+unable to raw open /usr/bin/pdf2ps
+/usr/bin/rstartd
+unable to determine raw device of /usr/bin/rstartd
+unable to raw open /usr/bin/rstartd
+/usr/bin/pyversions
+/usr/bin/pyversions is not a regular file.
+/usr/bin/renice
+unable to determine raw device of /usr/bin/renice
+unable to raw open /usr/bin/renice
+/usr/bin/fwupdate
+unable to determine raw device of /usr/bin/fwupdate
+unable to raw open /usr/bin/fwupdate
+/usr/bin/ksmserver
+unable to determine raw device of /usr/bin/ksmserver
+unable to raw open /usr/bin/ksmserver
+/usr/bin/zsh
+unable to determine raw device of /usr/bin/zsh
+unable to raw open /usr/bin/zsh
+/usr/bin/ijs_pxljr
+unable to determine raw device of /usr/bin/ijs_pxljr
+unable to raw open /usr/bin/ijs_pxljr
+/usr/bin/pygettext2
+/usr/bin/pygettext2 is not a regular file.
+/usr/bin/m2300w-wrapper
+unable to determine raw device of /usr/bin/m2300w-wrapper
+unable to raw open /usr/bin/m2300w-wrapper
+/usr/bin/groff
+unable to determine raw device of /usr/bin/groff
+unable to raw open /usr/bin/groff
+/usr/bin/valgrind-di-server
+unable to determine raw device of /usr/bin/valgrind-di-server
+unable to raw open /usr/bin/valgrind-di-server
+/usr/bin/korgac
+unable to determine raw device of /usr/bin/korgac
+unable to raw open /usr/bin/korgac
+/usr/bin/update-mime-database
+unable to determine raw device of /usr/bin/update-mime-database
+unable to raw open /usr/bin/update-mime-database
+/usr/bin/dir
+unable to determine raw device of /usr/bin/dir
+unable to raw open /usr/bin/dir
+/usr/bin/ppdmerge
+unable to determine raw device of /usr/bin/ppdmerge
+unable to raw open /usr/bin/ppdmerge
+/usr/bin/nslookup
+unable to determine raw device of /usr/bin/nslookup
+unable to raw open /usr/bin/nslookup
+/usr/bin/updatedb
+/usr/bin/updatedb is not a regular file.
+/usr/bin/nautilus-sendto
+unable to determine raw device of /usr/bin/nautilus-sendto
+unable to raw open /usr/bin/nautilus-sendto
+/usr/bin/ntfsmove
+unable to determine raw device of /usr/bin/ntfsmove
+unable to raw open /usr/bin/ntfsmove
+/usr/bin/appres
+unable to determine raw device of /usr/bin/appres
+unable to raw open /usr/bin/appres
+/usr/bin/sum
+unable to determine raw device of /usr/bin/sum
+unable to raw open /usr/bin/sum
+/usr/bin/apropos
+/usr/bin/apropos is not a regular file.
+/usr/bin/kdeconnect-app
+unable to determine raw device of /usr/bin/kdeconnect-app
+unable to raw open /usr/bin/kdeconnect-app
+/usr/bin/pnmhisteq
+unable to determine raw device of /usr/bin/pnmhisteq
+unable to raw open /usr/bin/pnmhisteq
+/usr/bin/w
+unable to determine raw device of /usr/bin/w
+unable to raw open /usr/bin/w
+/usr/bin/kpackagelauncherqml
+unable to determine raw device of /usr/bin/kpackagelauncherqml
+unable to raw open /usr/bin/kpackagelauncherqml
+/usr/bin/cautious-launcher
+unable to determine raw device of /usr/bin/cautious-launcher
+unable to raw open /usr/bin/cautious-launcher
+/usr/bin/ghostscript
+/usr/bin/ghostscript is not a regular file.
+/usr/bin/zip
+unable to determine raw device of /usr/bin/zip
+unable to raw open /usr/bin/zip
+/usr/bin/pr
+unable to determine raw device of /usr/bin/pr
+unable to raw open /usr/bin/pr
+/usr/bin/lnstat
+unable to determine raw device of /usr/bin/lnstat
+unable to raw open /usr/bin/lnstat
+/usr/bin/viewres
+unable to determine raw device of /usr/bin/viewres
+unable to raw open /usr/bin/viewres
+/usr/bin/display
+/usr/bin/display is not a regular file.
+/usr/bin/ping
+unable to determine raw device of /usr/bin/ping
+unable to raw open /usr/bin/ping
+/usr/bin/p7sign
+unable to determine raw device of /usr/bin/p7sign
+unable to raw open /usr/bin/p7sign
+/usr/bin/eject
+unable to determine raw device of /usr/bin/eject
+unable to raw open /usr/bin/eject
+/usr/bin/cksum
+unable to determine raw device of /usr/bin/cksum
+unable to raw open /usr/bin/cksum
+/usr/bin/lsblk
+unable to determine raw device of /usr/bin/lsblk
+unable to raw open /usr/bin/lsblk
+/usr/bin/md5sum
+unable to determine raw device of /usr/bin/md5sum
+unable to raw open /usr/bin/md5sum
+/usr/bin/oxygen-settings5
+unable to determine raw device of /usr/bin/oxygen-settings5
+unable to raw open /usr/bin/oxygen-settings5
+/usr/bin/sigfind
+unable to determine raw device of /usr/bin/sigfind
+unable to raw open /usr/bin/sigfind
+/usr/bin/x86_64-linux-gnu-strings
+unable to determine raw device of /usr/bin/x86_64-linux-gnu-strings
+unable to raw open /usr/bin/x86_64-linux-gnu-strings
+/usr/bin/zgrep
+unable to determine raw device of /usr/bin/zgrep
+unable to raw open /usr/bin/zgrep
+/usr/bin/xcmsdb
+unable to determine raw device of /usr/bin/xcmsdb
+unable to raw open /usr/bin/xcmsdb
+/usr/bin/login
+unable to determine raw device of /usr/bin/login
+unable to raw open /usr/bin/login
+/usr/bin/wayland-scanner
+unable to determine raw device of /usr/bin/wayland-scanner
+unable to raw open /usr/bin/wayland-scanner
+/usr/bin/colrm
+unable to determine raw device of /usr/bin/colrm
+unable to raw open /usr/bin/colrm
+/usr/bin/gdm-screenshot
+unable to determine raw device of /usr/bin/gdm-screenshot
+unable to raw open /usr/bin/gdm-screenshot
+/usr/bin/pnmtile
+unable to determine raw device of /usr/bin/pnmtile
+unable to raw open /usr/bin/pnmtile
+/usr/bin/host
+unable to determine raw device of /usr/bin/host
+unable to raw open /usr/bin/host
+/usr/bin/systemmonitor
+unable to determine raw device of /usr/bin/systemmonitor
+unable to raw open /usr/bin/systemmonitor
+/usr/bin/xsetpointer
+unable to determine raw device of /usr/bin/xsetpointer
+unable to raw open /usr/bin/xsetpointer
+/usr/bin/contactthemeeditor
+unable to determine raw device of /usr/bin/contactthemeeditor
+unable to raw open /usr/bin/contactthemeeditor
+/usr/bin/gnome-control-center
+unable to determine raw device of /usr/bin/gnome-control-center
+unable to raw open /usr/bin/gnome-control-center
+/usr/bin/asan_symbolize-11
+unable to determine raw device of /usr/bin/asan_symbolize-11
+unable to raw open /usr/bin/asan_symbolize-11
+/usr/bin/x86_64-linux-gnu-python3.10-config
+unable to determine raw device of /usr/bin/x86_64-linux-gnu-python3.10-config
+unable to raw open /usr/bin/x86_64-linux-gnu-python3.10-config
+/usr/bin/gslp
+unable to determine raw device of /usr/bin/gslp
+unable to raw open /usr/bin/gslp
+/usr/bin/gpgconf
+unable to determine raw device of /usr/bin/gpgconf
+unable to raw open /usr/bin/gpgconf
+/usr/bin/pidwait
+unable to determine raw device of /usr/bin/pidwait
+unable to raw open /usr/bin/pidwait
+/usr/bin/qemu-ppc64le
+unable to determine raw device of /usr/bin/qemu-ppc64le
+unable to raw open /usr/bin/qemu-ppc64le
+/usr/bin/brave-browser-stable
+/usr/bin/brave-browser-stable is not a regular file.
+/usr/bin/whereis
+unable to determine raw device of /usr/bin/whereis
+unable to raw open /usr/bin/whereis
+/usr/bin/xdg-settings
+unable to determine raw device of /usr/bin/xdg-settings
+unable to raw open /usr/bin/xdg-settings
+/usr/bin/podchecker
+unable to determine raw device of /usr/bin/podchecker
+unable to raw open /usr/bin/podchecker
+/usr/bin/skill
+unable to determine raw device of /usr/bin/skill
+unable to raw open /usr/bin/skill
+/usr/bin/strings
+/usr/bin/strings is not a regular file.
+/usr/bin/cardos-tool
+unable to determine raw device of /usr/bin/cardos-tool
+unable to raw open /usr/bin/cardos-tool
+/usr/bin/libwacom-list-local-devices
+unable to determine raw device of /usr/bin/libwacom-list-local-devices
+unable to raw open /usr/bin/libwacom-list-local-devices
+/usr/bin/pw-metadata
+unable to determine raw device of /usr/bin/pw-metadata
+unable to raw open /usr/bin/pw-metadata
+/usr/bin/ngettext
+unable to determine raw device of /usr/bin/ngettext
+unable to raw open /usr/bin/ngettext
+/usr/bin/bluetooth
+unable to determine raw device of /usr/bin/bluetooth
+unable to raw open /usr/bin/bluetooth
+/usr/bin/catppt
+unable to determine raw device of /usr/bin/catppt
+unable to raw open /usr/bin/catppt
+/usr/bin/x86_64-linux-gnu-ar
+unable to determine raw device of /usr/bin/x86_64-linux-gnu-ar
+unable to raw open /usr/bin/x86_64-linux-gnu-ar
+/usr/bin/toe
+unable to determine raw device of /usr/bin/toe
+unable to raw open /usr/bin/toe
+/usr/bin/py3versions
+/usr/bin/py3versions is not a regular file.
+/usr/bin/llvm-lipo-11
+/usr/bin/llvm-lipo-11 is not a regular file.
+/usr/bin/brushtopbm
+unable to determine raw device of /usr/bin/brushtopbm
+unable to raw open /usr/bin/brushtopbm
+/usr/bin/gst-launch-1.0
+unable to determine raw device of /usr/bin/gst-launch-1.0
+unable to raw open /usr/bin/gst-launch-1.0
+/usr/bin/sbsiglist
+unable to determine raw device of /usr/bin/sbsiglist
+unable to raw open /usr/bin/sbsiglist
+/usr/bin/kmail_fprot
+unable to determine raw device of /usr/bin/kmail_fprot
+unable to raw open /usr/bin/kmail_fprot
+/usr/bin/start-pulseaudio-x11
+unable to determine raw device of /usr/bin/start-pulseaudio-x11
+unable to raw open /usr/bin/start-pulseaudio-x11
+/usr/bin/pybabel-python3
+unable to determine raw device of /usr/bin/pybabel-python3
+unable to raw open /usr/bin/pybabel-python3
+/usr/bin/nautilus
+unable to determine raw device of /usr/bin/nautilus
+unable to raw open /usr/bin/nautilus
+/usr/bin/pydoc2
+/usr/bin/pydoc2 is not a regular file.
+/usr/bin/dh_dkms
+unable to determine raw device of /usr/bin/dh_dkms
+unable to raw open /usr/bin/dh_dkms
+/usr/bin/findmnt
+unable to determine raw device of /usr/bin/findmnt
+unable to raw open /usr/bin/findmnt
+/usr/bin/git-receive-pack
+/usr/bin/git-receive-pack is not a regular file.
+/usr/bin/x86_64-linux-gnu-ld
+/usr/bin/x86_64-linux-gnu-ld is not a regular file.
+/usr/bin/systemd-ask-password
+unable to determine raw device of /usr/bin/systemd-ask-password
+unable to raw open /usr/bin/systemd-ask-password
+/usr/bin/vim
+/usr/bin/vim is not a regular file.
+/usr/bin/partx
+unable to determine raw device of /usr/bin/partx
+unable to raw open /usr/bin/partx
+/usr/bin/ginstall-info
+/usr/bin/ginstall-info is not a regular file.
+/usr/bin/dash
+unable to determine raw device of /usr/bin/dash
+unable to raw open /usr/bin/dash
+/usr/bin/memusage
+unable to determine raw device of /usr/bin/memusage
+unable to raw open /usr/bin/memusage
+/usr/bin/ppmtopuzz
+unable to determine raw device of /usr/bin/ppmtopuzz
+unable to raw open /usr/bin/ppmtopuzz
+/usr/bin/qgltf
+/usr/bin/qgltf is not a regular file.
+/usr/bin/icuexportdata
+unable to determine raw device of /usr/bin/icuexportdata
+unable to raw open /usr/bin/icuexportdata
+/usr/bin/elfedit
+/usr/bin/elfedit is not a regular file.
+/usr/bin/wwan
+/usr/bin/wwan is not a regular file.
+/usr/bin/faillog
+unable to determine raw device of /usr/bin/faillog
+unable to raw open /usr/bin/faillog
+/usr/bin/fstopgm
+unable to determine raw device of /usr/bin/fstopgm
+unable to raw open /usr/bin/fstopgm
+/usr/bin/evince-previewer
+unable to determine raw device of /usr/bin/evince-previewer
+unable to raw open /usr/bin/evince-previewer
+/usr/bin/psfaddtable
+/usr/bin/psfaddtable is not a regular file.
+/usr/bin/bzcat
+unable to determine raw device of /usr/bin/bzcat
+unable to raw open /usr/bin/bzcat
+/usr/bin/knotes
+unable to determine raw device of /usr/bin/knotes
+unable to raw open /usr/bin/knotes
+/usr/bin/cvtsudoers
+unable to determine raw device of /usr/bin/cvtsudoers
+unable to raw open /usr/bin/cvtsudoers
+/usr/bin/hciconfig
+unable to determine raw device of /usr/bin/hciconfig
+unable to raw open /usr/bin/hciconfig
+/usr/bin/x86_64
+/usr/bin/x86_64 is not a regular file.
+/usr/bin/ibus
+unable to determine raw device of /usr/bin/ibus
+unable to raw open /usr/bin/ibus
+/usr/bin/sqfscat
+/usr/bin/sqfscat is not a regular file.
+/usr/bin/unzip
+/usr/bin/unzip has multiple links.
+unable to determine raw device of /usr/bin/unzip
+unable to raw open /usr/bin/unzip
+/usr/bin/lsattr
+unable to determine raw device of /usr/bin/lsattr
+unable to raw open /usr/bin/lsattr
+/usr/bin/llvm-mc-11
+/usr/bin/llvm-mc-11 is not a regular file.
+/usr/bin/llvm-opt-report-11
+/usr/bin/llvm-opt-report-11 is not a regular file.
+/usr/bin/pnmtofits
+unable to determine raw device of /usr/bin/pnmtofits
+unable to raw open /usr/bin/pnmtofits
+/usr/bin/file-roller
+unable to determine raw device of /usr/bin/file-roller
+unable to raw open /usr/bin/file-roller
+/usr/bin/perlivp
+unable to determine raw device of /usr/bin/perlivp
+unable to raw open /usr/bin/perlivp
+/usr/bin/akonadi_imap_resource
+unable to determine raw device of /usr/bin/akonadi_imap_resource
+unable to raw open /usr/bin/akonadi_imap_resource
+/usr/bin/netkey-tool
+unable to determine raw device of /usr/bin/netkey-tool
+unable to raw open /usr/bin/netkey-tool
+/usr/bin/not-11
+/usr/bin/not-11 is not a regular file.
+/usr/bin/setterm
+unable to determine raw device of /usr/bin/setterm
+unable to raw open /usr/bin/setterm
+/usr/bin/eglinfo
+/usr/bin/eglinfo is not a regular file.
+/usr/bin/nss-pp
+unable to determine raw device of /usr/bin/nss-pp
+unable to raw open /usr/bin/nss-pp
+/usr/bin/akonadi_pop3_resource
+unable to determine raw device of /usr/bin/akonadi_pop3_resource
+unable to raw open /usr/bin/akonadi_pop3_resource
+/usr/bin/llvm-strings-11
+/usr/bin/llvm-strings-11 is not a regular file.
+/usr/bin/eps2eps
+unable to determine raw device of /usr/bin/eps2eps
+unable to raw open /usr/bin/eps2eps
+/usr/bin/ppdhtml
+unable to determine raw device of /usr/bin/ppdhtml
+unable to raw open /usr/bin/ppdhtml
+/usr/bin/ppmtouil
+unable to determine raw device of /usr/bin/ppmtouil
+unable to raw open /usr/bin/ppmtouil
+/usr/bin/uptime
+unable to determine raw device of /usr/bin/uptime
+unable to raw open /usr/bin/uptime
+/usr/bin/egk-tool
+unable to determine raw device of /usr/bin/egk-tool
+unable to raw open /usr/bin/egk-tool
+/usr/bin/pbmpage
+unable to determine raw device of /usr/bin/pbmpage
+unable to raw open /usr/bin/pbmpage
+/usr/bin/pgmtexture
+unable to determine raw device of /usr/bin/pgmtexture
+unable to raw open /usr/bin/pgmtexture
+/usr/bin/chvt
+unable to determine raw device of /usr/bin/chvt
+unable to raw open /usr/bin/chvt
+/usr/bin/time
+unable to determine raw device of /usr/bin/time
+unable to raw open /usr/bin/time
+/usr/bin/grub-mkrescue
+unable to determine raw device of /usr/bin/grub-mkrescue
+unable to raw open /usr/bin/grub-mkrescue
+/usr/bin/i686-linux-gnu-pkg-config
+/usr/bin/i686-linux-gnu-pkg-config is not a regular file.
+/usr/bin/pbmtogem
+unable to determine raw device of /usr/bin/pbmtogem
+unable to raw open /usr/bin/pbmtogem
+/usr/bin/ubuntu-bug
+/usr/bin/ubuntu-bug is not a regular file.
+/usr/bin/kioclient
+unable to determine raw device of /usr/bin/kioclient
+unable to raw open /usr/bin/kioclient
+/usr/bin/grep-dctrl
+unable to determine raw device of /usr/bin/grep-dctrl
+unable to raw open /usr/bin/grep-dctrl
+/usr/bin/socat
+unable to determine raw device of /usr/bin/socat
+unable to raw open /usr/bin/socat
+/usr/bin/qemu-mipsel
+unable to determine raw device of /usr/bin/qemu-mipsel
+unable to raw open /usr/bin/qemu-mipsel
+/usr/bin/luit
+unable to determine raw device of /usr/bin/luit
+unable to raw open /usr/bin/luit
+/usr/bin/yuvsplittoppm
+unable to determine raw device of /usr/bin/yuvsplittoppm
+unable to raw open /usr/bin/yuvsplittoppm
+/usr/bin/rawtopgm
+unable to determine raw device of /usr/bin/rawtopgm
+unable to raw open /usr/bin/rawtopgm
+/usr/bin/lshw
+unable to determine raw device of /usr/bin/lshw
+unable to raw open /usr/bin/lshw
+/usr/bin/arm2hpdl
+unable to determine raw device of /usr/bin/arm2hpdl
+unable to raw open /usr/bin/arm2hpdl
+/usr/bin/sync
+unable to determine raw device of /usr/bin/sync
+unable to raw open /usr/bin/sync
+/usr/bin/mount
+unable to determine raw device of /usr/bin/mount
+unable to raw open /usr/bin/mount
+/usr/bin/foo2zjs-icc2ps
+/usr/bin/foo2zjs-icc2ps is not a regular file.
+/usr/bin/ubuntu-security-status
+unable to determine raw device of /usr/bin/ubuntu-security-status
+unable to raw open /usr/bin/ubuntu-security-status
+/usr/bin/vmstat
+unable to determine raw device of /usr/bin/vmstat
+unable to raw open /usr/bin/vmstat
+/usr/bin/amixer
+unable to determine raw device of /usr/bin/amixer
+unable to raw open /usr/bin/amixer
+/usr/bin/fonttosfnt
+unable to determine raw device of /usr/bin/fonttosfnt
+unable to raw open /usr/bin/fonttosfnt
+/usr/bin/cc
+/usr/bin/cc is not a regular file.
+/usr/bin/spa-inspect
+unable to determine raw device of /usr/bin/spa-inspect
+unable to raw open /usr/bin/spa-inspect
+/usr/bin/qemu-system-riscv32
+unable to determine raw device of /usr/bin/qemu-system-riscv32
+unable to raw open /usr/bin/qemu-system-riscv32
+/usr/bin/glxinfo
+/usr/bin/glxinfo is not a regular file.
+/usr/bin/valgrind.bin
+unable to determine raw device of /usr/bin/valgrind.bin
+unable to raw open /usr/bin/valgrind.bin
+/usr/bin/sh
+/usr/bin/sh is not a regular file.
+/usr/bin/qemu-ppc
+unable to determine raw device of /usr/bin/qemu-ppc
+unable to raw open /usr/bin/qemu-ppc
+/usr/bin/ss
+unable to determine raw device of /usr/bin/ss
+unable to raw open /usr/bin/ss
+/usr/bin/xcursorgen
+unable to determine raw device of /usr/bin/xcursorgen
+unable to raw open /usr/bin/xcursorgen
+/usr/bin/as
+/usr/bin/as is not a regular file.
+/usr/bin/qemu-system-x86_64-microvm
+unable to determine raw device of /usr/bin/qemu-system-x86_64-microvm
+unable to raw open /usr/bin/qemu-system-x86_64-microvm
+/usr/bin/lzcat
+/usr/bin/lzcat is not a regular file.
+/usr/bin/readelf
+/usr/bin/readelf is not a regular file.
+/usr/bin/qmlviewer
+/usr/bin/qmlviewer is not a regular file.
+/usr/bin/dircolors
+unable to determine raw device of /usr/bin/dircolors
+unable to raw open /usr/bin/dircolors
+/usr/bin/gsbj
+unable to determine raw device of /usr/bin/gsbj
+unable to raw open /usr/bin/gsbj
+/usr/bin/gdbtui
+unable to determine raw device of /usr/bin/gdbtui
+unable to raw open /usr/bin/gdbtui
+/usr/bin/cd-iccdump
+unable to determine raw device of /usr/bin/cd-iccdump
+unable to raw open /usr/bin/cd-iccdump
+/usr/bin/zstdmt
+/usr/bin/zstdmt is not a regular file.
+/usr/bin/getfacl
+unable to determine raw device of /usr/bin/getfacl
+unable to raw open /usr/bin/getfacl
+/usr/bin/slxdecode
+unable to determine raw device of /usr/bin/slxdecode
+unable to raw open /usr/bin/slxdecode
+/usr/bin/muon
+unable to determine raw device of /usr/bin/muon
+unable to raw open /usr/bin/muon
+/usr/bin/POST
+/usr/bin/POST is not a regular file.
+/usr/bin/pdb3.10
+/usr/bin/pdb3.10 is not a regular file.
+/usr/bin/qemu-system-nios2
+unable to determine raw device of /usr/bin/qemu-system-nios2
+unable to raw open /usr/bin/qemu-system-nios2
+/usr/bin/nmtui-connect
+/usr/bin/nmtui-connect is not a regular file.
+/usr/bin/llvm-cfi-verify-11
+/usr/bin/llvm-cfi-verify-11 is not a regular file.
+/usr/bin/xdg-user-dirs-gtk-update
+unable to determine raw device of /usr/bin/xdg-user-dirs-gtk-update
+unable to raw open /usr/bin/xdg-user-dirs-gtk-update
+/usr/bin/pathchk
+unable to determine raw device of /usr/bin/pathchk
+unable to raw open /usr/bin/pathchk
+/usr/bin/fbsvcmgr
+unable to determine raw device of /usr/bin/fbsvcmgr
+unable to raw open /usr/bin/fbsvcmgr
+/usr/bin/shred
+unable to determine raw device of /usr/bin/shred
+unable to raw open /usr/bin/shred
+/usr/bin/opensc-notify
+unable to determine raw device of /usr/bin/opensc-notify
+unable to raw open /usr/bin/opensc-notify
+/usr/bin/plasmawindowed
+unable to determine raw device of /usr/bin/plasmawindowed
+unable to raw open /usr/bin/plasmawindowed
+/usr/bin/fc-match
+unable to determine raw device of /usr/bin/fc-match
+unable to raw open /usr/bin/fc-match
+/usr/bin/mkfontscale
+unable to determine raw device of /usr/bin/mkfontscale
+unable to raw open /usr/bin/mkfontscale
+/usr/bin/llvm-objcopy-11
+/usr/bin/llvm-objcopy-11 is not a regular file.
+/usr/bin/pod2text
+unable to determine raw device of /usr/bin/pod2text
+unable to raw open /usr/bin/pod2text
+/usr/bin/lpstat
+unable to determine raw device of /usr/bin/lpstat
+unable to raw open /usr/bin/lpstat
+/usr/bin/lowntfs-3g
+unable to determine raw device of /usr/bin/lowntfs-3g
+unable to raw open /usr/bin/lowntfs-3g
+/usr/bin/ppmtoxpm
+unable to determine raw device of /usr/bin/ppmtoxpm
+unable to raw open /usr/bin/ppmtoxpm
+/usr/bin/gencat
+unable to determine raw device of /usr/bin/gencat
+unable to raw open /usr/bin/gencat
+/usr/bin/loffice
+unable to determine raw device of /usr/bin/loffice
+unable to raw open /usr/bin/loffice
+/usr/bin/gtester
+unable to determine raw device of /usr/bin/gtester
+unable to raw open /usr/bin/gtester
+/usr/bin/hostnamectl
+unable to determine raw device of /usr/bin/hostnamectl
+unable to raw open /usr/bin/hostnamectl
+/usr/bin/lsipc
+unable to determine raw device of /usr/bin/lsipc
+unable to raw open /usr/bin/lsipc
+/usr/bin/newgrp
+unable to determine raw device of /usr/bin/newgrp
+unable to raw open /usr/bin/newgrp
+/usr/bin/desktop-file-validate
+unable to determine raw device of /usr/bin/desktop-file-validate
+unable to raw open /usr/bin/desktop-file-validate
+/usr/bin/dpkg-scansources
+unable to determine raw device of /usr/bin/dpkg-scansources
+unable to raw open /usr/bin/dpkg-scansources
+/usr/bin/rev
+unable to determine raw device of /usr/bin/rev
+unable to raw open /usr/bin/rev
+/usr/bin/mboximporter
+unable to determine raw device of /usr/bin/mboximporter
+unable to raw open /usr/bin/mboximporter
+/usr/bin/xcutsel
+unable to determine raw device of /usr/bin/xcutsel
+unable to raw open /usr/bin/xcutsel
+/usr/bin/atobm
+unable to determine raw device of /usr/bin/atobm
+unable to raw open /usr/bin/atobm
+/usr/bin/sudoedit
+/usr/bin/sudoedit is not a regular file.
+/usr/bin/flex
+unable to determine raw device of /usr/bin/flex
+unable to raw open /usr/bin/flex
+/usr/bin/ktraderclient5
+unable to determine raw device of /usr/bin/ktraderclient5
+unable to raw open /usr/bin/ktraderclient5
+/usr/bin/lofromtemplate
+unable to determine raw device of /usr/bin/lofromtemplate
+unable to raw open /usr/bin/lofromtemplate
+/usr/bin/pnmtotiffcmyk
+unable to determine raw device of /usr/bin/pnmtotiffcmyk
+unable to raw open /usr/bin/pnmtotiffcmyk
+/usr/bin/sed
+unable to determine raw device of /usr/bin/sed
+unable to raw open /usr/bin/sed
+/usr/bin/usbreset
+unable to determine raw device of /usr/bin/usbreset
+unable to raw open /usr/bin/usbreset
+/usr/bin/keditfiletype5
+/usr/bin/keditfiletype5 is not a regular file.
+/usr/bin/sort
+unable to determine raw device of /usr/bin/sort
+unable to raw open /usr/bin/sort
+/usr/bin/setfont
+unable to determine raw device of /usr/bin/setfont
+unable to raw open /usr/bin/setfont
+/usr/bin/dirmngr-client
+find: ‘sudo’ terminated by signal 2
+/usr/bin/fusermount3
+unable to determine raw device of /usr/bin/fusermount3
+unable to raw open /usr/bin/fusermount3
+/usr/bin/kup-daemon
+unable to determine raw device of /usr/bin/kup-daemon
+unable to raw open /usr/bin/kup-daemon
+/usr/bin/nproc
+unable to determine raw device of /usr/bin/nproc
+unable to raw open /usr/bin/nproc
+/usr/bin/nautilus-autorun-software
+unable to determine raw device of /usr/bin/nautilus-autorun-software
+unable to raw open /usr/bin/nautilus-autorun-software
+/usr/bin/ppmtoicr
+unable to determine raw device of /usr/bin/ppmtoicr
+unable to raw open /usr/bin/ppmtoicr
+/usr/bin/dirname
+unable to determine raw device of /usr/bin/dirname
+unable to raw open /usr/bin/dirname
+/usr/bin/editcap
+unable to determine raw device of /usr/bin/editcap
+unable to raw open /usr/bin/editcap
+/usr/bin/fwupdtool
+unable to determine raw device of /usr/bin/fwupdtool
+unable to raw open /usr/bin/fwupdtool
+/usr/bin/bison.yacc
+unable to determine raw device of /usr/bin/bison.yacc
+unable to raw open /usr/bin/bison.yacc
+/usr/bin/join-dctrl
+unable to determine raw device of /usr/bin/join-dctrl
+unable to raw open /usr/bin/join-dctrl
+/usr/bin/pbmto10x
+unable to determine raw device of /usr/bin/pbmto10x
+unable to raw open /usr/bin/pbmto10x
+/usr/bin/qemu-system-xtensa
+unable to determine raw device of /usr/bin/qemu-system-xtensa
+unable to raw open /usr/bin/qemu-system-xtensa
+/usr/bin/make
+unable to determine raw device of /usr/bin/make
+unable to raw open /usr/bin/make
+/usr/bin/plocate
+unable to determine raw device of /usr/bin/plocate
+unable to raw open /usr/bin/plocate
+/usr/bin/kmimetypefinder5
+/usr/bin/kmimetypefinder5 is not a regular file.
+/usr/bin/kf5kross
+unable to determine raw device of /usr/bin/kf5kross
+unable to raw open /usr/bin/kf5kross
+/usr/bin/pbmtocmuwm
+unable to determine raw device of /usr/bin/pbmtocmuwm
+unable to raw open /usr/bin/pbmtocmuwm
+/usr/bin/gnome-keyring
+/usr/bin/gnome-keyring is not a regular file.
+/usr/bin/dpkg-genchanges
+unable to determine raw device of /usr/bin/dpkg-genchanges
+unable to raw open /usr/bin/dpkg-genchanges
+/usr/bin/akonadi_kalarm_dir_resource
+unable to determine raw device of /usr/bin/akonadi_kalarm_dir_resource
+unable to raw open /usr/bin/akonadi_kalarm_dir_resource
+/usr/bin/llvm-addr2line-11
+/usr/bin/llvm-addr2line-11 is not a regular file.
+/usr/bin/g++-11
+/usr/bin/g++-11 is not a regular file.
+/usr/bin/aptdcon
+unable to determine raw device of /usr/bin/aptdcon
+unable to raw open /usr/bin/aptdcon
+/usr/bin/rygel
+unable to determine raw device of /usr/bin/rygel
+unable to raw open /usr/bin/rygel
+/usr/bin/glib-gettextize
+unable to determine raw device of /usr/bin/glib-gettextize
+unable to raw open /usr/bin/glib-gettextize
+/usr/bin/compare-im6
+/usr/bin/compare-im6 is not a regular file.
+/usr/bin/canberra-gtk-play
+unable to determine raw device of /usr/bin/canberra-gtk-play
+unable to raw open /usr/bin/canberra-gtk-play
+/usr/bin/zstd
+unable to determine raw device of /usr/bin/zstd
+unable to raw open /usr/bin/zstd
+/usr/bin/printafm
+unable to determine raw device of /usr/bin/printafm
+unable to raw open /usr/bin/printafm
+/usr/bin/systemd-id128
+unable to determine raw device of /usr/bin/systemd-id128
+unable to raw open /usr/bin/systemd-id128
+/usr/bin/mysql
+/usr/bin/mysql is not a regular file.
+/usr/bin/chattr
+unable to determine raw device of /usr/bin/chattr
+unable to raw open /usr/bin/chattr
+/usr/bin/fls
+unable to determine raw device of /usr/bin/fls
+unable to raw open /usr/bin/fls
+/usr/bin/tnftp
+unable to determine raw device of /usr/bin/tnftp
+unable to raw open /usr/bin/tnftp
+/usr/bin/ncurses6-config
+unable to determine raw device of /usr/bin/ncurses6-config
+unable to raw open /usr/bin/ncurses6-config
+/usr/bin/symkeyutil
+unable to determine raw device of /usr/bin/symkeyutil
+unable to raw open /usr/bin/symkeyutil
+/usr/bin/m2300w
+unable to determine raw device of /usr/bin/m2300w
+unable to raw open /usr/bin/m2300w
+/usr/bin/conjure-im6
+/usr/bin/conjure-im6 is not a regular file.
+/usr/bin/printer-profile
+unable to determine raw device of /usr/bin/printer-profile
+unable to raw open /usr/bin/printer-profile
+/usr/bin/rasttopnm
+unable to determine raw device of /usr/bin/rasttopnm
+unable to raw open /usr/bin/rasttopnm
+/usr/bin/grub-file
+unable to determine raw device of /usr/bin/grub-file
+unable to raw open /usr/bin/grub-file
+/usr/bin/base32
+unable to determine raw device of /usr/bin/base32
+unable to raw open /usr/bin/base32
+/usr/bin/mmdbresolve
+unable to determine raw device of /usr/bin/mmdbresolve
+unable to raw open /usr/bin/mmdbresolve
+/usr/bin/debugapp
+unable to determine raw device of /usr/bin/debugapp
+unable to raw open /usr/bin/debugapp
+/usr/bin/cg_merge
+unable to determine raw device of /usr/bin/cg_merge
+unable to raw open /usr/bin/cg_merge
+/usr/bin/foo2zjs
+unable to determine raw device of /usr/bin/foo2zjs
+unable to raw open /usr/bin/foo2zjs
+/usr/bin/mawk
+unable to determine raw device of /usr/bin/mawk
+unable to raw open /usr/bin/mawk
+/usr/bin/kded5
+unable to determine raw device of /usr/bin/kded5
+unable to raw open /usr/bin/kded5
+/usr/bin/pgmoil
+/usr/bin/pgmoil is not a regular file.
+/usr/bin/slack
+/usr/bin/slack is not a regular file.
+/usr/bin/pnmpsnr
+unable to determine raw device of /usr/bin/pnmpsnr
+unable to raw open /usr/bin/pnmpsnr
+/usr/bin/llvm-dwarfdump-11
+/usr/bin/llvm-dwarfdump-11 is not a regular file.
+/usr/bin/sddm
+unable to determine raw device of /usr/bin/sddm
+unable to raw open /usr/bin/sddm
+/usr/bin/fakeroot-sysv
+unable to determine raw device of /usr/bin/fakeroot-sysv
+unable to raw open /usr/bin/fakeroot-sysv
+/usr/bin/xwininfo
+unable to determine raw device of /usr/bin/xwininfo
+unable to raw open /usr/bin/xwininfo
+/usr/bin/rnano
+/usr/bin/rnano is not a regular file.
+/usr/bin/mesg
+unable to determine raw device of /usr/bin/mesg
+unable to raw open /usr/bin/mesg
+/usr/bin/python
+/usr/bin/python is not a regular file.
+/usr/bin/virtualboxvm
+/usr/bin/virtualboxvm is not a regular file.
+/usr/bin/pnmarith
+unable to determine raw device of /usr/bin/pnmarith
+unable to raw open /usr/bin/pnmarith
+/usr/bin/compare
+/usr/bin/compare is not a regular file.
+/usr/bin/lookandfeeltool
+/usr/bin/lookandfeeltool is not a regular file.
+/usr/bin/gunzip
+/usr/bin/gunzip has multiple links.
+unable to determine raw device of /usr/bin/gunzip
+unable to raw open /usr/bin/gunzip
+/usr/bin/nfc
+/usr/bin/nfc is not a regular file.
+/usr/bin/touch
+unable to determine raw device of /usr/bin/touch
+unable to raw open /usr/bin/touch
+/usr/bin/cg_diff
+unable to determine raw device of /usr/bin/cg_diff
+unable to raw open /usr/bin/cg_diff
+/usr/bin/unxz
+/usr/bin/unxz is not a regular file.
+/usr/bin/systemsettings
+unable to determine raw device of /usr/bin/systemsettings
+unable to raw open /usr/bin/systemsettings
+/usr/bin/gsettings
+unable to determine raw device of /usr/bin/gsettings
+unable to raw open /usr/bin/gsettings
+/usr/bin/wbmptopbm
