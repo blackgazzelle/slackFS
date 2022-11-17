@@ -1,4 +1,7 @@
 #!/bin/bash
+# Author: Avinash Srinivasan
+# Modified By: Christian Rose
+#
 if [ $1 ] && [ -d $1 ];
 then
     echo "Getting slack space of $1 please check the textFiles folder for the TotalSlack.txt output file"
