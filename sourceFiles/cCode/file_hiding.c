@@ -1,16 +1,16 @@
-#include <file_hiding.h>
+#include "file_hiding.h"
 
 int main(int argc, char * argv[]) {
-    char *map_file, *disk_file, *cover_file;
+    char *map_file, *disk_file;
     // Argument Check
-    if (argc < 3) {
-        puts("USAGE: file_hiding <OP> <OPERATION SPECIFIC OPTIONS"
-            "USAGE file_hiding strip <map_file> <disk_file> <cover_file>"
-            "USAGE file_hiding hide <map_file> <disk_file> <cover_file>"
-            "USAGE file_hiding hide_null <map_file> <disk_file> <cover_file>"
-            "USAGE file_hiding retrieve <map_file> <disk_file> <cover_file>"
-            "USAGE file_hiding restore <map_file> <disk_file> <cover_file>"
-            "USAGE file_hiding restore_null <map_file> <disk_file> <cover_file>");
+    if (argc < 2) {
+        puts("USAGE: file_hiding <OP> <OPERATION SPECIFIC OPTION>\n"
+            "USAGE: file_hiding strip <map_file> <disk_file>\n"
+            "USAGE: file_hiding hide <map_file> <disk_file> <cover_file>\n"
+            "USAGE: file_hiding hide_null <map_file> <disk_file> <cover_file>\n"
+            "USAGE: file_hiding retrieve <map_file> <disk_file> <cover_file>\n"
+            "USAGE: file_hiding restore <map_file> <disk_file> <cover_file>\n"
+            "USAGE: file_hiding restore_null <map_file> <disk_file> <cover_file>");
         return 0;
     }
 
@@ -21,25 +21,24 @@ int main(int argc, char * argv[]) {
     int ret;
     if (strcmp(operation, "strip") == 0) {
         // Check for additional arguments
-        if (argc < 6) {
-            puts("USAGE file_hiding strip <map_file> <disk_file> <cover_file>");
+        if (argc < 4) {
+            puts("USAGE file_hiding strip <map_file> <disk_file>");
             return 0;
         }
 
         // Grab filenames
         map_file = argv[MAP_FILE];
         disk_file = argv[DISK_FILE];
-        cover_file = argv[COVER_FILE];
 
         // Strip file and exit if error
-        ret = strip_null(map_file, disk_file, cover_file);
+        ret = strip_null(map_file, disk_file);
         if (ret < 0) {
             fprintf(stderr, "ERROR: in strip_null function, error code %d\n", ret);
             return 0;
         }
     }
     else if (strcmp(operation, "hide") == 0) {
-        ret = strip_null(map_file, disk_file, cover_file);
+        ret = strip_null(map_file, disk_file);
     }
     else if (strcmp(operation, "hide_null") == 0) {}
     else if (strcmp(operation, "retrieve") == 0) {}
@@ -54,12 +53,11 @@ int main(int argc, char * argv[]) {
 }
 
 /*
- * Take a map file, a disk file, and a coverfile list, use the coverfile list
- * to correctly map the disk file and strip the null bytes, storing those 
- * positions in the map file.
+ * Take a map file and a disk file. Correctly map the disk file and
+ * strip the null bytes, storing those positions in the map file.
  */
-int strip_null(char * map_file, char * disk_file, char * cover_file) {
-    FILE * map_fp, *disk_fp, *cover_fp, *dst_fp;
+int strip_null(char * map_file, char * disk_file) {
+    FILE * map_fp, *disk_fp, *dst_fp;
     char ch;
     struct stat disk_st;
     int stat_disk_file_size, null_len = 0, null_add = 0;
@@ -84,7 +82,7 @@ int strip_null(char * map_file, char * disk_file, char * cover_file) {
 
     // Open new destination file for stripped disk
     char * dst_file = malloc(strlen(disk_file)+10);
-    dst_file = sprintf(dst_file, "%s_stripped", disk_file);
+    sprintf(dst_file, "%s_stripped", disk_file);
     dst_fp = fopen(dst_file, "wb");
     if (dst_fp == NULL) {
         perror("ERROR: destination file");
@@ -138,6 +136,12 @@ int strip_null(char * map_file, char * disk_file, char * cover_file) {
     return 0;
 }
 
-int hide_file(char * filename){}
-int retrieve_file(char * filename){}
-int restore_null(char * filename){}
+int hide_file(char * filename){
+    return 0;
+}
+int retrieve_file(char * filename){
+    return 0;
+}
+int restore_null(char * filename){
+    return 0;
+}
