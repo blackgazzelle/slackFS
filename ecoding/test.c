@@ -66,18 +66,15 @@ int main() {
     printf("Decoding was a %s, code was: %d\n", ret ? "Failure" : "Success", ret);
     printf("Data size is %ld\nData is\n%s\n", out_data_len, out_data);
     puts("\n\n\n");
-    puts("##################TESTING MISSING THE FIRST FRAG################");
-    char **missing_1 = calloc(23,sizeof(char*));
-    int i = 1;
-    for (; i < args.k; i++) {
-        missing_1[i-1] = strndup(encoded_data[i], fragment_len);
+    puts("##################WRITING DATA TO OUPUT FILES################"); 
+    int i = 0;
+    for(;i < args.k; i++) {
+        char * fname = malloc(16);
+        char * num = malloc(4);
+        num = itoa(i, num, 10);
+        strcat(fname, num);
+        FILE * fp = fopen(fname);
     }
-    for (int j = 0; j < args.m; j++) { 
-        missing_1[i+j] = strndup(encoded_parity[i], fragment_len);
-    }
-    char * out_fragment;
-    ret = liberasurecode_reconstruct_fragment(instance_descriptor, missing_1, args.k+args.m-1, fragment_len, 0, out_fragment);
-    printf("Reconstruction was a %s, code was: %d\n", ret ? "Failure" : "Success", ret);
     fclose(fp);
     liberasurecode_decode_cleanup(instance_descriptor, out_data);
     liberasurecode_encode_cleanup(instance_descriptor, encoded_data, encoded_parity);

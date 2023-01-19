@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "erasurecode.h": "c"
+        "erasurecode.h": "c",
+        "stdio.h": "c",
+        "stat.h": "c"
     }
 }
