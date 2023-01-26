@@ -51,6 +51,7 @@ int main(int argc, char const *argv[])
     exit(EXIT_FAILURE);
   }
 
+  printf("%s\n", srcFullPATH);
   fp_srcIMG = fopen(srcFullPATH, "rb");
   if (fp_srcIMG == NULL)
   {
@@ -63,11 +64,10 @@ int main(int argc, char const *argv[])
 
   while(!feof(fp_mapFile) && !feof(fp_srcIMG))
   {
-    if(bytesWritten >= statFileSize)
-      break;
 
     coverFileCounter++;
 
+    puts("yeet");
     char finalCMD[1024]={0}, coverFileName[128]={0};
     int availableSlack=0;
 
@@ -132,6 +132,7 @@ int main(int argc, char const *argv[])
 
     strcpy(finalCMD, leftCMD);
     strcat(finalCMD, rightCMD);
+    printf("%s\n", finalCMD);
     sysCallRet = system(finalCMD);
     if (sysCallRet == -1 && WIFEXITED(sysCallRet))
     {

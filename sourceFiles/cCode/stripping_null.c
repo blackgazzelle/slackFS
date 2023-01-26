@@ -29,7 +29,7 @@ int main(int argc, char const *argv[])
 
   // root folder of all project files
   // need to update the fixedPATH for your system
-  char *fixedPATH = "/media/sf_Ubuntu_share/fileSys_in_slack/";
+  char *fixedPATH = "../../";
 
   // will store complete path to srcIMG
   char srcFullPATH [128] = {0};
@@ -42,14 +42,14 @@ int main(int argc, char const *argv[])
 
   // relative paths to srcIMG, dstIMG, and mapFile from fixedPATH
   // file to strip off all NULL bytes from
-  char srcIMG[] = "imageFiles/fat16FS_full200MB.dmg";
+  char srcIMG[] = "imageFiles/myimg.img";
 
   // file to create that is a copy of srcIMG without NULL bytes
-  char dstIMG[] = "imageFiles/fat16FS_full200MB_noNull.dmg";
+  char dstIMG[] = "imageFiles/myimg.img";
 
   // below file will be created with the start address
   // and length of every NULL byte sequence in the srcIMG
-  char mapFile[] = "mapFiles/mapFile_fat16FS_full200MB.txt";
+  char mapFile[] = "mapFiles/mapFile_myimg.txt";
 
   // below 6 lines of code can be eliminated if assigning
   // absolute path to srcIMG, dstIMG, and mapFile and update
