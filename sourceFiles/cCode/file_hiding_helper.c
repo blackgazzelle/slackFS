@@ -248,18 +248,211 @@ int hide_file(char * frag_dir_name, char * cover_files) {
             return -errno;
         }
     }
+    fclose(cover_fp);
     free(cmd);
     return 0;
 }
 
-int retrieve_file(char * filename){
+decode_data* retrieve_file(char* cover_files, int frag_size, int num_of_frags){
+    char * cmd = malloc(CMD_LEN);
+    char * tmp_file = "frag_tmp.txt";
+    int ret;
+    // Set up decode data Struct
+    decode_data * dc_data = malloc(sizeof(decode_data*));
+    dc_data->data = calloc(num_of_frags, sizeof(char*));
+    dc_data->num_of_frags = num_of_frags;
+    dc_data->frag_size = frag_size;
+
+    // Open cover file list
+    FILE * cover_fp = fopen(cover_files, "r");
+    if (cover_fp == NULL) {
+        perror("ERROR: cannot open cover file list");
+        return NULL;
+    }
+
+    /* For each frag retrieve it from the cover file, in the same order that
+     * they were stored
+    */
+    for (int i = 0; i < num_of_frags; i++) {
+        int available_slack = 0, skip_size=0, block_size;
+        do {            
+            // Get cover file and size
+            char * cover_file = malloc(FILENAME_MAX);
+            fscanf(cover_fp, "%s", cover_file);
+            struct stat st_cover;
+
+            // Make sure cover file is a regular file
+            if ((stat(cover_file, &st_cover) == -1) && 
+                    S_ISREG(st_cover.st_mode) != 0) {
+                    free(cover_file);
+                    continue;
+            }
+
+            // Make sure the available slack is big enough for the fragment
+            fscanf(cover_fp, "%i", &available_slack);
+            if (frag_size > available_slack) {
+                free(cover_file);
+                continue;
+            }
+
+            // Use bmap and retrieve the fragment from the slack space
+            block_size = available_slack;
+            sprintf(cmd, "sudo ../../bmap/bmap --mode slack %s | dd of=%s "
+                    "oflag=seek_bytes count=1 bs=%d seek=%d",
+                    cover_file,
+                    tmp_file,
+                    block_size,
+                    skip_size);
+            if(ret = system(cmd)) {
+                free(cover_file);
+                // Read from tmp file and store in array
+                FILE * tmp_fp = fopen(tmp_file, "rb");
+                if (tmp_fp == NULL) {
+                    perror("ERROR: cannot temp file");
+                    return NULL;
+                }
+                fread(dc_data->data[i], 1, frag_size, tmp_fp);
+                fclose(tmp_fp);
+                break;
+            }
+
+            free(cover_file);
+        } while(1);
+    }
+    fclose(cover_fp);
+    free(cmd);
+
+    return dc_data;
+}
+
+int file_decode(char* out_file, decode_data * dc, int ec_id, int k, int m, int w, int hd) {
+    // Set up backend
+    ec_backend_id_t id = ec_id;
+
+    // Creating a new instance of the erasure coder
+    struct ec_args args;
+    args.k = 16;
+    args.m = 8;
+    args.w = 8;
+    args.hd = args.m;
+    char * out_data;
+    u_int64_t out_data_len;
+    int instance_descriptor = liberasurecode_instance_create(id, &args);
+    int ret = liberasurecode_decode(instance_descriptor, dc->data,
+                    dc->num_of_frags, dc->frag_size, 0, &out_data, &out_data_len);
+
+    // Write to outfile
+    FILE * out_fp = fopen(out_file, "wb");
+    if (out_fp == NULL) {
+        perror("ERROR: cannot open cover file list");
+        return -errno;
+    }
+    fwrite(out_data, 1, out_data_len, out_fp);
+
+    // Clean up data
+    fclose(out_fp);
     return 0;
 }
 
-int file_decode(char * filename) {
+int restore_null(char * input_file, char * out_file, char * map_file, char * orig_file)
+{
+    FILE *map_fp, *input_fp, *out_fp;
 
+    struct stat st;
+    // computing size of the original filesystem ".dmg" file
+    // you need to update this accordingly
+    stat(orig_file, &st);
+    int statFileSize = st.st_size;
+
+    // open the map file
+    map_fp = fopen(map_file, "r");
+    if (map_fp == NULL)
+    {
+        ferror(map_fp);
+        fclose(map_fp);
+        return -errno;
+    }
+    // image that needs to be restored to full size
+    // by reinserting null-byte(s) referencing *fpMap
+    input_fp = fopen(input_file, "rb");
+    if (input_fp == NULL)
+    {
+        ferror(input_fp);
+        fclose(input_fp);
+        return -errno;
+    }
+
+    // file to write the restored filesystem image
+    out_fp = fopen(out_file, "wb");
+    if (out_fp == NULL)
+    {
+        ferror(out_fp);
+        fclose(out_fp);
+        return -errno;
+    }
+
+    // variables to track start address and length
+    // null bytes sequence entries in mapFile
+    int nullADD = 0, nullLEN = 0;
+
+    // variables to track start address and length
+    // of data bytes in the srcIMG (.dmg without NULL bytes)
+    int dataADD = 0, dataLEN = 0;
+
+    while (1)
+    {
+        nullADD = 0, nullLEN = 0, dataLEN = 0;
+        if (!feof(map_fp))
+        {
+            fscanf(map_fp, "%d %d", &nullADD, &nullLEN);
+
+            // checking NULL byte start address and then deciding how
+            // many bytes to read from the srcIMG with no NULL
+            dataLEN = abs(nullADD - dataADD);
+            if (dataADD + dataLEN > statFileSize)
+            {
+                dataLEN = statFileSize - dataADD;
+            }
+
+            char *tempDataBuff = malloc(dataLEN * sizeof(char));
+            fread(tempDataBuff, dataLEN, sizeof(char), input_fp);
+            if (!fseek(out_fp, dataADD, SEEK_SET))
+                ferror(out_fp);
+
+            if (!fwrite(tempDataBuff, dataLEN, sizeof(char), out_fp))
+                ferror(out_fp);
+            memset(tempDataBuff, 0x00, dataLEN);
+
+            char *tempNullBuff = malloc(nullLEN * sizeof(char));
+            memset(tempNullBuff, 0x00, nullLEN);
+            if (!fseek(out_fp, nullADD, SEEK_SET))
+                ferror(out_fp);
+            if (!fwrite(tempNullBuff, nullLEN, sizeof(char), out_fp))
+                ferror(out_fp);
+
+            if (((dataADD + dataLEN) > statFileSize) ||
+                ((nullADD + nullLEN) > statFileSize) || (feof(map_fp)))
+            {
+                break;
+            }
+            else
+            {
+                dataADD = (nullADD + nullLEN);
+            }
+        }
+    }
+
+    fclose(map_fp);
+    fclose(input_fp);
+    fclose(out_fp);
+    return 0;
 }
 
-int restore_null(char * filename){
+int free_data(decode_data * dc) {
+    for (int i = 0; i < dc->num_of_frags; i++) {
+        free(dc->data[i]);
+    }
+    free(dc->data);
+    free(dc);
     return 0;
 }

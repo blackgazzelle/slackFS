@@ -68,14 +68,13 @@ int main(int argc, char const *argv[])
   int bytesRestored=0, bytesRemaining = statFileSize, coverFileCounter=0;
   while(!feof(fp_dstIMG) || !feof(fp_coverFileList))
   {
-    if(bytesRestored >= statFileSize)
-      break;
+    //if(bytesRestored >= statFileSize)
+      //break;
     coverFileCounter++;
     char finalCMD[1024]={0};
     char coverFileName[128]={0};
 
     int availableSlack=0;
-
     char fixedCMDL[128] = "sudo ../../bmap/bmap --mode slack ";
     char leftCMD[256]= {0};
     strncpy(leftCMD, fixedCMDL, strlen(fixedCMDL));
@@ -126,7 +125,7 @@ int main(int argc, char const *argv[])
 
     strcpy(finalCMD, leftCMD);
     strcat(finalCMD, rightCMD);
-
+    puts(finalCMD);
     sysRet = system(finalCMD);
     if (sysRet == -1 && WIFEXITED(sysRet))
       printf("Error: Terminated with status %d\n", WEXITSTATUS(sysRet));

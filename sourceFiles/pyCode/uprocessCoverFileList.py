@@ -9,41 +9,30 @@
 #  2. usrCoverFileSize.txt
 #  3. usrCoverFileList.txt (this is 1 and 2 combined)
 # The output file is used in the slackFS project.
-from email.mime import base
-import os, sys, getopt
+import os, sys
 from stat import *
 
-###
-# NEEDS TO BE CHANGED:
-# Change this to take args for which /base it wants to do usr, sys, etc
-# Change the os.system calls to process calls
-###
 basePath = "../../textFiles/"
-folder = sys.argv[1]
-totalSlackTxt = basePath + folder + "TotalSlack.txt"
-fileNameTxt = basePath + folder + "CoverFileName.txt"
-fileSizeTxt = basePath + folder + "CoverFileSize.txt"
 count_name=0
 count_size=0
 count_notREGfile=0
 count_REGfile=0
-with open(totalSlackTxt, "r") as input:
+with open(basePath+"usrTotalSlack.txt", "r") as input:
     lines = input.readline()
-    with open(fileNameTxt, "w") as output1:
-        with open(fileSizeTxt, "w") as output2:
+    with open(basePath+"usrCoverFileName.txt", "w") as output1:
+        with open(basePath+"usrCoverFileSize.txt", "w") as output2:
             while lines:
                 fileName = str(lines.strip())
-                if folder in lines:
+                if '/usr' in lines:
                     if os.path.isfile(fileName):
                         count_REGfile+=1
                         lines = input.readline()
-                        if folder not in lines and 'null block' not in lines:
+                        if '/usr' not in lines and 'null block' not in lines:
                             if int(lines) > 2000 and int(lines) < 4096:
                                 output1.write(fileName+'\n')
                                 count_name+=1
                                 output2.write(lines)
                                 count_size+=1
-                                print(lines)
                             else:
                                 lines = input.readline()
                                 continue
@@ -63,4 +52,4 @@ print(count_name, count_size, count_REGfile, count_notREGfile)
 # It concatenates each line from the two files, one line each
 # Example:
 # usrCoverFileList.txt line1 --> usrCoverFileName.txt line1 + usrCoverFileSize.txt line1
-os.system(f"paste -d '\t' {fileNameTxt} {fileSizeTxt} > {basePath}{folder}CoverFileList.txt")
+os.system(f"paste -d '\t' {basePath}usrCoverFileName.txt {basePath}usrCoverFileSize.txt > {basePath}usrCoverFileList.txt")
