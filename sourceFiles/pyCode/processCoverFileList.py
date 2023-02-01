@@ -43,7 +43,6 @@ with open(totalSlackTxt, "r") as input:
                                 count_name+=1
                                 output2.write(lines)
                                 count_size+=1
-                                print(lines)
                             else:
                                 lines = input.readline()
                                 continue
