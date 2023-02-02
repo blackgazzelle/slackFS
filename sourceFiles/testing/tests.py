@@ -4,15 +4,15 @@ import csv
 import os
 import sys
 
-backends ={"EC_BACKEND_NULL": 0,
-    "EC_BACKEND_JERASURE_RS_VAND": 1,
-    "EC_BACKEND_JERASURE_RS_CAUCHY": 2,
-#    "EC_BACKEND_FLAT_XOR_HD": 3,
-    "EC_BACKEND_ISA_L_RS_VAND": 4,
-    "EC_BACKEND_SHSS": 5,
-    "EC_BACKEND_LIBERASURECODE_RS_VAND": 6,
-    "EC_BACKEND_ISA_L_RS_CAUCHY": 7,
-    "EC_BACKEND_LIBPHAZ": 8,
+backends ={"BACKEND_NULL": 0,
+    "JERASURE_RS_VAND": 1,
+    "JERASURE_RS_CAUCHY": 2,
+#    "FLAT_XOR_HD": 3,
+    "ISA_L_RS_VAND": 4,
+    "SHSS": 5,
+    "LIBERASURECODE_RS_VAND": 6,
+    "ISA_L_RS_CAUCHY": 7,
+    "LIBPHAZ": 8,
     "EC_BACKENDS_MAX":9}
 
 chksums = {"CHKSUM_NONE": 0,
@@ -54,31 +54,32 @@ def main():
         if ecode.liberasurecode_backend_available(backends[backend]):
             print(backend)
             for chksum in chksums:
-                print(chksum)
-                # Calculate the amount of time it takes to strip, encode, and hide
-                start_time = time.time()
-                ret = fhh.strip_null(b"null_map.txt", b"first1KB.dmg")
-                if ret < 0:
-                    exit();
-                ret = fhh.file_encode(b"first1KB.dmg_stripped",backends[backend],16,8,8,8,chksums[chksum])
-                if ret < 0:
-                    exit();
-                ret = fhh.hide_file(b"frags", b"usrCoverFileList.txt")
-                if ret < 0:
-                    exit();
-                hide_time = time.time() - start_time
-                
-                # Calcuate the amount of time it takes to retrive, decode, and restore
-                start_time = time.time()
-                dc = decode_data.from_address(fhh.retrieve_file(b"usrCoverFileList.txt", 92, 24))
-                ret = fhh.file_decode(b'first1KB.dmg_retrieved', byref(dc), 1, 16, 8,8,8,chksums[chksum])
-                if ret < 0:
-                    exit()
-                ret = fhh.restore_null(b'first1KB.dmg_retrieved', b'first1KB.dmg_restored', b'null_map.txt', b'first1KB.dmg')
-                if ret < 0:
-                    exit();
-                retrieve_time = time.time() - start_time
-                data_writer.writerow([backend, chksum, hide_time, retrieve_time])
+                for i in range(100):
+                    print(chksum)
+                    # Calculate the amount of time it takes to strip, encode, and hide
+                    start_time = time.time()
+                    ret = fhh.strip_null(b"null_map.txt", b"first1KB.dmg")
+                    if ret < 0:
+                        exit();
+                    ret = fhh.file_encode(b"first1KB.dmg_stripped",backends[backend],16,8,8,8,chksums[chksum])
+                    if ret < 0:
+                        exit();
+                    ret = fhh.hide_file(b"frags", b"usrCoverFileList.txt")
+                    if ret < 0:
+                        exit();
+                    hide_time = time.time() - start_time
+                    
+                    # Calcuate the amount of time it takes to retrive, decode, and restore
+                    start_time = time.time()
+                    dc = decode_data.from_address(fhh.retrieve_file(b"usrCoverFileList.txt", 92, 24))
+                    ret = fhh.file_decode(b'first1KB.dmg_retrieved', byref(dc), 1, 16, 8,8,8,chksums[chksum])
+                    if ret < 0:
+                        exit()
+                    ret = fhh.restore_null(b'first1KB.dmg_retrieved', b'first1KB.dmg_restored', b'null_map.txt', b'first1KB.dmg')
+                    if ret < 0:
+                        exit();
+                    retrieve_time = time.time() - start_time
+                    data_writer.writerow([backend, chksum, hide_time, retrieve_time])
             
     fp.close()
         

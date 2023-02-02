@@ -56,7 +56,7 @@ int main(int argc, char * argv[]) {
     else if (strcmp(operation, "retrieve") == 0) {
         // Check for additional arguments
         if (argc < 5) {
-            puts("USAGE file_hiding hide <map_file> <disk_file> <cover_file>");
+            puts("USAGE file_hiding retrieve <map_file> <disk_file> <cover_file>");
             return 0;
         }
         
