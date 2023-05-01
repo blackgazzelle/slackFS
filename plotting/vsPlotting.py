@@ -16,13 +16,20 @@ def plot(times, names, time_type):
     ax1.set_title(title)
     ax1.set_xlabel("Number of Runs")
     ax1.set_ylabel("Time (s)")
-
+    
+    smallest = []
+    largest = []
     for name in names:
-        ax1.plot(list(range(len(times[name]))), times[name], label=name)
+        ax1.plot(list(range(1, len(times[name]), 5)), times[name][::5], label=name)
+        # get minimum num
+        smallest.append(min(times[name]))
+        largest.append(max(times[name]))
+    bot = min(smallest)
+    top = max(largest)
 
-    ax1.set_ylim(bottom=0)
-    ax1.set_xlim(left=0)
-    ax1.legend(loc='lower right')
+    ax1.set_ylim(bottom=bot-(bot/4), top=top+(top/4))
+    ax1.set_xlim(left=1)
+    ax1.legend(loc='upper right')
     fig1.savefig(f"{title}.eps", format="eps")
     fig1.savefig(f"{title}.png")
 
@@ -35,8 +42,8 @@ def main():
     for group in g.groups:
         group_name = f'{group[0]}\n{group[1]}'
         names.append(group_name)
-        retrieve_times[group_name] = g.get_group(group).retrieve_time.values
-        hide_times[group_name] = g.get_group(group).hide_time.values
+        retrieve_times[group_name] = g.get_group(group).retrieve_time.values[:75]
+        hide_times[group_name] = g.get_group(group).hide_time.values[:75]
     
     graph_sets = [
                 ['BACKEND_NULL\nCHKSUM_CRC32', 'JERASURE_RS_VAND\nCHKSUM_CRC32'],
