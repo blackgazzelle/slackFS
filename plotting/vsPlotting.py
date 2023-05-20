@@ -11,16 +11,15 @@ def plot(times, names, time_type):
         else:
             title += name.replace('\n', ' ')
         i += 1
-    fig1 = plt.figure(figsize=(15,12))
+    fig1 = plt.figure(figsize=(10,7))
     ax1 = fig1.add_subplot()
-    ax1.set_title(title)
     ax1.set_xlabel("Number of Runs")
     ax1.set_ylabel("Time (s)")
     
     smallest = []
     largest = []
     for name in names:
-        ax1.plot(list(range(1, len(times[name]), 5)), times[name][::5], label=name)
+        ax1.plot(list(range(0, len(times[name]), 5)), times[name][::5], label=name)
         # get minimum num
         smallest.append(min(times[name]))
         largest.append(max(times[name]))
@@ -28,8 +27,42 @@ def plot(times, names, time_type):
     top = max(largest)
 
     ax1.set_ylim(bottom=bot-(bot/4), top=top+(top/4))
-    ax1.set_xlim(left=1)
+    ax1.set_xlim(left=1, right=75)
     ax1.legend(loc='upper right')
+    fig1.tight_layout()
+    fig1.savefig(f"{title}.eps", format="eps")
+    fig1.savefig(f"{title}.png")
+
+def plot_alternate(times, names, time_type):
+    i = 0
+    title = time_type[i] + " "
+    for name in names:
+        if i < len(names)-1:
+            i+=1
+            title += name.replace('\n', ' ') + " vs " + time_type[i] + " "
+        else:
+            i += 1
+            title += name.replace('\n', ' ')
+    
+    print(title)
+    fig1 = plt.figure(figsize=(10,7))
+    ax1 = fig1.add_subplot()
+    ax1.set_xlabel("Number of Runs")
+    ax1.set_ylabel("Time (s)")
+    
+    smallest = []
+    largest = []
+    for i, name in enumerate(names):
+        ax1.plot(list(range(0, len(times[i][name]), 5)), times[i][name][::5], label=f"{time_type[i]} {name}")
+        # get minimum num
+        smallest.append(min(times[i][name]))
+        largest.append(max(times[i][name]))
+    bot = min(smallest)
+    top = max(largest)
+    ax1.set_ylim(bottom=bot-(bot/4), top=top+(top/4))
+    ax1.set_xlim(left=1, right=75)
+    ax1.legend(loc='upper right')
+    fig1.tight_layout()
     fig1.savefig(f"{title}.eps", format="eps")
     fig1.savefig(f"{title}.png")
 
@@ -42,8 +75,8 @@ def main():
     for group in g.groups:
         group_name = f'{group[0]}\n{group[1]}'
         names.append(group_name)
-        retrieve_times[group_name] = g.get_group(group).retrieve_time.values[:75]
-        hide_times[group_name] = g.get_group(group).hide_time.values[:75]
+        retrieve_times[group_name] = g.get_group(group).retrieve_time.values[:80]
+        hide_times[group_name] = g.get_group(group).hide_time.values[:80]
     
     graph_sets = [
                 ['BACKEND_NULL\nCHKSUM_CRC32', 'JERASURE_RS_VAND\nCHKSUM_CRC32'],
@@ -55,5 +88,14 @@ def main():
         plot(retrieve_times, graph_set, "Retrieval")
         plot(hide_times, graph_set, "Hiding")
 
+    alternate_sets = {
+        ('BACKEND_NULL\nCHKSUM_CRC32', 'BACKEND_NULL\nCHKSUM_CRC32'): 'H:R',
+        ('JERASURE_RS_VAND\nCHKSUM_NONE', 'JERASURE_RS_VAND\nCHKSUM_CRC32'): 'H:R'
+    }
+    
+    for key in alternate_sets:
+        if alternate_sets[key] == 'H:R':
+            plot_alternate([hide_times, retrieve_times], key, ['Hiding', 'Retrieval'])
+            
 if __name__ == '__main__':
     main()
