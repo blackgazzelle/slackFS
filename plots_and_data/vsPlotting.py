@@ -46,7 +46,6 @@ def plot_alternate(times, names, time_type):
             i += 1
             title += name.replace("\n", " ")
 
-    print(title)
     fig1 = plt.figure(figsize=(10, 7))
     ax1 = fig1.add_subplot()
     ax1.set_xlabel("Number of Runs")
@@ -74,7 +73,7 @@ def plot_alternate(times, names, time_type):
 
 
 def main():
-    df = pd.read_csv("data.csv")
+    df = pd.read_csv("data_2parity.csv")
     retrieve_times = dict()
     hide_times = dict()
     names = []
@@ -82,8 +81,8 @@ def main():
     for group in g.groups:
         group_name = f"{group[0]}\n{group[1]}"
         names.append(group_name)
-        retrieve_times[group_name] = g.get_group(group).retrieve_time.values[:80]
-        hide_times[group_name] = g.get_group(group).hide_time.values[:80]
+        retrieve_times[group_name] = g.get_group(group).retrieve_time.values[:50]
+        hide_times[group_name] = g.get_group(group).hide_time.values[:50]
 
     graph_sets = list()
     used = list()
@@ -106,17 +105,17 @@ def main():
         plot(retrieve_times, graph_set, "Retrieval")
         plot(hide_times, graph_set, "Hiding")
 
-    alternate_sets = {
-        ("JERASURE_RS_VAND\nCHKSUM_NONE",
-         "JERASURE_RS_VAND\nCHKSUM_CRC32"): "H:R",
-    }
-    for group in g.groups:
-        alternate_sets[f"{group[0]}\n{group[1]}"] = "H:R"
+   # alternate_sets = {
+   #     ("JERASURE_RS_VAND\nCHKSUM_NONE",
+   #      "JERASURE_RS_VAND\nCHKSUM_CRC32"): "H:R",
+   # }
+   # for group in g.groups:
+   #     alternate_sets[f"{group[0]}\n{group[1]}"] = "H:R"
 
-    for key in alternate_sets:
-        if alternate_sets[key] == "H:R":
-            plot_alternate([hide_times, retrieve_times], key,
-                           ["Hiding", "Retrieval"])
+   # for key in alternate_sets:
+   #     if alternate_sets[key] == "H:R":
+   #         plot_alternate([hide_times, retrieve_times], key,
+   #                        ["Hiding", "Retrieval"])
 
 
 if __name__ == "__main__":

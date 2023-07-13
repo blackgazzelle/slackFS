@@ -1,10 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import matplotlib.colors as mcolors
 import pandas as pd
 
 
-df = pd.read_csv("data.csv")
+df = pd.read_csv("data_2parity.csv")
 retrieve_times = list()
 hide_times = list()
 names = []
