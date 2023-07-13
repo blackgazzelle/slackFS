@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 
-df = pd.read_csv("data_2parity.csv")
+df = pd.read_csv("data_4parity.csv")
 retrieve_times = list()
 hide_times = list()
 names = []

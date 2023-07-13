@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import pandas as pd
-
+import numpy as np
 
 def plot(times, names, time_type):
     title = time_type + " "
@@ -19,7 +19,7 @@ def plot(times, names, time_type):
     smallest = []
     largest = []
     for name in names:
-        ax1.plot(list(range(0, len(times[name]), 5)), times[name][::5], 
+        ax1.plot(np.append(list(range(0, len(times[name]), 5)), [50]), np.append(times[name][::5], times[name][-1]),
                  label=name)
         # get minimum num
         smallest.append(min(times[name]))
@@ -28,7 +28,7 @@ def plot(times, names, time_type):
     top = max(largest)
 
     ax1.set_ylim(bottom=bot - (bot / 4), top=top + (top / 4))
-    ax1.set_xlim(left=1, right=75)
+    ax1.set_xlim(left=1)
     ax1.legend(loc="upper right")
     fig1.tight_layout()
     fig1.savefig(f"{title}.eps", format="eps")
@@ -55,8 +55,8 @@ def plot_alternate(times, names, time_type):
     largest = []
     for i, name in enumerate(names):
         ax1.plot(
-            list(range(0, len(times[i][name]), 5)),
-            times[i][name][::5],
+            np.append(list(range(0, len(times[i][name]), 5)), [50]),
+            np.append(times[i][name][::5], times[i][name][-1]),
             label=f"{time_type[i]} {name}",
         )
         # get minimum num
@@ -65,7 +65,7 @@ def plot_alternate(times, names, time_type):
     bot = min(smallest)
     top = max(largest)
     ax1.set_ylim(bottom=bot - (bot / 4), top=top + (top / 4))
-    ax1.set_xlim(left=1, right=75)
+    ax1.set_xlim(left=1)
     ax1.legend(loc="upper right")
     fig1.tight_layout()
     fig1.savefig(f"{title}.eps", format="eps")
@@ -73,7 +73,7 @@ def plot_alternate(times, names, time_type):
 
 
 def main():
-    df = pd.read_csv("data_2parity.csv")
+    df = pd.read_csv("data_4parity.csv")
     retrieve_times = dict()
     hide_times = dict()
     names = []
@@ -81,8 +81,8 @@ def main():
     for group in g.groups:
         group_name = f"{group[0]}\n{group[1]}"
         names.append(group_name)
-        retrieve_times[group_name] = g.get_group(group).retrieve_time.values[:50]
-        hide_times[group_name] = g.get_group(group).hide_time.values[:50]
+        retrieve_times[group_name] = g.get_group(group).retrieve_time.values
+        hide_times[group_name] = g.get_group(group).hide_time.values
 
     graph_sets = list()
     used = list()
