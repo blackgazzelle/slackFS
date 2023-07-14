@@ -14,16 +14,16 @@ import sys
 
 
 backends = {
-    #"BACKEND_NULL": 0,
-    #"JERASURE_RS_VAND": 1,
-    #"JERASURE_RS_CAUCHY": 2,
-    #    "FLAT_XOR_HD": 3,
-    #"ISA_L_RS_VAND": 4,
-    #"SHSS": 5,
+    "BACKEND_NULL": 0,
+    "JERASURE_RS_VAND": 1,
+    "JERASURE_RS_CAUCHY": 2,
+    "FLAT_XOR_HD": 3,
+    "ISA_L_RS_VAND": 4,
+    "SHSS": 5,
     "LIBERASURECODE_RS_VAND": 6,
-    #"ISA_L_RS_CAUCHY": 7,
-    #"LIBPHAZ": 8,
-    #"EC_BACKENDS_MAX": 9,
+    "ISA_L_RS_CAUCHY": 7,
+    "LIBPHAZ": 8,
+    "EC_BACKENDS_MAX": 9,
 }
 
 chksums = {"CHKSUM_NONE": 0, "CHKSUM_CRC32": 1, "CHKSUM_MD5": 2}
@@ -81,7 +81,7 @@ def main():
                         b"first1KB.dmg_stripped",
                         backends[backend],
                         16,
-                        4,
+                        8,
                         8,
                         8,
                         chksums[chksum],
@@ -105,7 +105,7 @@ def main():
                         byref(dc),
                         1,
                         16,
-                        4,
+                        8,
                         8,
                         8,
                         chksums[chksum],

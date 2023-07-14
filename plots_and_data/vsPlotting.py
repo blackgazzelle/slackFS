@@ -73,7 +73,7 @@ def plot_alternate(times, names, time_type):
 
 
 def main():
-    df = pd.read_csv("data_4parity.csv")
+    df = pd.read_csv("data_8parity.csv")
     retrieve_times = dict()
     hide_times = dict()
     names = []
@@ -105,17 +105,17 @@ def main():
         plot(retrieve_times, graph_set, "Retrieval")
         plot(hide_times, graph_set, "Hiding")
 
-   # alternate_sets = {
-   #     ("JERASURE_RS_VAND\nCHKSUM_NONE",
-   #      "JERASURE_RS_VAND\nCHKSUM_CRC32"): "H:R",
-   # }
-   # for group in g.groups:
-   #     alternate_sets[f"{group[0]}\n{group[1]}"] = "H:R"
+    alternate_sets = {
+        ("JERASURE_RS_VAND\nCHKSUM_NONE",
+         "JERASURE_RS_VAND\nCHKSUM_CRC32"): "H:R",
+    }
+    for group in g.groups:
+        alternate_sets[f"{group[0]}\n{group[1]}"] = "H:R"
 
-   # for key in alternate_sets:
-   #     if alternate_sets[key] == "H:R":
-   #         plot_alternate([hide_times, retrieve_times], key,
-   #                        ["Hiding", "Retrieval"])
+    for key in alternate_sets:
+        if alternate_sets[key] == "H:R":
+            plot_alternate([hide_times, retrieve_times], key,
+                           ["Hiding", "Retrieval"])
 
 
 if __name__ == "__main__":
