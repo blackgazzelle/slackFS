@@ -17,13 +17,13 @@ backends = {
     "BACKEND_NULL": 0,
     "JERASURE_RS_VAND": 1,
     "JERASURE_RS_CAUCHY": 2,
-    "FLAT_XOR_HD": 3,
-    "ISA_L_RS_VAND": 4,
-    "SHSS": 5,
+    #"FLAT_XOR_HD": 3,
+    #"ISA_L_RS_VAND": 4,
+    #"SHSS": 5,
     "LIBERASURECODE_RS_VAND": 6,
-    "ISA_L_RS_CAUCHY": 7,
-    "LIBPHAZ": 8,
-    "EC_BACKENDS_MAX": 9,
+    #"ISA_L_RS_CAUCHY": 7,
+    #"LIBPHAZ": 8,
+    #"EC_BACKENDS_MAX": 9,
 }
 
 chksums = {"CHKSUM_NONE": 0, "CHKSUM_CRC32": 1, "CHKSUM_MD5": 2}
@@ -81,9 +81,9 @@ def main():
                         b"first1KB.dmg_stripped",
                         backends[backend],
                         16,
-                        8,
-                        8,
-                        8,
+                        2,
+                        16,
+                        2,
                         chksums[chksum],
                     )
                     if ret < 0:
@@ -103,11 +103,11 @@ def main():
                     ret = fhh.file_decode(
                         b"first1KB.dmg_retrieved",
                         byref(dc),
-                        1,
+                        backends[backend],
                         16,
-                        8,
-                        8,
-                        8,
+                        2,
+                        16,
+                        2,
                         chksums[chksum],
                     )
                     if ret < 0:
@@ -123,6 +123,10 @@ def main():
                     retrieve_time = time.time() - start_time
                     data_writer.writerow([backend, chksum, hide_time,
                                          retrieve_time])
+                    os.remove("first1KB.dmg_retrieved")
+                    os.remove("first1KB.dmg_restored")
+                    os.remove("first1KB.dmg_stripped")
+                    os.system("sudo rm -rf frags/")
 
     fp.close()
 

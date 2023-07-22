@@ -390,8 +390,7 @@ int restore_null(char * input_file, char * out_file, char * map_file, char * ori
     map_fp = fopen(map_file, "r");
     if (map_fp == NULL)
     {
-        ferror(map_fp);
-        fclose(map_fp);
+        perror(map_file);
         return -errno;
     }
     // image that needs to be restored to full size
@@ -399,8 +398,7 @@ int restore_null(char * input_file, char * out_file, char * map_file, char * ori
     input_fp = fopen(input_file, "rb");
     if (input_fp == NULL)
     {
-        ferror(input_fp);
-        fclose(input_fp);
+        perror(input_file);
         return -errno;
     }
 
@@ -408,8 +406,7 @@ int restore_null(char * input_file, char * out_file, char * map_file, char * ori
     out_fp = fopen(out_file, "wb");
     if (out_fp == NULL)
     {
-        ferror(out_fp);
-        fclose(out_fp);
+        perror(out_file);
         return -errno;
     }
 
@@ -439,18 +436,18 @@ int restore_null(char * input_file, char * out_file, char * map_file, char * ori
             char *tempDataBuff = malloc(dataLEN * sizeof(char));
             fread(tempDataBuff, dataLEN, sizeof(char), input_fp);
             if (!fseek(out_fp, dataADD, SEEK_SET))
-                ferror(out_fp);
+                perror(out_file);
 
             if (!fwrite(tempDataBuff, dataLEN, sizeof(char), out_fp))
-                ferror(out_fp);
+                perror(out_file);
             memset(tempDataBuff, 0x00, dataLEN);
 
             char *tempNullBuff = malloc(nullLEN * sizeof(char));
             memset(tempNullBuff, 0x00, nullLEN);
             if (!fseek(out_fp, nullADD, SEEK_SET))
-                ferror(out_fp);
+                perror(out_file);
             if (!fwrite(tempNullBuff, nullLEN, sizeof(char), out_fp))
-                ferror(out_fp);
+                perror(out_file);
 
             if (((dataADD + dataLEN) > statFileSize) ||
                 ((nullADD + nullLEN) > statFileSize) || (feof(map_fp)))

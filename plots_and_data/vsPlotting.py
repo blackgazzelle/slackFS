@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
+
 def plot(times, names, time_type):
     title = time_type + " "
     i = 0
@@ -19,8 +20,11 @@ def plot(times, names, time_type):
     smallest = []
     largest = []
     for name in names:
-        ax1.plot(np.append(list(range(0, len(times[name]), 5)), [50]), np.append(times[name][::5], times[name][-1]),
-                 label=name)
+        ax1.plot(
+            np.append(list(range(0, len(times[name]), 5)), [50]),
+            np.append(times[name][::5], times[name][-1]),
+            label=name,
+        )
         # get minimum num
         smallest.append(min(times[name]))
         largest.append(max(times[name]))
@@ -73,7 +77,7 @@ def plot_alternate(times, names, time_type):
 
 
 def main():
-    df = pd.read_csv("data_8parity.csv")
+    df = pd.read_csv("16f_8p.csv")
     retrieve_times = dict()
     hide_times = dict()
     names = []
@@ -89,33 +93,38 @@ def main():
     for group in g.groups:
         for other_group in g.groups:
             if not group == other_group:
-                if (not (group, other_group) in used and
-                   not (other_group, group) in used):
+                if (
+                    not (group, other_group) in used
+                    and not (other_group, group) in used
+                ):
                     graph_sets.append(
                         [
                             f"{group[0]}\n{group[1]}",
-                            f"{other_group[0]}\n{other_group[1]}"
+                            f"{other_group[0]}\n{other_group[1]}",
                         ]
                     )
                     used.append((group, other_group))
-    graph_sets.append(["BACKEND_NULL\nCHKSUM_MD5", "BACKEND_NULL\nCHKSUM_NONE",
-                       "BACKEND_NULL\nCHKSUM_CRC32"])
+    graph_sets.append(
+        [
+            "BACKEND_NULL\nCHKSUM_MD5",
+            "BACKEND_NULL\nCHKSUM_NONE",
+            "BACKEND_NULL\nCHKSUM_CRC32",
+        ]
+    )
 
     for graph_set in graph_sets:
         plot(retrieve_times, graph_set, "Retrieval")
         plot(hide_times, graph_set, "Hiding")
 
     alternate_sets = {
-        ("JERASURE_RS_VAND\nCHKSUM_NONE",
-         "JERASURE_RS_VAND\nCHKSUM_CRC32"): "H:R",
+        ("JERASURE_RS_VAND\nCHKSUM_NONE", "JERASURE_RS_VAND\nCHKSUM_CRC32"): "H:R",
     }
     for group in g.groups:
         alternate_sets[f"{group[0]}\n{group[1]}"] = "H:R"
 
     for key in alternate_sets:
         if alternate_sets[key] == "H:R":
-            plot_alternate([hide_times, retrieve_times], key,
-                           ["Hiding", "Retrieval"])
+            plot_alternate([hide_times, retrieve_times], key, ["Hiding", "Retrieval"])
 
 
 if __name__ == "__main__":
