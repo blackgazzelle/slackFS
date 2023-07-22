@@ -350,9 +350,9 @@ int file_decode(char* out_file, decode_data * dc, int ec_id, int k, int m, int w
     ec_backend_id_t id = ec_id;
     // Creating a new instance of the erasure coder
     struct ec_args args;
-    args.k = 16;
-    args.m = 8;
-    args.w = 8;
+    args.k = k;
+    args.m = m;
+    args.w = w;
     args.hd = args.m;
     args.ct = ct;
     char * out_data;
