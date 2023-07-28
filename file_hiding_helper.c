@@ -487,12 +487,12 @@ int restore_null(char * input_file, char * out_file, char * map_file, char * ori
             if (((dataADD + dataLEN) > statFileSize) ||
                 ((nullADD + nullLEN) > statFileSize) || (feof(map_fp)))
             {
-              //ADDED by Avinash Srinivasan--Start-3
+              //ADDED by Avinash Srinivasan --> Start-3
               fclose(map_fp);
               fclose(input_fp);
               fclose(out_fp);
               return 0;
-              //ADDED by Avinash Srinivasan--END-3
+              //ADDED by Avinash Srinivasan --> END-3
               // break;
             }
             else
