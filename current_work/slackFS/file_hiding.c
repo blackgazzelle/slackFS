@@ -47,7 +47,7 @@ int main(int argc, char * argv[]) {
         sprintf(stripped_filename, "%s_stripped", disk_file);
 
         // Encode frags
-        ret = file_encode(stripped_filename, 1, 16, 8, 16, 8, 1);
+        ret = file_encode(stripped_filename, 1, 16, 8, 8, 1);
         if (ret < 0) {
             fprintf(stderr, "ERROR: in file_encode function, error code %d\n%s\n", ret, strerror(-ret));
             return 0;
@@ -86,7 +86,7 @@ int main(int argc, char * argv[]) {
         }
 
         // Decode Data
-        ret = file_decode(retrieved_filename, dc, 1, 16, 8, 16, 8, 1);
+        ret = file_decode(retrieved_filename, dc, 1, 16, 8, 8, 1);
         if (ret < 0) {
             fprintf(stderr, "ERROR: in decode file function error code %d\n%s\n", ret, strerror(-ret));
             return 0;
