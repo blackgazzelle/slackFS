@@ -7,11 +7,11 @@
 - current_work: contains the code used to test each part of slackFS. It is more
  fragmented than what the ideal framework would look like.
 
-# How to use slackFS framework
+## How to use slackFS framework
 
-## Install
+### Install
 
-```
+``` bash
 # Install packages for bmap and slackFS
 sudo apt install make build-essential autoconf automake libtool 
 liberasurecode-dev libjerasure-dev gcc-multilib m4 linuxdoc-tools texlive
@@ -27,6 +27,4 @@ sudo pyCode/processCoverFileList.py <folder_to_search>
 
 # Run slackFS with appropriate args
 ./slackFS <args>
-
-
 ```
