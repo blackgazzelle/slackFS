@@ -95,17 +95,17 @@ int strip_null(char *null_map_file, char *disk_file)
     return 0;
 }
 
-int file_encode(char *filename, int ec_id, int k, int m, int hd, int ct)
+int file_encode(char *filename, int backend_id, int num_frags, int num_parity, int checksum)
 {
     // Setup the backend
-    ec_backend_id_t id = ec_id;
+    ec_backend_id_t id = backend_id;
 
     // Creating a new instance of the erasure coder
     struct ec_args args;
-    args.k = k;
-    args.m = m;
-    args.hd = hd;
-    args.ct = ct;
+    args.k = num_frags;
+    args.m = num_parity;
+    args.hd = num_parity;
+    args.ct = checksum;
     int instance_descriptor = liberasurecode_instance_create(id, &args);
 
     // Read in a file and store that data
@@ -316,8 +316,8 @@ decode_data *retrieve_file(char *cover_files, int frag_size, int num_of_frags)
         return NULL;
     }
 
-    /* For each frag retrieve it from the cover file, in the same order that
-     * they were stored
+    /* For each frag retrieve it from the cover file, in the same order
+     * that they were stored
      */
     for (int i = 0; i < num_of_frags; i++)
     {
@@ -380,16 +380,16 @@ decode_data *retrieve_file(char *cover_files, int frag_size, int num_of_frags)
     return dc_data;
 }
 
-int file_decode(char *out_file, decode_data *dc, int ec_id, int k, int m, int hd, int ct)
+int file_decode(char *out_file, decode_data *dc, int backend_id, int num_frags, int num_parity, int checksum)
 {
     // Set up backend
-    ec_backend_id_t id = ec_id;
+    ec_backend_id_t id = backend_id;
     // Creating a new instance of the erasure coder
     struct ec_args args;
-    args.k = k;
-    args.m = m;
-    args.hd = args.m;
-    args.ct = ct;
+    args.k = num_frags;
+    args.m = num_parity;
+    args.hd = num_parity;
+    args.ct = checksum;
     char *out_data;
     u_int64_t out_data_len;
     int instance_descriptor = liberasurecode_instance_create(id, &args);
