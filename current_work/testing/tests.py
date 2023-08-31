@@ -84,7 +84,7 @@ def run_tests(
         if ecode.liberasurecode_backend_available(BACKENDS[backend]):
             logging.info(backend)
             for chksum in CHKSUMS:
-                for i in range(50):
+                for i in range(100):
                     logging.info(chksum)
                     # Calculate the amount of time it takes to strip,
                     # encode, and hide

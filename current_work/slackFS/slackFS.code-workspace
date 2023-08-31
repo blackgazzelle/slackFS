@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"erasurecode.h": "c",
+			"stdio.h": "c",
+			"stat.h": "c",
+			"file_hiding_helper.h": "c"
+		}
+	}
+}

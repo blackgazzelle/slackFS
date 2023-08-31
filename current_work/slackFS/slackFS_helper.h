@@ -19,12 +19,25 @@
  *
  */
 // STRUCTS
-typedef struct _decode_data
+typedef struct _file_pair {
+    char * filename;
+    int size_written;
+} file_pair;
+
+typedef struct _fragment_info
+{
+    file_pair ** file_pairs;
+    int num_of_files;
+    int size;
+    char * data;
+} fragment_info;
+
+typedef struct _fragments
 {
     int num_of_frags;
-    int frag_size;
-    char **data;
-} decode_data;
+    int num_of_parity;
+    fragment_info ** info_arr;
+} fragments;
 
 // GLOBALS
 #define CMD_LEN 1024
@@ -38,9 +51,9 @@ enum ARGS
 
 // PROTOTYPES
 int strip_null(char *null_map_file, char *disk_file);
-int file_encode(char *filename, int backend_id, int num_frags, int num_parity, int checksum);
-int hide_file(char *frag_dir_name, char *cover_files);
-decode_data *retrieve_file(char *cover_files, int frag_size, int num_of_frags);
-int file_decode(char *out_file, decode_data *dc, int backend_id, int num_frags, int num_parity, int checksum);
+fragments * file_encode(char *filename, int backend_id, int num_frags, int num_parity, int checksum);
+int hide_file(fragments *frags, char *cover_files);
+fragments *retrieve_file(char * map_file);
+int file_decode(char *out_file, fragments *frags, int backend_id, int num_frags, int num_parity, int checksum);
 int restore_null(char *input_file, char *out_file, char *map_file, char *orig_file);
-int free_data(decode_data *dc);
+int free_data(fragments *frags);

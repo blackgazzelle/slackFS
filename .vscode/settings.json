@@ -1,7 +1,11 @@
 {
-    "files.associations": {
-        "erasurecode.h": "c",
-        "stdio.h": "c",
-        "stat.h": "c"
-    }
+  "cSpell.words": [
+    "chksum",
+    "CHKSUMS",
+    "ecode",
+    "liberasurecode",
+    "notrunc",
+    "putslack",
+    "WRONLY"
+  ]
 }

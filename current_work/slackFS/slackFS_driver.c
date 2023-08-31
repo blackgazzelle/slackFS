@@ -1,4 +1,4 @@
-#include "file_hiding_helper.h"
+#include "slackFS_helper.h"
 
 /*
  * Author: Christian Rose
@@ -9,12 +9,13 @@
 
 
 int main(int argc, char * argv[]) {
-    char *map_file, *disk_file, *cover_file;
+    // Set debug stream
+    char *map_file, *disk_file, *cover_file, *cover_map_file;
     // Argument Check
     if (argc < 2) {
-        puts("USAGE: file_hiding <OP> <OPERATION SPECIFIC OPTION>\n"
-            "USAGE: file_hiding hide <map_file> <disk_file> <cover_file>\n"
-            "USAGE: file_hiding retrieve <map_file> <disk_file> <cover_file>\n");
+        puts("USAGE: slackFS <OP> <OPERATION SPECIFIC OPTION>\n"
+            "USAGE: slackFS hide <map_file> <disk_file> <cover_file>\n"
+            "USAGE: slackFS retrieve <map_file> <disk_file> <cover_file>\n");
         return 0;
     }
 
@@ -26,7 +27,7 @@ int main(int argc, char * argv[]) {
     if (strcmp(operation, "hide") == 0) {
         // Check for additional arguments
         if (argc < 5) {
-            puts("USAGE file_hiding hide <map_file> <disk_file> <cover_file>");
+            puts("USAGE slackFS hide <map_file> <disk_file> <cover_file>");
             return 0;
         }
 
@@ -39,7 +40,7 @@ int main(int argc, char * argv[]) {
         ret = strip_null(map_file, disk_file);
         if (ret < 0) {
             fprintf(stderr, "ERROR: in strip_null function, error code %d\n%s\n", ret, strerror(-ret));
-            return 0;
+            return -1;
         }
         
         // Get Stripped filename
@@ -47,51 +48,50 @@ int main(int argc, char * argv[]) {
         sprintf(stripped_filename, "%s_stripped", disk_file);
 
         // Encode frags
-        ret = file_encode(stripped_filename, 1, 16, 8, 8, 1);
-        if (ret < 0) {
-            fprintf(stderr, "ERROR: in file_encode function, error code %d\n%s\n", ret, strerror(-ret));
-            return 0;
+        fragments * frags = file_encode(stripped_filename, 1, 16, 8, 2);
+        if (frags == NULL) {
+            fprintf(stderr, "ERROR: in file_encode function");
+            return -1;
         }
 
         // Hide frags
-        char * frag_dir = "frags";
-        ret = hide_file(frag_dir, cover_file);
+        ret = hide_file(frags, cover_file);
         if (ret < 0) {
             fprintf(stderr, "ERROR: in hide file function error code %d\n%s\n", ret, strerror(-ret));
-            return 0;
+            return -1;
         }
     }
     else if (strcmp(operation, "retrieve") == 0) {
         // Check for additional arguments
         if (argc < 5) {
-            puts("USAGE file_hiding retrieve <map_file> <disk_file> <cover_file>");
-            return 0;
+            puts("USAGE slackFS retrieve <map_file> <disk_file> <cover_map_file>");
+            return -1;
         }
         
         // Grab filenames
         map_file = argv[MAP_FILE];
         disk_file = argv[DISK_FILE];
-        cover_file = argv[COVER_FILE];
+        cover_map_file = argv[COVER_FILE];
 
         // Retrieve data
-        decode_data * dc;
+        fragments * frags;
         char * retrieved_filename = malloc(FILENAME_MAX+10);
         char * restored_filename = malloc(FILENAME_MAX+10);
         sprintf(retrieved_filename, "%s_retrieved", disk_file);
         sprintf(restored_filename, "%s_restored", disk_file);
-        dc = retrieve_file(cover_file, 92, 24);
-        if (dc == NULL) {
+        frags = retrieve_file(cover_map_file);
+        if (frags == NULL) {
             fprintf(stderr, "ERROR: in retrieve function");
             return 0;
         }
 
         // Decode Data
-        ret = file_decode(retrieved_filename, dc, 1, 16, 8, 8, 1);
+        ret = file_decode(retrieved_filename, frags, 1, 16, 8, 2);
         if (ret < 0) {
             fprintf(stderr, "ERROR: in decode file function error code %d\n%s\n", ret, strerror(-ret));
             return 0;
         }
-        free_data(dc);
+        free_data(frags);
         // restore nulls in data
         ret = restore_null(retrieved_filename, restored_filename, map_file, disk_file);
         if (ret < 0) {

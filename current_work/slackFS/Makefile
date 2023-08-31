@@ -1,8 +1,8 @@
 all:
-	gcc -c file_hiding_helper.c -g
-	gcc -c file_hiding.c -g
-	gcc -o slackFS file_hiding.o file_hiding_helper.o -lerasurecode -ldl -Wall -g
-	gcc -shared -o libslackFS.so -fPIC file_hiding_helper.c -lerasurecode -ldl
+	gcc -c slackFS.c -g
+	gcc -c slackFS_driver.c -g
+	gcc -o slackFS slackFS.o slackFS_driver.o -lerasurecode -ldl -Wall -g
+	gcc -shared -o libslackFS.so -fPIC slackFS.c -lerasurecode -ldl
 	rm *.o
 
 clean:

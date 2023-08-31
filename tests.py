@@ -78,7 +78,7 @@ def main():
                     # Calculate the amount of time it takes to strip, encode,
                     # and hide
                     print("Hide")
-                    print (backend, chksum, "iter:", i)
+                    print(backend, chksum, "iter:", i)
                     start_time = time.time()
                     ret = fhh.strip_null(b"null_map.txt", b"first1KB.dmg")
                     # print("ret from strip_null", ret1)
