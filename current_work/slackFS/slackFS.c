@@ -1,4 +1,3 @@
-#include "log.h"
 #include "slackFS_helper.h"
 
 /*
@@ -6,8 +5,6 @@
  * Take a map file and a disk file. Correctly map the disk file and
  * strip the null bytes, storing those positions in the map file.
  */
-// Base case
-dbgstream = stderr;
 int strip_null(char *null_map_file, char *disk_file) {
     FILE *map_fp, *disk_fp, *dst_fp;
     char ch;
@@ -132,16 +129,16 @@ fragments *file_encode(char *filename, int backend_id, int num_frags, int num_pa
     int i = 0;
     for (; i < args.k; i++) {
         frags->info_arr[i] = malloc(sizeof(fragment_info));
-        frags->info_arr[i]->data = strndup(encoded_data[i], sizeof(encoded_data[i]));
-        frags->info_arr[i]->size = sizeof(encoded_data[i]);
-        LOG(LOG_DEBUG, "Encoding data of size %d", sizeof(encoded_data[i]));
+        frags->info_arr[i]->data = strndup(encoded_data[i], fragment_len);
+        frags->info_arr[i]->size = fragment_len;
+        fprintf(stderr, "Encoding data of size %d", frags->info_arr[i]->size);
     }
     // Save off parity frags
     for (int j = 0; j < args.m; j++) {
         frags->info_arr[i] = malloc(sizeof(fragment_info));
-        frags->info_arr[i]->data = strndup(encoded_parity[i], sizeof(encoded_parity[i]));
-        frags->info_arr[i]->size = sizeof(encoded_parity[i]);
-        LOG(LOG_DEBUG, "Encoding data of size %d", sizeof(encoded_parity[i]));
+        frags->info_arr[i]->data = strndup(encoded_parity[j],fragment_len);
+        frags->info_arr[i]->size = fragment_len;
+        fprintf(stderr, "Encoding data of size %d", frags->info_arr[i]->size);
         i++;
     }
 
@@ -197,7 +194,7 @@ int hide_file(fragments *frags, char *cover_files) {
             ret = system(cmd);
             if (!ret) {
                 // Account for hiding available slack amount of the fragment
-                LOG(LOG_DEBUG, "Hiding %d amount", available_slack);
+                fprintf(stderr, "Hiding %d amount", available_slack);
                 bytes_written += available_slack;
 
                 // Note the cover file we wrote to and update the amount of files in use
@@ -207,11 +204,11 @@ int hide_file(fragments *frags, char *cover_files) {
                 frags->info_arr[i]->num_of_files++;
                 if (frags->info_arr[i]->num_of_files >= max_files) {
                     max_files *= 2;
-                    frags->info_arr[i]->file_pairs = realloc(frags->info_arr[i]->file_pairs, max_files * (file_pair*));
+                    frags->info_arr[i]->file_pairs = realloc(frags->info_arr[i]->file_pairs, max_files * sizeof(file_pair*));
                 }
 
             } else {
-                LOG(LOG_ERR, "%s Command failed with code: %d", cmd, ret);
+                fprintf(stderr, "%s Command failed with code: %d", cmd, ret);
             }
 
             free(cover_file);
@@ -226,8 +223,9 @@ int hide_file(fragments *frags, char *cover_files) {
         fprintf(map_file, "%d\t", frags->info_arr[i]->num_of_files);
         for (int j = 0; j < frags->info_arr[i]->num_of_files; j++) {
             fprintf(map_file, "%s\t", frags->info_arr[i]->file_pairs[j]->filename);
-            fprintf(map_file, "%d \n", frags->info_arr[i]->file_pairs[j]->size_written);
+            fprintf(map_file, "%d\t", frags->info_arr[i]->file_pairs[j]->size_written);
         }
+        fprintf(map_file, "\n");
 
     }
 
@@ -239,94 +237,52 @@ int hide_file(fragments *frags, char *cover_files) {
 
 fragments *retrieve_file(char *map_file) {
     char *cmd = malloc(CMD_LEN);
-    char *tmp_file = "frag_tmp.txt";
+    char *tmp_file = "tmp.txt";
     int ret;
-    // Set up decode data Struct
-    decode_data *dc_data = malloc(sizeof(decode_data *));
-    dc_data->data = calloc(num_of_frags + 1, sizeof(char *));
-    dc_data->num_of_frags = num_of_frags;
-    dc_data->frag_size = frag_size;
 
-    // Open cover file list
-    FILE *cover_fp = fopen(cover_files, "r");
-    if (cover_fp == NULL) {
-        perror("ERROR: cannot open cover file list");
-        return NULL;
-    }
+    // Read in frags structure from map_file
 
-    /* For each frag retrieve it from the cover file, in the same order
-     * that they were stored
-     */
-    for (int i = 0; i < num_of_frags; i++) {
-        int available_slack = 0, skip_size = 0, block_size;
-        do {
-            // Get cover file and size
-            char *cover_file = malloc(FILENAME_MAX);
-            fscanf(cover_fp, "%s %i", cover_file, &available_slack);
-            struct stat st_cover;
-
-            // Make sure cover file is a regular file
-            if ((stat(cover_file, &st_cover) == -1) && S_ISREG(st_cover.st_mode) != 0) {
-                free(cover_file);
-                continue;
-            }
-
-            // Make sure the available slack is big enough for the fragment
-            if (frag_size > available_slack) {
-                free(cover_file);
-                continue;
-            }
-
-            // Use bmap and retrieve the fragment from the slack space
-            block_size = available_slack;
-            sprintf(cmd,
-                    "sudo bmap --mode slack %s %d | dd of=%s "
-                    "oflag=seek_bytes count=1 bs=%d seek=%d conv=notrunc",
-                    cover_file, frag_size, tmp_file, block_size, skip_size);
-            ret = system(cmd);
-            if (!ret) {
-                // Read from tmp file and store in array
-                FILE *tmp_fp = fopen(tmp_file, "rb");
-                if (tmp_fp == NULL) {
-                    perror("ERROR: cannot temp file");
-                    return NULL;
-                }
-
-                // Allocate space for this fragment and read it
-                dc_data->data[i] = malloc(frag_size + 1);
-                fread(dc_data->data[i], 1, frag_size, tmp_fp);
-                fclose(tmp_fp);
-                break;
-            }
-
-            free(cover_file);
-        } while (1);
-    }
-    fclose(cover_fp);
-    free(cmd);
-    remove(tmp_file);
-    return dc_data;
+    // Loop over frags and read from each file to build the frags
+    //// Use bmap and retrieve the fragment from the slack space
+    //block_size = available_slack;
+    //sprintf(cmd,
+    //        "sudo bmap --mode slack %s %d | dd of=%s "
+    //        "oflag=seek_bytes count=1 bs=%d seek=%d conv=notrunc",
+    //        cover_file, frag_size, tmp_file, block_size, skip_size);
+    //ret = system(cmd);
+    //if (!ret) {
+    //    // Read from tmp file and store in array
+    //    FILE *tmp_fp = fopen(tmp_file, "rb");
+    //    if (tmp_fp == NULL) {
+    //        perror("ERROR: cannot temp file");
+    //        return NULL;
+    //    }
+    //}
+    //free(cmd);
+    //remove(tmp_file);
+    //return frags;
 }
 
-int file_decode(char *out_file, fragments *frags, int backend_id, int checksum) {
+int file_decode(char *out_file, fragments *frags, int backend_id, int num_frags, int num_parity, int checksum) {
     // Set up backend
     ec_backend_id_t id = backend_id;
     // Creating a new instance of the erasure coder
     struct ec_args args;
-    args.k = frags->num_of_frags-frags->num_of_parity;
-    args.m = frags->num_of_parity;
-    args.hd = frags->num_of_parity;
+    args.k =  num_frags;
+    args.m = num_parity;
+    args.hd = num_parity;
     args.ct = checksum;
 
     // Combine all the data into one array
-    char ** data[frags->num_of_frags];
+    char * data[frags->num_of_frags];
     for(int i = 0; i < frags->num_of_frags; i++) {
         data[i] = frags->info_arr[i]->data;
     }
+
     char *out_data;
     u_int64_t out_data_len;
     int instance_descriptor = liberasurecode_instance_create(id, &args);
-    int ret = liberasurecode_decode(instance_descriptor, dc->data, dc->num_of_frags, dc->frag_size, 0, &out_data,
+    int ret = liberasurecode_decode(instance_descriptor, data, frags->num_of_frags, frags->info_arr[0]->size, 0, &out_data,
                                     &out_data_len);
 
     // Write to outfile
@@ -421,10 +377,5 @@ int restore_null(char *input_file, char *out_file, char *map_file, char *orig_fi
 }
 
 int free_data(fragments * frags) {
-    for (int i = 0; i < dc->num_of_frags; i++) {
-        free(dc->data[i]);
-    }
-    free(dc->data);
-    free(dc);
     return 0;
 }

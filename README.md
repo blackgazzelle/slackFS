@@ -13,8 +13,8 @@
 
 ``` bash
 # Install packages for bmap and slackFS
-sudo apt install make build-essential autoconf automake libtool 
-liberasurecode-dev libjerasure-dev gcc-multilib m4 linuxdoc-tools texlive
+sudo apt install make build-essential autoconf automake libtool \
+    liberasurecode-dev libjerasure-dev gcc-multilib m4 linuxdoc-tools texlive
 
 # Install bmap
 cd bmap && sudo make && sudo make install
