@@ -48,7 +48,7 @@ int main(int argc, char * argv[]) {
         sprintf(stripped_filename, "%s_stripped", disk_file);
 
         // Encode frags
-        fragments * frags = file_encode(stripped_filename, 1, 16, 8, 2);
+        fragments * frags = file_encode(stripped_filename, 6, 16, 8, 2);
         if (frags == NULL) {
             fprintf(stderr, "ERROR: in file_encode function");
             return -1;
@@ -79,14 +79,14 @@ int main(int argc, char * argv[]) {
         char * restored_filename = malloc(FILENAME_MAX+10);
         sprintf(retrieved_filename, "%s_retrieved", disk_file);
         sprintf(restored_filename, "%s_restored", disk_file);
-        frags = retrieve_file(cover_map_file);
+        frags = retrieve_file(cover_map_file, 24);
         if (frags == NULL) {
             fprintf(stderr, "ERROR: in retrieve function");
             return 0;
         }
 
         // Decode Data
-        ret = file_decode(retrieved_filename, frags, 1, 16, 8, 2);
+        ret = file_decode(retrieved_filename, frags, 6, 16, 8, 2);
         if (ret < 0) {
             fprintf(stderr, "ERROR: in decode file function error code %d\n%s\n", ret, strerror(-ret));
             return 0;

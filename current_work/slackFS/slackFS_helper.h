@@ -22,6 +22,7 @@
 typedef struct _file_pair {
     char * filename;
     int size_written;
+    int available_slack;
 } file_pair;
 
 typedef struct _fragment_info
@@ -53,7 +54,7 @@ enum ARGS
 int strip_null(char *null_map_file, char *disk_file);
 fragments * file_encode(char *filename, int backend_id, int num_frags, int num_parity, int checksum);
 int hide_file(fragments *frags, char *cover_files);
-fragments *retrieve_file(char * map_file);
+fragments *retrieve_file(char * map_file, int num_frags);
 int file_decode(char *out_file, fragments *frags, int backend_id, int num_frags, int num_parity, int checksum);
 int restore_null(char *input_file, char *out_file, char *map_file, char *orig_file);
 int free_data(fragments *frags);
