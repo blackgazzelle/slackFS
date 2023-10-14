@@ -1,7 +1,0 @@
-- https://zachary-parish.medium.com/hiding-data-in-file-slack-space-using-python-linux-c773a8315
-- https://github.com/openstack/pyeclib
-- https://github.com/openstack/liberasurecode
-- https://en.wikipedia.org/wiki/Erasure_code
-- https://docs.ceph.com/en/latest/rados/operations/erasure-code/ 
-- https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction
-- https://github.com/tsuraan/Jerasure

@@ -1,0 +1,29 @@
+<tt>slacker</tt> invocation
+<p>
+<tt>slacker [&lt;OPTIONS&gt;] [&lt;path-filename&gt;]</tt>
+
+Where <bf>OPTIONS</bf> may include any of:
+<descrip>
+<tag>--doc VALUE</tag>
+  where VALUE is one of:
+<descrip>
+<tag>version</tag>  display version and exit
+<tag>help</tag>  display options and exit
+<tag>man</tag>  display man and exit
+<tag>sgml</tag>  generate SGML invokation info
+</descrip>
+<tag>--mode VALUE</tag>
+  where VALUE is one of:
+<descrip>
+<tag>capacity</tag>  measure slack capacity of path
+<tag>fill</tag>  fill slack space with user data
+<tag>frob</tag>  fill slack space with random data
+<tag>pour</tag>  write out the contents of slack space
+<tag>wipe</tag>  clear the contents of slack space
+</descrip>
+<tag>--outfile &lt;filename&gt;</tag> write output to ...
+<tag>--verbose</tag>	be verbose
+<tag>--log-thresh &lt;none | fatal | error | info | branch | progress | entryexit&gt;</tag> logging threshold ...
+<tag>--path &lt;filename&gt;</tag> operate on ...
+<tag>--recursive</tag>	descend into subdirectories
+</descrip>

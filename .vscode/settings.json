@@ -3,9 +3,13 @@
     "chksum",
     "CHKSUMS",
     "ecode",
+    "levelname",
+    "levelno",
     "liberasurecode",
     "notrunc",
     "putslack",
+    "pyeclib",
+    "vand",
     "WRONLY"
   ]
 }
