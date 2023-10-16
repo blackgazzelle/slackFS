@@ -1,8 +1,8 @@
 import json
 import subprocess
 from dataclasses import dataclass
-from os import remove
 from pathlib import Path
+from pprint import pformat
 
 from pyeclib.ec_iface import ECDriver
 
@@ -103,7 +103,10 @@ class Hide:
         # Encode remaining bytes
         fragments = self.encode(stripped_bytes)
         LOGGER.debug(fragments)
-
+        with open("in.frags", "wb") as fp:
+            for frag in fragments:
+                fp.write(frag)
+                fp.write(b"\r\n\r\n")
         # Hide fragments
         file_mappings = self.hide(fragments)
         LOGGER.debug(f"NULL_MAPPINGS: {null_mappings}")
@@ -114,6 +117,6 @@ class Hide:
         mappings["null_mapping"] = null_mappings
         mappings["file_mapping"] = file_mappings
         with open(self.map_file, "w") as fp:
-            json.dump(mappings, fp)
+            json.dump(mappings, fp, indent=1)
 
         LOGGER.info(f"SUCCESS: file has been hidden mappings are save in {self.map_file}")

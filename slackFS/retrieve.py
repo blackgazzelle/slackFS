@@ -20,7 +20,7 @@ class Retrieve:
         # Put nulls back in place
         for mapping in null_mappings:
             decoded_data = decoded_data[: int(mapping[0])] + b"\00" * int(mapping[1]) + decoded_data[int(mapping[0]) :]
-            LOGGER.debug(f"Adding back null bytes: {mapping}: {decoded_data}")
+            #LOGGER.debug(f"Adding back null bytes: {mapping}: {decoded_data}")
 
         with open(self.out_file, "wb") as fp:
             fp.write(decoded_data)
@@ -37,20 +37,26 @@ class Retrieve:
     def retrieve(self, file_mappings: dict[int, list]) -> list[bytes]:
         # For each key in the mappings pull out the data for that fragment key
         fragments: list[bytes] = list()
+        LOGGER.debug(file_mappings)
         for key in file_mappings.keys():
+            LOGGER.debug(key)
+            LOGGER.debug(len(file_mappings[key]))
+            
             # For each key loop over the list of files and sizes used to hide the fragments
             fragments.insert(int(key), b"")
             for pair in file_mappings[key]:
+                LOGGER.debug(pair)
                 completed_process = subprocess.run(
                     f"sudo bmap --mode slack {pair[0]} {pair[1]}", shell=True, capture_output=True
                 )
+                if completed_process.returncode == 0:
+                    if len(completed_process.stdout) != int(pair[1]):
+                        raise Exception(f"Data is not the right size {len(completed_process.stdout)} != {pair[1]}")
 
-                    raise Exception(f"Data is not the right size {len(completed_process.stdout)} != {pair[1]}")
-
-                fragments[int(key)] += completed_process.stdout
-                LOGGER.debug(f"Retrieved {pair[1]} bytes from {pair[0]}")
-            else:
-                raise Exception(f"Failed to retrieve: command info: {completed_process}")
+                    fragments[int(key)] += completed_process.stdout
+                    LOGGER.debug(f"Retrieved {len(completed_process.stdout)} bytes from {pair[0]}")
+                else:
+                    raise Exception(f"Failed to retrieve: command info: {completed_process}")
         LOGGER.info("Fragments have been successfully retrieved")
         return fragments
 
@@ -62,11 +68,14 @@ class Retrieve:
 
         # Retrieve fragments
         fragments: list[bytes] = self.retrieve(data["file_mapping"])
-        LOGGER.debug(f"Retrieved fragments: {fragments}")
-
+        #LOGGER.debug(f"Retrieved fragments: {fragments}")
+        with open("out.frags", "wb") as fp:
+            for frag in fragments:
+                fp.write(frag)
+                fp.write(b"\r\n\r\n")
         # Decode Fragments
         decoded_data = self.decode(fragments=fragments)
-        LOGGER.debug(f"Decoded data: {decoded_data}")
+        #LOGGER.debug(f"Decoded data: {decoded_data}")
 
         # Restore null bytes
         self.restore_null(decoded_data, data["null_mapping"])
