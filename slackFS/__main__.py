@@ -7,6 +7,7 @@ from pyeclib.ec_iface import ALL_EC_TYPES
 from slackFS.hide import Hide
 from slackFS.logger import DEBUG, LOGGER
 from slackFS.retrieve import Retrieve
+from slackFS.calcslack import calculate_slack
 
 
 def main():
@@ -103,7 +104,7 @@ def main():
         )
         retrieve.run()
     elif args.mode == "calculate_slack":
-        pass
+        calculate_slack(args.dir, args.out_file)
     else:
         parser.print_help()
 

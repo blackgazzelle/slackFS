@@ -2,7 +2,6 @@ import json
 import subprocess
 from dataclasses import dataclass
 from pathlib import Path
-from pprint import pformat
 
 from pyeclib.ec_iface import ECDriver
 

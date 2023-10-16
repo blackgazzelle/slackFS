@@ -20,7 +20,7 @@ class Retrieve:
         # Put nulls back in place
         for mapping in null_mappings:
             decoded_data = decoded_data[: int(mapping[0])] + b"\00" * int(mapping[1]) + decoded_data[int(mapping[0]) :]
-            #LOGGER.debug(f"Adding back null bytes: {mapping}: {decoded_data}")
+            # LOGGER.debug(f"Adding back null bytes: {mapping}: {decoded_data}")
 
         with open(self.out_file, "wb") as fp:
             fp.write(decoded_data)
@@ -68,14 +68,14 @@ class Retrieve:
 
         # Retrieve fragments
         fragments: list[bytes] = self.retrieve(data["file_mapping"])
-        #LOGGER.debug(f"Retrieved fragments: {fragments}")
+        # LOGGER.debug(f"Retrieved fragments: {fragments}")
         with open("out.frags", "wb") as fp:
             for frag in fragments:
                 fp.write(frag)
                 fp.write(b"\r\n\r\n")
         # Decode Fragments
         decoded_data = self.decode(fragments=fragments)
-        #LOGGER.debug(f"Decoded data: {decoded_data}")
+        # LOGGER.debug(f"Decoded data: {decoded_data}")
 
         # Restore null bytes
         self.restore_null(decoded_data, data["null_mapping"])
