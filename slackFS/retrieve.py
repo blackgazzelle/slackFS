@@ -19,7 +19,7 @@ class Retrieve:
     def restore_null(self, decoded_data, null_mappings):
         # Put nulls back in place
         for mapping in null_mappings:
-            decoded_data = decoded_data[: int(mapping[0])] + b"\00" * int(mapping[1]) + decoded_data[int(mapping[0]) :]
+            decoded_data = decoded_data[: int(mapping[0])] + b"\00" * int(mapping[1]) + decoded_data[int(mapping[0]):]
             # LOGGER.debug(f"Adding back null bytes: {mapping}: {decoded_data}")
 
         with open(self.out_file, "wb") as fp:
@@ -41,7 +41,7 @@ class Retrieve:
         for key in file_mappings.keys():
             LOGGER.debug(key)
             LOGGER.debug(len(file_mappings[key]))
-            
+           
             # For each key loop over the list of files and sizes used to hide the fragments
             fragments.insert(int(key), b"")
             for pair in file_mappings[key]:
