@@ -57,11 +57,11 @@ class Log:
     def set_level(self, log_level):
         self.log.setLevel(log_level)
         self.ch.setLevel(log_level)
-        if log_level == logging.DEBUG:
-            self.fh = logging.FileHandler("debug.log")
-            self.fh.setLevel(log_level)
-            self.fh.setFormatter(CustomFormatter())
-            self.log.addHandler(self.fh)
+        # if log_level == logging.DEBUG:
+        #    self.fh = logging.FileHandler("debug.log")
+        #    self.fh.setLevel(log_level)
+        #    self.fh.setFormatter(CustomFormatter())
+        #    self.log.addHandler(self.fh)
 
 
 LOGGER: Log = Log(logging.INFO)

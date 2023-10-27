@@ -21,6 +21,7 @@ class Hide:
         byte_count, null_len = 0, 0
         stripped_bytes = b""
         mappings = list()
+        LOGGER.info("Stripping null bytes")
 
         with open(self.disk_file, "rb") as df:
             while True:
@@ -56,13 +57,15 @@ class Hide:
         # for each fragment loop over cover_file list and hide available slack worth of byte
         # record filenames,bytes_stored in a dictionary where key is fragment
         file_mapping: dict[int, list] = dict()
+        # debug_fp = open("in.frags", "wb")
         with open(self.cover_file, "r") as fp:
             for i, fragment in enumerate(fragments):
                 frag_len = len(fragment)
                 file_mapping[i] = list()
                 start = 0
+                # debug_fp.write(f"FRAG: {i}\r\n\r\n".encode())
                 while frag_len > 0:
-                    line = fp.readline().strip().split("\t")
+                    line = fp.readline().strip().split(",")
                     filename = line[0]
                     slack = int(line[1])
                     # record bytes_stored based off of frag_len compared to slack space
@@ -77,11 +80,16 @@ class Hide:
                         f"sudo bmap --mode putslack {filename}",
                         shell=True,
                         capture_output=True,
-                        input=fragment[start:bytes_stored],
+                        input=fragment[start : start + bytes_stored],
                     )
 
                     LOGGER.debug(completed_process)
                     if completed_process.returncode == 0:
+                        LOGGER.debug(f"START/BYTES: {start}, {bytes_stored}, {start+bytes_stored}, {len(fragment)}")
+                        LOGGER.debug(fragment[start : start + bytes_stored])
+                        # debug_fp.write(f"FILENAME: {filename}".encode())
+                        # debug_fp.write(fragment[start:bytes_stored])
+
                         # Account for changes in fragment length
                         frag_len -= slack
                         start += bytes_stored
@@ -91,6 +99,7 @@ class Hide:
                         file_mapping[i].append((filename, bytes_stored))
                     else:
                         raise Exception(f"Failed to hide file: command info: {completed_process}")
+        # debug.fp.close()
         LOGGER.info("Hiding done")
         return file_mapping
 
@@ -102,10 +111,7 @@ class Hide:
         # Encode remaining bytes
         fragments = self.encode(stripped_bytes)
         LOGGER.debug(fragments)
-        with open("in.frags", "wb") as fp:
-            for frag in fragments:
-                fp.write(frag)
-                fp.write(b"\r\n\r\n")
+
         # Hide fragments
         file_mappings = self.hide(fragments)
         LOGGER.debug(f"NULL_MAPPINGS: {null_mappings}")
