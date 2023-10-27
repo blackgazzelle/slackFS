@@ -3,7 +3,7 @@ from asyncio import create_subprocess_shell, create_task, run, sleep
 from asyncio.subprocess import PIPE, Process
 from pathlib import Path
 
-from slackFS.logger import LOGGER
+from logger import LOGGER
 
 
 async def print_msg():

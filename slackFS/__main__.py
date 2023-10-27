@@ -2,12 +2,11 @@
 import argparse
 from pathlib import Path
 
+from calcslack import calculate_slack
+from hide import Hide
+from logger import DEBUG, LOGGER
 from pyeclib.ec_iface import ALL_EC_TYPES
-
-from slackFS.calcslack import calculate_slack
-from slackFS.hide import Hide
-from slackFS.logger import DEBUG, LOGGER
-from slackFS.retrieve import Retrieve
+from retrieve import Retrieve
 
 
 def main():
