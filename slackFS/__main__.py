@@ -4,16 +4,18 @@ from pathlib import Path
 
 from pyeclib.ec_iface import ALL_EC_TYPES
 
+from slackFS.calcslack import calculate_slack
 from slackFS.hide import Hide
 from slackFS.logger import DEBUG, LOGGER
 from slackFS.retrieve import Retrieve
-from slackFS.calcslack import calculate_slack
 
 
 def main():
     # Main parser and common arguments
     parser = argparse.ArgumentParser(
-        prog="slackFS", description="You can either hide/retrieve files or calculate slack space"
+        prog="slackFS",
+        description="You can either hide/retrieve files or calculate slack space",
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter,
     )
     parser.add_argument("-k", "--frags", type=int, help="Number of non-parity fragments to not create", default=16)
     parser.add_argument("-p", "--parity", type=int, help="Number of parity fragments to create", default=8)
@@ -83,30 +85,32 @@ def main():
             LOGGER.error(f"{args.dir} is not a valid directory")
             exit(-1)
 
-    # TODO: do checks on argument options
-    if args.mode == "hide":
-        hide = Hide(
-            cover_file=args.cover_file,
-            map_file=args.map_file,
-            disk_file=args.disk_file,
-            parity_count=args.parity,
-            frag_count=args.frags,
-            ec_type=args.ec_type,
-        )
-        hide.run()
-    elif args.mode == "retrieve":
-        retrieve = Retrieve(
-            map_file=args.map_file,
-            out_file=args.out_file,
-            parity_count=args.parity,
-            frag_count=args.frags,
-            ec_type=args.ec_type,
-        )
-        retrieve.run()
-    elif args.mode == "calculate_slack":
-        calculate_slack(args.dir, args.out_file)
-    else:
-        parser.print_help()
+    try:
+        if args.mode == "hide":
+            hide = Hide(
+                cover_file=args.cover_file,
+                map_file=args.map_file,
+                disk_file=args.disk_file,
+                parity_count=args.parity,
+                frag_count=args.frags,
+                ec_type=args.ec_type,
+            )
+            hide.run()
+        elif args.mode == "retrieve":
+            retrieve = Retrieve(
+                map_file=args.map_file,
+                out_file=args.out_file,
+                parity_count=args.parity,
+                frag_count=args.frags,
+                ec_type=args.ec_type,
+            )
+            retrieve.run()
+        elif args.mode == "calculate_slack":
+            calculate_slack(args.dir, args.out_file)
+        else:
+            parser.print_help()
+    except Exception as e:
+        LOGGER.error(e)
 
 
 if __name__ == "__main__":
