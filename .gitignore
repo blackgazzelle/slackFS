@@ -1,3 +1,1 @@
-__pycache__
-imageFiles/
-slackFS/__pycache__
+**/slackFS/__pycache__
