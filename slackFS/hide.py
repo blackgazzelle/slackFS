@@ -5,7 +5,7 @@ from pathlib import Path
 
 from pyeclib.ec_iface import ECDriver
 
-from logger import LOGGER
+from slackFS.logger import LOGGER
 
 
 @dataclass
