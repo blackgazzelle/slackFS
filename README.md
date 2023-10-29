@@ -13,6 +13,7 @@ you can modify the amount of fragments and parity fragments are used, which back
 ``` bash
 # Install packages for bmap and slackfs
 sudo apt install make build-essential autoconf automake libtool liberasurecode-dev libjerasure-dev gcc-multilib m4 linuxdoc-tools texlive libisal-dev
+pip install pandas
 
 # Install poetry for package management  (OPTIONAL)
 curl -sSL https://install.python-poetry.org | python3 -
@@ -21,7 +22,7 @@ curl -sSL https://install.python-poetry.org | python3 -
 sudo mkdir -p /usr/local/man/man1
 cd bmap && sudo make install
 
-# Install python environemnt or just install requirements.txt
+# Install python environemnt or just install requirements.txt (optional if not using standalone binary)
 poetry install
 poetry shell
 
