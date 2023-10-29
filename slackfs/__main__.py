@@ -4,10 +4,10 @@ from pathlib import Path
 
 from pyeclib.ec_iface import ALL_EC_TYPES
 
-from slackFS.calcslack import calculate_slack
-from slackFS.hide import Hide
-from slackFS.logger import DEBUG, LOGGER
-from slackFS.retrieve import Retrieve
+from slackfs.calcslack import calculate_slack
+from slackfs.hide import Hide
+from slackfs.logger import DEBUG, LOGGER
+from slackfs.retrieve import Retrieve
 
 
 def main():
