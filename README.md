@@ -1,17 +1,17 @@
 # How does this page work?
 
-- Prev_work: Has the originally proposed slackFS framework without the
- redundancy, as well as, the instructions to run it. This also contains the second version of slackFS
+- Prev_work: Has the originally proposed slackfs framework without the
+ redundancy, as well as, the instructions to run it. This also contains the second version of slackfs
  and links to documentation
-- slackFS: This is the python module that runs the hiding, retrieving, and calculating slack functionality
+- slackfs: This is the python module that runs the hiding, retrieving, and calculating slack functionality
 you can modify the amount of fragments and parity fragments are used, which backends are used, and more
 
-## How to use slackFS framework
+## How to use slackfs framework
 
 ### Install on Linux
 
 ``` bash
-# Install packages for bmap and slackFS
+# Install packages for bmap and slackfs
 sudo apt install make build-essential autoconf automake libtool liberasurecode-dev libjerasure-dev gcc-multilib m4 linuxdoc-tools texlive libisal-dev
 
 # Install poetry for package management  (OPTIONAL)
@@ -29,28 +29,28 @@ poetry shell
 pip install -r requirements.txt
 ```
 
-### Run slackFS
+### Run slackfs
 
 ```bash
-./slackFS.pyz -h
+./slackfs.pyz -h
 ```
 
 #### Calculate Slack
 
 ```bash
-./slackFS.pyz calculate_slack -d /usr -of coverFiles.csv
+./slackfs.pyz calculate_slack -d /usr -of coverFiles.csv
 ```
 
 #### Hide disk file
 
 ```bash
-./slackFS.pyz hide -cf coverFiles.csv -mf map.json -df first50MB.dmg
+./slackfs.pyz hide -cf coverFiles.csv -mf map.json -df first50MB.dmg
 ```
 
 #### Retrieve disk file
 
 ```bash
-./slackFS.pyz retrieve -mf map.json -of first50MB.dmg.retrieved
+./slackfs.pyz retrieve -mf map.json -of first50MB.dmg.retrieved
 ```
 
 ## Extra Notes
@@ -69,3 +69,12 @@ Backends that don't work (further debugging to be done):
 - flat_xor_hd_3
 - flat_xor_hd_4
 - shss
+
+How to rebuild the .pyz:
+
+```bash
+pip install shiv
+poetry build -f dist
+cd ..
+shiv --site-packages slackFS/dist --compressed -o slackfs.pyz -e slackfs.__main__:main ./slackFS
+```
