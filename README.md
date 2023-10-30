@@ -10,6 +10,12 @@ you can modify the amount of fragments and parity fragments are used, which back
 
 ### Install on Linux
 
+#### For Use
+
+Just download [slackfs.pyz](https://github.com/blackgazzelle/slackFS/releases/tag/v1.0.0) from the releases, it is a standalone executable built with shiv.
+
+#### For Development/Testing
+
 ``` bash
 # Install packages for bmap and slackfs
 sudo apt install make build-essential autoconf automake libtool liberasurecode-dev libjerasure-dev gcc-multilib m4 linuxdoc-tools texlive libisal-dev
