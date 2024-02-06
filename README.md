@@ -14,6 +14,8 @@ you can modify the amount of fragments and parity fragments are used, which back
 
 Just download [slackfs.pyz](https://github.com/blackgazzelle/slackFS/releases/tag/v1.0.0) from the releases, it is a standalone executable built with shiv.
 
+You will also need [bmap](https://github.com/CameronLonsdale/bmap.git) graciously provided from CameronLonsdale's github. Install that into the system with a `make install` for best use.
+
 #### For Development/Testing
 
 ``` bash
